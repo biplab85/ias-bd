@@ -1,0 +1,47 @@
+.specialization-container {
+    background-color: #f3f8ff;
+    padding: 80px 0;
+
+    .specialization-content {
+        margin: 80px 0 0 0;
+
+        a {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #000c2e;
+            margin: 0;
+            text-decoration: none;
+        }
+
+        .specialization-list {
+            background-color: #ffffff;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            width: 100%;
+            height: 274px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 20px;
+            justify-content: flex-start;
+            margin: 0 0 30px 0;
+
+            .icon {
+                margin: 0 0 10px 0;
+            }
+
+            .discription {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+                color: #000c2e;
+                margin: 0;
+            }
+        }
+    }
+}

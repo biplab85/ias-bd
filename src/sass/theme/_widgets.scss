@@ -1,0 +1,1108 @@
+/*Study Abroad Consultant S */
+.study-abroad-consultant {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 90px 0;
+
+    img {
+        width: auto;
+        margin: 0 30px 0 0;
+    }
+
+    .content {
+        //width: 600px;
+        width: 40%;
+
+        .header-section {
+            .title {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 45px;
+                letter-spacing: 0.05em;
+                color: #000c2e;
+                margin: 0 0 15px 0;
+            }
+
+            .sub-title {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.05em;
+                color: #476cd2;
+                display: block;
+                margin: 0 0 20px 0;
+            }
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 34px;
+            text-align: justify;
+            letter-spacing: 0.05em;
+            color: #353841;
+            margin: 0 0 40px 0;
+        }
+    }
+}
+/*Study Abroad Consultant E */
+
+/*Best Consultancy Firm S */
+.best-consultancy-firm {
+    background-color: #15234a;
+    background-image: url(../../assets/image/best-consultancy-firm.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 80px 0;
+
+    .content {
+        //width: 600px;
+        width: 50%;
+
+        .header-section {
+            .title {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 45px;
+                letter-spacing: 0.05em;
+                color: #fff;
+                margin: 0 0 15px 0;
+            }
+
+            .sub-title {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.05em;
+                color: #fff;
+                display: block;
+                margin: 0 0 20px 0;
+            }
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 34px;
+            text-align: justify;
+            letter-spacing: 0.05em;
+            color: #fff;
+            margin: 0 0 40px 0;
+        }
+    }
+}
+/*Best Consultancy Firm E */
+
+/*Service Container S */
+.service-container {
+    background-color: #ecf4ff;
+    padding: 80px 0;
+    margin: 0 0 80px 0;
+
+    .service-list-container {
+        padding: 50px 0 50px 0;
+
+        a {
+            text-decoration: none;
+            transition: 0.5s;
+
+            &:hover {
+                .service-item {
+                    &::after,
+                    &::before {
+                        opacity: 1;
+                        width: 50%;
+                        height: 50%;
+                    }
+                }
+            }
+
+            .service-item {
+                background-color: #fff;
+                text-align: center;
+                border: 1px solid rgba(0, 0, 0, 0.06);
+                box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.05);
+                border-radius: 8px;
+                padding: 35px 15px;
+                transition: 0.5s;
+                position: relative;
+                transition: 0.5s;
+
+                &::after,
+                &::before {
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    border-style: solid;
+                    border-color: #476cd2;
+                    opacity: 0;
+                }
+
+                &::after {
+                    right: 0;
+                    bottom: 0;
+                    border-width: 0 1px 1px 0;
+                }
+
+                &::before {
+                    left: 0;
+                    top: 0;
+                    border-width: 1px 0 0 1px;
+                }
+
+                &:hover {
+                    .read-more {
+                        color: #ffffff;
+                        background-color: #15234a;
+                    }
+                }
+
+                .icon {
+                    background-image: url(../../assets/image/icon/service/icon-bg.svg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 65px;
+                    height: 65px;
+                    display: flex;
+                    margin: 0 auto 20px auto;
+
+                    img {
+                        width: auto;
+                        position: relative;
+                        left: 27px;
+                    }
+                }
+
+                .title {
+                    font-weight: 800;
+                    font-size: 20px;
+                    line-height: 23px;
+                    text-align: center;
+                    color: #000c2e;
+                    margin: 0 0 10px 0;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    color: #353841;
+                }
+
+                .read-more {
+                    padding: 10px 56px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    color: #15234a;
+                    background-color: #ffffff;
+                    border: 2px solid #15234a;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+}
+/*Service Container E */
+
+/*Student Consultancy Firm in Bangladesh S*/
+.students-consultancy {
+    background-image: url(../../assets/image/icon/students-consultancy/students-consultancy.svg);
+    background-size: 23%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 80px 0;
+
+    .students-consultancy-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .students-consultancy-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 550px;
+            margin: 0 80px 0 0;
+
+            .card {
+                background-color: #17a2b8;
+                box-shadow: 10px 20px 40px -6px rgba(0, 52, 155, 0.15);
+                border-radius: 10px;
+                width: 246px;
+                height: 150px;
+                padding: 25px;
+                margin: 0 0 30px 0;
+
+                &.one {
+                    background-color: #1d4c8c;
+                }
+
+                &.two {
+                    background-color: #15234a;
+                }
+
+                &.three {
+                    background-color: #17a2b8;
+                }
+
+                &.four {
+                    background-color: #ff8000;
+                }
+
+                &.five {
+                    background-color: #8019b0;
+                }
+
+                .icon {
+                    display: flex;
+                    min-width: 45px;
+                    min-height: 45px;
+                    width: 45px;
+                    height: 45px;
+                    margin: 0 0 10px 0;
+
+                    img {
+                        width: auto;
+                    }
+                }
+
+                .counter {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #ffffff;
+                }
+
+                h3 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #ffffff;
+                    text-transform: capitalize;
+                    margin: 0;
+                }
+            }
+        }
+
+        .students-consultancy-desc {
+            width: 800px;
+            .shareButton-wrapper {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 34px;
+                text-align: justify;
+                letter-spacing: 0.05em;
+                color: #353841;
+                margin: 0 0 40px;
+            }
+        }
+    }
+}
+/*Student Consultancy Firm in Bangladesh E*/
+
+/*Top Study Destinations S*/
+.study-destinations {
+    background-image: url(../../assets/image/study-destinations/section-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 80px 0;
+    padding: 0 0 80px 0;
+
+    .study-destinations-content {
+        width: 800px;
+        margin: 30px auto 0px auto;
+        text-align: center;
+    }
+
+    .card-container {
+        margin: 80px 0;
+
+        .card {
+            background: #ffffff;
+            box-shadow: 0px 35px 60px -20px rgba(0, 22, 84, 0.35);
+            border-radius: 10px;
+            padding: 0 0 30px 0;
+            transition: 0.5s;
+
+            &:hover {
+                //box-shadow: 30px 60px 130px rgba(0, 2, 9, 0.25);
+                box-shadow: 10px 35px 60px -20px rgba(0, 22, 84, 0.5);
+
+                .btn-container {
+                    a {
+                        background-color: #15234a;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .banner {
+                height: 190px;
+                position: relative;
+                border-radius: 10px 10px 0 0;
+                margin: 0 0 20px 0;
+
+                img {
+                    width: 100%;
+                    border-radius: 10px 10px 0 0;
+                }
+
+                .flag {
+                    position: absolute;
+                    bottom: -28px;
+                    width: 75px;
+                    height: 75px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #fff;
+                    border-radius: 100%;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    box-shadow: 0 15px 40px -15px #001347;
+
+                    img {
+                        width: 65px;
+                        height: 65px;
+                        border-radius: 100%;
+                    }
+                }
+            }
+
+            .description {
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 30px;
+
+                h3 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 26px;
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    color: #000c2e;
+                    margin: 0 0 15px 0;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: justify;
+                    letter-spacing: 0.05em;
+                    color: #353841;
+                }
+            }
+
+            .btn-container {
+                padding: 0 24px;
+            }
+        }
+    }
+}
+/*Top Study Destinations E*/
+
+/*Globally Trusted Partners S*/
+.trusted-partners-container {
+    margin: 0 0 80px 0;
+
+    .trusted-partners-list {
+        background-color: #f2f7ff;
+        height: 140px;
+        margin: 50px 0 0 0;
+
+        .slick-arrow {
+            &.slick-prev,
+            &.slick-next {
+                width: 43px;
+                height: 31px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 13px;
+
+                &::before {
+                    display: none;
+                }
+            }
+
+            &.slick-prev {
+                background-image: url(../../assets/image/trusted-partners/next.svg);
+                left: 2%;
+                transform: rotate(180deg);
+            }
+
+            &.slick-next {
+                background-image: url(../../assets/image/trusted-partners/next.svg);
+                right: 2%;
+            }
+        }
+
+        .slick-list {
+            width: 88%;
+            margin: auto;
+        }
+
+        .slick-list{
+            padding: 0 !important;
+        }
+
+        .slick-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                .list {
+                    img {
+                        -webkit-filter: inherit; /* Safari 6.0 - 9.0 */
+                        filter: inherit;
+                        transition: 0.5s;
+                    }
+                }
+            }
+
+            .list {
+                width: 180px;
+                height: 135px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: auto;
+                    height: auto;
+                    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+                    filter: grayscale(100%);
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}
+/*Globally Trusted Partners E*/
+
+/*Success Story S*/
+.success-story {
+    padding: 0 0 80px 0;
+
+    .shareButton-wrapper-header-section {
+        margin: 0 0 0 0;
+    }
+
+    .card-container {
+        margin: 80px 0;
+
+        .card {
+            background: #ffffff;
+            box-shadow: 30px 60px 130px rgba(0, 2, 9, 0.25);
+            border-radius: 10px;
+            padding: 0 0 30px 0;
+            transition: 0.5s;
+
+            &:hover {
+                //box-shadow: 30px 60px 130px rgba(0, 2, 9, 0.25);
+                box-shadow: 10px 35px 60px -20px rgba(0, 22, 84, 0.5);
+
+                .btn-container {
+                    a {
+                        background-color: #15234a;
+                        color: #fff;
+                    }
+                }
+
+                .glob{
+                    //animation: rotation 8s infinite linear;
+                }
+
+                .banner {
+                    .banner-bg {
+                        //animation: rotation 80s infinite linear; 
+                    }
+                }
+
+            }
+
+            .banner {
+                height: 250px;
+                position: relative;
+                border-radius: 10px 10px 0 0;
+                margin: 0;
+                overflow: hidden;
+                background-color: #1a3270;
+
+                .banner-bg {
+                    height: 250px;
+                    border-radius: 10px 10px 0 0;
+                    position: relative;
+                    z-index: 1;
+                    width: 100%;
+                    //animation: rotation 85s infinite linear; 
+                }
+
+                .auth{
+                    width: 190px;
+                    height: 190px;
+                    position: absolute;
+                    border-radius: 100%;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                }
+
+                .flag {
+                    position: absolute;
+                    bottom: -28px;
+                    width: 75px;
+                    height: 75px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #fff;
+                    border-radius: 100%;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    box-shadow: 0 15px 40px -15px #001347;
+
+                    img {
+                        width: 65px;
+                        height: 65px;
+                        border-radius: 100%;
+                    }
+                }
+            }            
+
+            .description {
+                padding: 15px 25px;
+
+                .card-header{
+                    background-color: transparent;  
+                    border-radius: 0 !important;  
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between; 
+                    padding: 0; 
+                    margin: 0 0 20px 0;
+                    border: 0px;
+                    
+                    .left-asside{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        min-width: 150px;
+                        max-width: 143px;
+
+                        span{
+                            background-color: #001a57;
+                            display: flex;
+                            min-width: 35px;
+                            min-height: 35px;
+                            margin: 0 15px 0 0;
+                            color: #fff;
+                            font-size: 12px;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        a{
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #001A57;
+                            text-decoration: none;
+                        }
+                    }
+
+                    .right-asside{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        min-width: 150px;
+                        max-width: 143px;
+
+                        span{
+                            background-color: #001a57;
+                            display: flex;
+                            min-width: 35px;
+                            min-height: 35px;
+                            margin: 0 15px 0 0;
+                            color: #fff;
+                            font-size: 12px;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        a{
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #001A57;
+                            text-decoration: none;
+
+                            
+                        }
+                    }
+                }
+
+                .uesr-info{
+                    text-align: left;
+
+                    .name{                        
+                        
+                        h3{
+                            font-weight: 700;
+                            font-size: 22px;
+                            line-height: 26px;
+                            letter-spacing: 0.05em;
+                            color: #000C2E;
+                            margin: 0 0 10px 0;
+                            text-align: left;
+                        }
+
+                        p{
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 20px;
+                            letter-spacing: 0.05em;
+                            color: #353841;
+                            text-align: left;
+                        }
+                    }
+
+                    .share{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin: 0 0 20px 0;
+
+                        h4{
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+
+                            i{
+                                min-width: 34px;
+                                min-height: 17px;
+                                display: flex;
+                                margin: 0 15px 0 0;
+
+                                img{
+                                    min-width: 34px;
+                                    min-height: 17px;
+                                }
+                            }
+
+                            span{
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 16px;
+                                color: #000C2E;
+                            }
+                        }
+                    }
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: justify;
+                    letter-spacing: 0.05em;
+                    color: #353841;
+                }
+            }
+
+            .btn-container {
+                padding: 0 24px;
+            }
+        }
+    }
+}
+/*Success Story E*/
+
+/*Blog Story S*/
+.blog-container {
+    background-color: #F3F8FF;
+    padding: 80px 0;
+    margin: 0 0 80px 0;
+
+    .shareButton-wrapper-header-section {
+        margin: 0 0 0 0;
+    }
+
+    .card-container {
+        margin: 80px 0;
+
+        .card {
+            background: #ffffff;
+            box-shadow: 30px 60px 130px rgba(0, 2, 9, 0.25);
+            border-radius: 10px;
+            padding: 0 0 30px 0;
+            transition: 0.5s;
+
+            &:hover {
+                //box-shadow: 30px 60px 130px rgba(0, 2, 9, 0.25);
+                box-shadow: 10px 35px 60px -20px rgba(0, 22, 84, 0.5);
+
+                .btn-container {
+                    a {
+                        background-color: #15234a;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .banner {
+                height: 290px;
+                position: relative;
+                border-radius: 10px 10px 0 0;
+                margin: 0;
+
+                .banner-bg {
+                    height: 290px;
+                    border-radius: 10px 10px 0 0;
+                    position: relative;
+                    z-index: 1;
+                    width: 100%;
+                }
+
+                .auth{
+                    width: 100%;
+                    height: 280px;
+                    position: absolute;
+                    border-radius: 10px 10px 0 0;
+                    left: 0;
+                    right: 0;                   
+                    top: 0;
+                    bottom: 0;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .flag {
+                    position: absolute;
+                    bottom: -28px;
+                    width: 75px;
+                    height: 75px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #fff;
+                    border-radius: 100%;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    box-shadow: 0 15px 40px -15px #001347;
+
+                    img {
+                        width: 65px;
+                        height: 65px;
+                        border-radius: 100%;
+                    }
+                }
+            }            
+
+            .description {
+                padding: 15px 25px;
+
+                .uesr-info{
+                    text-align: left;
+
+                    .name{                        
+                        
+                        h3{
+                            font-weight: 700;
+                            font-size: 22px;
+                            line-height: 26px;
+                            letter-spacing: 0.05em;
+                            color: #000C2E;
+                            margin: 0 0 15px 0;
+                            text-align: left;
+                        }
+                    }
+
+                    .share{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin: 0 0 20px 0;
+
+                        h4{
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+
+                            i{
+                                min-width: 34px;
+                                min-height: 17px;
+                                display: flex;
+                                margin: 0 15px 0 0;
+
+                                img{
+                                    min-width: 34px;
+                                    min-height: 17px;
+                                }
+                            }
+
+                            span{
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 16px;
+                                color: #000C2E;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+
+                                img{
+                                    display: flex;
+                                    align-items: center;
+                                    margin: 0 10px 0 0;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: justify;
+                    letter-spacing: 0.05em;
+                    color: #353841;
+                }
+            }
+
+            .btn-container {
+                padding: 0 24px;
+            }
+        }
+    }
+}
+/*Blog Story E*/
+
+/*Consultations from S*/
+.consultations-from{
+    margin: 0 0 80px 0;
+
+    .consultations-from-container{
+        background-color: #15234a;
+        border-radius: 20px;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        padding: 0 35px;
+
+        .content{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 0 0 100px;
+
+            h2{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 45px;
+                letter-spacing: 0.05em;
+                color: #FFFFFF;
+                margin: 0 0 15px 0;
+            }
+
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                letter-spacing: 0.05em;
+                color: #E1E0E0;
+                margin: 0 0 25px 0;
+            }
+
+            .btn-container{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+
+                .ias-btn:hover {
+                    background-color: #1b2f67;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+/*Consultations from E*/
+
+/*Map S*/
+.map-container{
+
+    .map-content{
+        width: 100%;
+        height: 450px;
+        margin: 80px 0 0 0;
+
+        img{
+            width: 100%;
+            height: 450px;
+        }
+    }
+}
+/*Map E*/
+
+
+
+
+
+.share-container{
+
+    .shareButton-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .shareButton-wrapper .shareButton.main .share, 
+    .shareButton-wrapper .shareButton.main .close, 
+    .shareButton-wrapper .shareButton.main .check {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: all 150ms;
+    }
+    .shareButton-wrapper .shareButton.main .share, 
+    .shareButton-wrapper .shareButton.main.open .close, 
+    .shareButton-wrapper .shareButton.main.sent .check {
+      transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+    .shareButton-wrapper .shareButton.main .close, 
+    .shareButton-wrapper .shareButton.main.open .share, 
+    .shareButton-wrapper .shareButton.main .check, 
+    .shareButton-wrapper .shareButton.main.sent .share {
+      opacity: 0;
+      transform: rotate(90deg) scale(0);
+    }
+    
+    .shareButton, 
+    .shareButton.open {
+      border: none;
+      border-radius: 50%;
+      padding: 0;
+      overflow: hidden;
+      outline: none;
+      width: 24px;
+      height: 24px;
+      box-sizing: content-box;
+      transition: all 200ms;
+      position: relative;
+      opacity: 1;
+      transform: scale(1);
+      margin: 0 10px;
+      cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAA81BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5eXnBwcHf39/Z2dna2trX19fa2trd3d3d3d3g4ODg4ODj4+Pj4+Pl5eXk5OTm5ubl5eXn5+fo6Ojp6enn5+fp6ens7Ozq6urr6+vr6+vt7e3s7Ozt7e3t7e3u7u7w8PDw8PDw8PDy8vLy8vLn5+f09PTn5+fy8vLn5+fp6enx8fHr6+vq6urs7Ozr6+vr6+vv7+/x8fHw8PDw8PDv7+/v7+/t7e3t7e3u7u7r6+vr6+vu7u7t7e3t7e3u7u7r6+vq6urq6urr6+vs7Ozr6+tWIAHaAAAAUXRSTlMAAQIDBAUGBwgJCgsVKVdYWVpaWltbZGRsbHFxdXV4foGBhIeJi4yQkJGUlpiZm5yenp+foKCnqaqqsbK0tba3w8TFxsbIydPU1dXb3N3d4uOSbqQHAAABdElEQVR42q2TbVOCQBSFg4UFAXtPJZVFQWRxUROj0jRR0UxL/v+vCQhdZ2zGL96vz86Ze885e3GuYfbzL2RZADgOAJY9fsCwgOOhEA/kOcAyR5QXREmORxIFPuOUclCU7/uLaBv2bmURcn+c0pwyXAYj3x9NVwMll3KqDHP5n8lT2yXEbXvBJp+DVJ8BvKh8v3eIg+0mdkhnvFFEHjB7aUEaTjotbJmGYVq41QneJCGWzzAvPiw9ght1HaFavYGJt7wW+R0GUHoO2o5VR1q1qqG65bTnPQmCHRbkxcjFpq49qqWyVjOxOwplIcNsjCOf2AaqqoWiWkVGk/jbGLOHuBnjUrGgVpBhEz9K8F48TMRrWllVy5q+E6er9afZapVstW68Gj3s7jM9rIaQnh72dZkcRm0ZBIe2zF4yW6ip49RUOzH1Y70zlUayCbwsktmaRkIDHazmSaDz1SsN9LAON70wisLuFa3DiTKdrOLpIh9/gzPNL7Z6NKvvS5JoAAAAAElFTkSuQmCC), auto;
+    }
+    .shareButton:hover, 
+    .shareButton.open:hover {
+      transform: scale(1.1) translateY(0px);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    }
+    .shareButton:active, .shareButton.open:active {
+      cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAMAAABhTZc9AAABAlBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmZma5ubm4uLi8vLy6urrT09PU1NTS0tLS0tLT09PZ2dnY2Njb29vc3Nzd3d3g4ODf39/f39/h4eHa2trh4eHY2Nja2trg4ODa2tri4uLj4+PX19fZ2dnX19fk5OTl5eXl5eXn5+fo6Ojo6Ojm5ubp6enq6urs7Ozo6Ojt7e3u7u7v7+/p6eno6Ojp6enr6+vq6urq6urc3Nzb29vc3Nzm5ubm5ubk5OTl5eXk5OTm5ubd3d3e3t7d3d3e3t7f39/e3t7f39/e3t7e3t7d3d2Z9AvaAAAAVnRSTlMAAQIDBAUGBwgJCgsMDQ4PEBk+QUFDXV9gYWNscHB2eH2AgYaJiYqKiouLi4yMjY2Sk5WYmZqam52en6KisLGxsbKztre3v8DIyMnJ09PV1tfY4OXm50OBxC8AAAFqSURBVCjPjZPZSsNAFIY7WyZJXQpFLFpEn0IoxRbfW0VFUXwDwStRW6RKUUkyq2cmUxPXOJNcHL6c/6xBrb8O+mLaXygKhvXPZ4paCCFn2Za1dsEDBYQwXKAGrvugosAIJrikRhsdMFpAQmm/l1CVPdwppY3xGPkXA+PDzGQGJ4RcCMddbE8xpqw9mAmICLF59zSTCrzLOhCmNNmbaA3hvNE7EoBB21HQ5ePnXGorJWOIsKR9VoB2SQmJdjbnQonC+caMRp2bewFKvguEsl30UuhXr0yWCF+2l1I5y1EWjZ6EKHIoBGMS84h3ToSs6P5UirwAMQjD44itH9bphy9Q8I1Xa77f4q6oqxDX59zfhpxl7iiPIOfraci5rHc0z6p607RWL7SH8fFEufY4g2wcCLXoVdnndDgryj7H3eO86nOYERsYmWsaE3yu6jNy2o6vbaVUvd0+Agvj/8duNOxVw0427HPTv/DTeQcndQotgtF9KQAAAABJRU5ErkJggg==), auto;
+    }
+    .shareButton svg, 
+    .shareButton.open svg {
+      display: block;
+      fill: #FF7472;
+      width: 24px;
+      height: 24px;
+      opacity: 1;
+      transition: all 150ms;
+      transform: scale(1);
+    }
+    
+    .shareButton.fb svg {
+        fill: #1a3270;
+    }
+    .shareButton.tw svg {
+        fill: #1da1f2;
+    }
+    .shareButton.ig svg {
+        fill: #f6017e;
+    }
+    
+    .fb, 
+    .shareButton.open.ig {
+      transition-delay: 100ms;
+    }
+    
+    .tw, 
+    .shareButton.open.tw {
+      transition-delay: 50ms;
+    }
+    
+    .ig, 
+    .shareButton.open.fb {
+      transition-delay: 0ms;
+    }
+    
+    .fb, 
+    .tw, 
+    .ig {
+      width: 0;
+      height: 0;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+      opacity: 0;
+      transform: scale(0);
+    }
+    .fb svg, 
+    .tw svg, 
+    .ig svg {
+      width: 0;
+      height: 0;
+      opacity: 0;
+      transform: scale(0);
+    }
+
+}
+
+
+
+
+
+

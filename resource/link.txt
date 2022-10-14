@@ -1,0 +1,2 @@
+https://www.jssor.com/demos/product/product.slider
+https://www.jssor.com/demos/image-slider.slider

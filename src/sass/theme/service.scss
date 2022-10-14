@@ -1,0 +1,33 @@
+.service-header{
+    
+    background-color: #f3f8ff;
+
+    &.service-common{
+        padding: 100px 0;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: contain;
+    }
+}
+
+.content-service-common{
+    margin: 80px 0;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-position: right 100px center;
+    background-size: contain;
+
+    &.left{
+        background-position: 100px center;
+    }
+
+    &.solid{
+        background-color: #f3f8ff; 
+    }
+
+    &.double-bg{
+        background-repeat: no-repeat;
+        background-position: 100px center, left top;
+        background-size: 23%, cover;    
+    }
+}

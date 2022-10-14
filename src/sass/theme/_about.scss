@@ -1,0 +1,475 @@
+.about-section {
+    background-image: url(../../assets/image/about-us/title-img.svg), url(../../assets/image/about-us/bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right, top center;
+    background-size: auto, 100%;
+    background-color: #fff;
+    height: 570px;
+
+    .content-wrapper {
+        height: 570px;
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        .description {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 34px;
+            letter-spacing: 0.05em;
+            color: #353841;
+            margin: 10px 0 0 0;
+        }
+    }
+}
+
+.mission {
+    background-image: url(../../assets/image/about-us/mission.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto;
+    padding: 80px 0;
+    margin: 80px 0;
+
+    .description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+        letter-spacing: 0.05em;
+        color: #353841;
+    }
+}
+
+.vission {
+    background-image: url(../../assets/image/about-us/vission.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto;
+    background-color: #15234a;
+    padding: 80px 0;
+    margin: 80px 0;
+
+    .description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+        letter-spacing: 0.05em;
+        color: #fff;
+    }
+}
+
+/* we get there section S*/
+.get-there-section {
+    position: relative;
+    padding: 80px 0;
+
+    .content-header-section {
+        margin: 0 0 80px 0;
+    }
+
+    .about-we-get {
+        //padding: 80px 0;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 2px;
+            margin: auto;
+            background-color: #d3d3d3;
+        }
+
+        .content {
+            width: 255px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .descriptioin {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+                color: #353841;
+                margin: 0 0 15px 0;
+            }
+
+            .border-container {
+                position: relative;
+
+                .bar {
+                    background-color: #476cd2;
+                    height: 108px;
+                    width: 2px;
+                    display: block;
+                }
+
+                .dot {
+                    position: absolute;
+                    display: block;
+                    top: 0px;
+                    width: 14px;
+                    height: 14px;
+                    background-color: #476cd2;
+                    border-radius: 100%;
+                    left: -6px;
+                }
+            }
+
+            .radio-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .radio-dot {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 100%;
+                    border: 2px solid #476cd2;
+                    background-color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .radio-dot-inner {
+                        border-radius: 100%;
+                        width: 25px;
+                        height: 25px;
+                        background-color: #476cd2;
+                        display: flex;
+                    }
+                }
+
+                h3 {
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 30px;
+                    line-height: 35px;
+                    text-align: center;
+                    color: #476cd2;
+                    margin: 35px 0 0 0;
+                }
+            }
+
+            &.odd {
+                flex-direction: column-reverse;
+                position: relative;
+                margin: 24% 0 0 0;
+
+                .radio-container {
+                    flex-direction: column-reverse;
+
+                    h3 {
+                        margin: 0 0 35px 0;
+                    }
+                }
+
+                .border-container {
+                    .dot {
+                        bottom: 0;
+                        top: inherit;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* we get there section E*/
+
+/*  What makes us incomparable? S */
+.make-incomparable {
+    background-color: #f3f8ff;
+    padding: 80px 0;
+    margin: 0 0 80px 0;
+
+    .content-header-section {
+        margin: 0 0 80px 0;
+    }
+
+    .incomparable-list {
+        width: 100%;
+        height: 300px;
+        background-color: #ffffff;
+        box-shadow: 0px 35px 80px -15px rgba(0, 22, 84, 0.15);
+        border-radius: 10px;
+        padding: 10px 65px 50px 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 0 30px 0;
+
+        .icon {
+            margin: 0 0 20px 0;
+        }
+
+        .short-details {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            h4 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 30px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #000c2e;
+                margin: 0 0 10px 0;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #353841;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}
+/*  What makes us incomparable? E */
+
+/* Partner With Us S */
+.partner-with-us {
+    margin: 0 0 80px 0;
+
+    .partner-list-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 60px 0 0 0;
+
+        .partner-list {
+            width: 580px;
+            height: 260px;
+            border-radius: 20px;
+            background-size: cover;
+            padding: 0 0 0 50px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .details {
+                width: 300px;
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 28px;
+                    color: #ffffff;
+                    margin: 0 0 15px 0;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: 0.05em;
+                    color: #ffffff;
+                    margin: 0 0 20px 0;
+                }
+
+                .contact {
+                    span {
+                        display: block;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        letter-spacing: 0.05em;
+                        color: #ffffff;
+                        margin: 0 0 10px 0;
+
+                        img {
+                            margin: 0 10px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* Partner With Us E */
+
+/* CEO messages S*/
+.ceo-messaage-header {
+    height: 570px;
+    background-image: url(../../assets/image/about-us/ceo-messges/2.svg),
+        url(../../assets/image/about-us/ceo-messges/1.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px center, right top;
+    background-size: 27%, auto;
+    background-color: #f3f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 0 100px 0;
+
+    .content-header-section {
+        margin: 0 0 30px 0;
+    }
+
+    .ceo-messges-content {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 34px;
+        text-align: justify;
+        letter-spacing: 0.05em;
+        color: #353841;
+    }
+}
+
+.ceo-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000c2e;
+        margin: 0 0 30px 0;
+    }
+
+    .ceo-img {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        background-color: #f3f8ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+    }
+
+    .info {
+        h4 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 34px;
+            text-align: center;
+            color: #000c2e;
+        }
+
+        span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            text-align: center;
+            color: #353841;
+            display: block;
+        }
+    }
+}
+
+.message-container { 
+    margin: 80px 0 100px 0;
+
+    .messge-wrapper {
+        background-image: 
+        url(../../assets/image/about-us/ceo-messges/message-01.png),
+        url(../../assets/image/about-us/ceo-messges/message-02.png),
+        url(../../assets/image/about-us/ceo-messges/message-03.png),
+        url(../../assets/image/about-us/ceo-messges/message-04.png);
+        background-repeat: no-repeat;
+        background-position: left top, right top, left bottom, right bottom;
+        padding: 85px;
+
+        .honor {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 34px;
+            text-align: justify;
+            letter-spacing: 0.02em;
+            color: #353841;
+            display: block;
+            margin: 0 0 30px 0;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 34px;
+            text-align: justify;
+            letter-spacing: 0.02em;
+            color: #353841;
+            display: block;
+            margin: 0 0 30px 0;
+
+            &:last-child{
+                margin: 0 0 15px 0;
+            }
+        }
+
+        .thanks {
+            display: block;
+            margin: 30px 0;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 34px;
+            text-align: justify;
+            letter-spacing: 0.02em;
+            color: #353841;
+        }
+
+        .message-signature {
+
+            h5 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 34px;
+                text-align: justify;
+                letter-spacing: 0.02em;
+                color: #353841;
+                margin: 0;
+            }
+
+            span {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 34px;
+                text-align: justify;
+                letter-spacing: 0.02em;
+                color: #353841;
+                display: block;
+            }
+        }
+    }
+}
+/* CEO messages E*/

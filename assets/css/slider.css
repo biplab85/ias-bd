@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+}
+#jssor_1 {
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 550px;
+    overflow: hidden;
+    visibility: hidden;
+    border: 1px solid red;
+    background-image: url(../../assets/image/banner/img/slider/slider-bg.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 
+.testing {
+    cursor: default !important;
+    top: 0px !important;
+    right: 0px !important;
+    width: 100% !important;
+    height: 600px !important;
+    overflow: hidden !important;
+    border: 1px solid red!important;
+}
+
+.testing .slider-img{
+    width: auto !important;
+    right: 0 !important;
+    left: inherit !important;
+    border: 1px solid red!important;
+} */

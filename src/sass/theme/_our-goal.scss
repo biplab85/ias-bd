@@ -1,0 +1,105 @@
+.our-goal {
+    background-image: url(../../assets/image/icon/students-consultancy/students-consultancy.svg);
+    background-size: 23%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 80px 0;
+
+    .students-consultancy-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .students-consultancy-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 550px;
+            margin: 0 80px 0 0;
+
+            .second-clmn{
+                margin: 100px 0 0 0;
+            }
+
+            .card {
+                background-color: #17a2b8;
+                box-shadow: 10px 20px 40px -6px rgba(0, 52, 155, 0.15);
+                border-radius: 10px;
+                width: 246px;
+                height: 150px;
+                padding: 25px;
+                margin: 0 0 30px 0;
+
+                &.one {
+                    background-color: #1d4c8c;
+                }
+
+                &.two {
+                    background-color: #15234a;
+                }
+
+                &.three {
+                    background-color: #476cd2;
+                }
+
+                &.four {
+                    background-color: #17a2b8;
+                }
+
+                &.five {
+                    background-color: #ff8000;
+                }
+
+                &.six {
+                    background-color: #8019b0;
+                }
+
+                .icon {
+                    display: flex;
+                    min-width: 45px;
+                    min-height: 45px;
+                    width: 45px;
+                    height: 45px;
+                    margin: 0 0 10px 0;
+
+                    img {
+                        width: auto;
+                    }
+                }
+
+                .counter {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 19px;
+                    color: #ffffff;
+                }
+
+                h3 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 19px;
+                    color: #ffffff;
+                    text-transform: capitalize;
+                    margin: 0;
+                }
+            }
+        }
+
+        .students-consultancy-desc {
+            width: 800px;
+            .shareButton-wrapper {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 34px;
+                text-align: justify;
+                letter-spacing: 0.05em;
+                color: #353841;
+                margin: 0 0 40px;
+            }
+        }
+    }
+}
