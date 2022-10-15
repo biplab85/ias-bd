@@ -30,7 +30,7 @@
             <div class="col-md-6">
                 <div class="content-wrapper">
                     <div class="content-header-section white">
-                        <h3 class="title">About Us</h3>
+                        <h3 class="title">Blog</h3>
                     </div>
 
                     <div class="description">
