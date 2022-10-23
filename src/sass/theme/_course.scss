@@ -116,7 +116,7 @@
             border-radius: 10px;
             margin: 0 0 60px 0;
 
-            &:last-child{
+            &:last-child {
                 margin: 0 0 0 0;
             }
 
@@ -168,13 +168,13 @@
                     color: #535968;
                     margin: 0 20px 0 0;
 
-                    &:last-child{
+                    &:last-child {
                         margin: 0 0 0 0;
                     }
                 }
             }
 
-            p{
+            p {
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
@@ -183,29 +183,211 @@
                 margin: 0 0 25px 0;
             }
 
-            a{
+            a {
                 font-style: normal;
                 font-weight: 700;
                 font-size: 18px;
                 line-height: 21px;
                 letter-spacing: 0.05em;
-                color: #6B5EFF;
+                color: #6b5eff;
                 text-decoration: none;
                 display: inline-flex;
                 align-self: center;
                 justify-content: flex-start;
                 cursor: pointer;
 
-                i{
+                i {
                     background-image: url(../../assets/image/courses/read-more.svg);
                     background-position: center;
                     background-size: 20px;
                     background-repeat: no-repeat;
                     margin: 0 0 0 10px;
                     width: 24px;
-                    height: 24px;               
+                    height: 24px;
                 }
             }
+        }
+    }
+}
+
+.career-counselling-section {
+    background-color: #f2f8ff;
+    padding: 80px 0;
+
+    .career-counselling-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .career-counselling-left-asside {
+            margin: 0 40px 0 0;
+
+            .career-counselling-img {
+                margin: 0 0 60px 0;
+            }
+
+            .career-counselling-desc {
+                margin: 0 0 35px 0;
+
+                h3 {
+                    font-weight: 800;
+                    font-size: 36px;
+                    line-height: 45px;
+                    letter-spacing: 0.05em;
+                    color: #000c2e;
+                    margin: 0 0 20px 0;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 34px;
+                    text-align: justify;
+                    letter-spacing: 0.05em;
+                    color: #353841;
+                    margin: 0 0 20px 0;
+
+                    &:last-child{
+                        margin: 0 0 0 0;
+                    }
+                }
+            }
+
+            .career-counselling-social-share{
+                display: inline-flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .share-title{
+                    margin: 0 20px 0 0;
+
+                    img{
+                        margin-right:10px ;
+                    }
+
+                    span{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #000C2E;
+                    }
+                }
+
+                .social-link{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    a{
+                        display: block;
+                        margin: 0 15px 0 0;
+                    }
+                }
+            }
+
+            .consultations-from{
+                margin: 70px 0 0 0;
+
+                .img-container{
+                    width: 90%;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+
+                .content{
+                    margin: 0 0 0 50px;
+                    min-width: 340px;
+
+                    h2{
+
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 35px;
+                    }
+                }
+            }
+        }
+
+        .career-counselling-right-asside{
+            min-width: 325px;
+
+            .title{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: left;
+                letter-spacing: 0.02em;
+                color: #000C2E;
+                border-bottom: 1px solid #7490DD;
+                margin: 0 0 35px 0;
+                padding: 0 0 10px 0;
+            }
+
+            .service{
+                margin: 0 0 60px 0;
+
+                &.featured-services{
+                    margin: 0;
+                }
+
+                .card{
+                    background: #FFFFFF;
+                    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.09);
+                    border-radius: 10px;
+                    padding: 45px;
+                    text-align: center;
+                    margin: 0 0 30px 0;
+    
+                    &:last-child{
+                        margin: 0 0 0 0;
+                    }
+    
+                    .icon{
+                        background-image: url(../../assets/image/icon/service/icon-bg.svg);
+                        background-repeat: no-repeat;
+                        background-position: 50%;
+                        width: 60px;
+                        height: 60px;
+                        margin: 0 auto 15px auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                    }
+    
+                    .card-title{
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 20px;
+                        line-height: 23px;
+                        text-align: center;
+                        letter-spacing: 0.05em;
+                        color: #000C2E;
+                        margin: 0 0 15px 0;
+                    }
+    
+                    p{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 22px;
+                        text-align: center;
+                        color: #353841;
+                        margin: 0 0 15px 0;
+                    }
+    
+                    a{
+                        width: 100%;
+                        padding: 10px;
+                    }
+                }
+            }
+          
         }
     }
 }
