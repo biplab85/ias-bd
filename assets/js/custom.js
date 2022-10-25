@@ -40,23 +40,24 @@ $(document).ready(function () {
 
     //Share button open~close S
     const shareButton = document.querySelectorAll("button.shareButton")
-
-    shareButton[0].addEventListener("click", (e) => {
-        for (let i = 0; i < shareButton.length; i++) {
-            shareButton[i].classList.toggle("open")
-            shareButton[0].classList.remove("sent")
-        }
-    })
-
-    for (let i = 1; i < shareButton.length; i++) {
-
-        shareButton[i].addEventListener("click", (e) => {
-
+    if (shareButton.length > 0) {
+        shareButton[0].addEventListener("click", (e) => {
             for (let i = 0; i < shareButton.length; i++) {
                 shareButton[i].classList.toggle("open")
+                shareButton[0].classList.remove("sent")
             }
-            shareButton[0].classList.toggle("sent")
         })
+
+        for (let i = 1; i < shareButton.length; i++) {
+
+            shareButton[i].addEventListener("click", (e) => {
+
+                for (let i = 0; i < shareButton.length; i++) {
+                    shareButton[i].classList.toggle("open")
+                }
+                shareButton[0].classList.toggle("sent")
+            })
+        }
     }
     //Share button open~close E
 
@@ -66,12 +67,7 @@ $(document).ready(function () {
         theme: 'light',
         breakpoint: 960,
         position: 'right',
-        phoneBtn: '18009997788',
-        locationBtn: 'https://www.google.com/maps'
     });
-
-
-
 });
 
 

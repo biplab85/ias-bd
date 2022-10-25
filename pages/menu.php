@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12 menu-container">
                 <div class="site-logo">
-                    <a href=""><img src="assets/image/logo.svg" alt="" /></a>
+                    <a href=""><img src="http://design.iasbd.co.uk/assets/image/logo.svg" alt="" /></a>
                 </div>
 
                 <?php include 'nav.php'; ?>

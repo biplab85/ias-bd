@@ -1,0 +1,29 @@
+.destination-application-steps-area {
+	position: relative;
+
+	&:before {
+		position: absolute;
+		content: "";
+		bottom: 0;
+		right: 0;
+		height: 550px;
+		width: 1440px;
+		background-image: url(../image/study-destinations/application-steps/br-wave-shape.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center right;
+		z-index: -1;
+	}
+
+	.container {
+		position: relative;
+		z-index: 4;
+	}
+
+	b {
+		font-family: "Inter";
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 22px;
+	}
+}

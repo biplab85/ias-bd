@@ -4,7 +4,7 @@
             <div class="col-md-3">
                 <div class="footer-desc">
                     <div class="footer-logo">
-                        <img src="assets/image/footer-logo.svg" alt="" title="" />
+                        <img src="http://design.iasbd.co.uk/assets/image/footer-logo.svg" alt="" title="" />
                         <p>
                             The International Admission Service is here to make your college experience as easy and stress-free as possible. We do this by providing information...
                         </p>
@@ -104,3 +104,12 @@
         </div>
     </div>
 </section>
+
+<!-- <script src="../assets/js/bundle.js"></script>
+ <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../assets/js/slick.js"></script>
+<script type="text/javascript" src="../assets/js/menu.js"></script>
+<script type="text/javascript" src="../assets/js/custom.js"></script>
+</body>
+
+</html> -->

@@ -1,0 +1,615 @@
+.ias-header {
+	&.study-destination-header {
+		background-position: right 60px center;
+	}
+}
+
+.study-destination-area {
+	padding: 80px 0;
+
+	.card {
+		p {
+			font-family: "Inter";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 20px;
+			letter-spacing: 0em;
+			text-align: center;
+			color: #535968;
+		}
+
+		.banner {
+			> img {
+				height: 190px;
+
+				@media screen and (max-width: 767px) {
+					height: auto;
+				}
+			}
+		}
+	}
+}
+
+// destination-about-country-header S
+.destination-about-country-header {
+	background-color: #dffbff;
+	background-position: center bottom;
+
+	.description {
+		&.with-transparent-bg {
+			background-color: rgba(#1d4c8c, 0.7);
+			border-radius: 10px;
+		}
+	}
+}
+
+// Filter S
+.filter-menu-wrapper {
+	padding: 26px 0;
+	.nav-link {
+		font-family: "Inter";
+		font-size: 10px;
+		font-weight: 800;
+		line-height: 12px;
+		letter-spacing: 0em;
+		text-align: center;
+		padding: 15px 8px;
+		border-radius: 5px;
+		background-color: #ffffff;
+		color: #535968;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+		margin-right: 10px;
+		transition: 0.4s all;
+
+		&.active,
+		&:hover {
+			background-color: #ff8000;
+			color: #ffffff !important;
+		}
+	}
+}
+// Filter E
+
+// Destination Body Content Area S
+.destination-about-country-area {
+	position: relative;
+	overflow: hidden;
+
+	&.with-bg-img {
+		&:before {
+			position: absolute;
+			content: "";
+			left: 0;
+			top: 0;
+			background-image: url(../image/study-destinations/about-country/destination-about-country-bg.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: top left;
+			z-index: 1;
+			width: 1440px;
+			height: 3046px;
+		}
+	}
+
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.dac-item-wrap {
+	padding: 80px 0;
+	position: relative;
+
+	.container {
+		z-index: 2;
+	}
+
+	&.dl-oval-box {
+		overflow: hidden;
+		&:before {
+			position: absolute;
+			content: "";
+			background-repeat: no-repeat;
+			z-index: 1;
+			left: 0;
+			bottom: 0;
+			width: 694px;
+			height: 347px;
+			background-image: url(../image/study-destinations/study-in-country/oval-shape-4.svg);
+		}
+	}
+
+	&.with-bg {
+		background-color: #15234a;
+
+		.dac-item-title {
+			color: #ffffff;
+		}
+
+		p {
+			color: #ffffff;
+		}
+
+		.dac-item-featured-img {
+			text-align: left;
+
+			@media screen and (max-width: 767px) {
+				text-align: center;
+			}
+		}
+	}
+
+	&.two-oval-shape {
+		overflow: hidden;
+		&:before,
+		&:after {
+			position: absolute;
+			content: "";
+			background-repeat: no-repeat;
+			z-index: 1;
+		}
+
+		&:before {
+			left: 0;
+			top: 0;
+			width: 506px;
+			height: 506px;
+			background-image: url(../image/study-destinations/study-in-country/oval-shape-2.svg);
+		}
+
+		&:after {
+			right: 0;
+			bottom: 0;
+			width: 506px;
+			height: 506px;
+			background-image: url(../image/study-destinations/study-in-country/oval-shape-1.svg);
+		}
+	}
+
+	&.single-oval-shape {
+		position: relative;
+		overflow: hidden;
+
+		&:before {
+			position: absolute;
+			content: "";
+			right: 0;
+			bottom: 0;
+			width: 856px;
+			height: 1022px;
+			background-repeat: no-repeat;
+			background-image: url(../image/study-destinations/study-in-country/oval-shape-3.svg);
+			z-index: 1;
+		}
+	}
+
+	.dac-item-title {
+		font-family: "Raleway";
+		font-size: 36px;
+		font-weight: 800;
+		line-height: 45px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: #000c2e;
+		margin: 20px 0;
+	}
+
+	p {
+		font-family: "Inter";
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 34px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: #535968;
+	}
+
+	.dac-item-featured-img {
+		text-align: right;
+
+		@media screen and (max-width: 767px) {
+			text-align: center;
+		}
+
+		img {
+			border-radius: 7px;
+		}
+	}
+}
+// Destination Body Content Area E
+
+// scholarships S
+.scholarships-featured-wrapper {
+	.scholarships-bg {
+		display: block;
+		height: 409px;
+		background-color: #15234a;
+		background-position: top center;
+		background-size: contain;
+		background-repeat: no-repeat;
+
+		@media screen and (max-width: 575px) {
+			height: 250px;
+		}
+
+		&.h-240 {
+			height: 240px;
+		}
+	}
+
+	.scholarships-featured-img {
+		margin-top: -210px;
+
+		@media screen and (max-width: 575px) {
+			margin-top: -100px;
+		}
+
+		img {
+			border-radius: 20px;
+		}
+
+		&.with-multi-shape {
+			position: relative;
+			max-width: 764px;
+			margin: -160px auto 0;
+
+			&:before,
+			&:after {
+				position: absolute;
+				content: "";
+				height: 322px;
+				width: 322px;
+				background-repeat: no-repeat;
+
+				@media screen and (max-width: 767px) {
+					height: 222px;
+					width: 222px;
+				}
+			}
+
+			&:before {
+				top: -80px;
+				left: -80px;
+				background-image: url(../image/study-destinations/working-rights/working-rights-img-shape-1.svg);
+			}
+
+			&:after {
+				bottom: -80px;
+				right: -80px;
+				background-image: url(../image/study-destinations/working-rights/working-rights-img-shape-2.svg);
+			}
+
+			img {
+				position: relative;
+				z-index: 3;
+			}
+		}
+	}
+}
+
+.page-title {
+	font-family: "Raleway";
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 45px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000c2e;
+
+	@media screen and (max-width: 767px) {
+		font-size: 24px;
+	}
+}
+
+.content-box {
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	p {
+		color: #535968;
+	}
+}
+// scholarships E
+
+// Working Right S
+.bg-light-blue {
+	position: relative;
+	overflow: hidden;
+	background-color: #476cd2;
+	color: #ffffff;
+
+	&.with-shape {
+		&:before {
+			position: absolute;
+			content: "";
+			right: 0;
+			top: 0;
+			height: 100%;
+			width: 1440px;
+			background-repeat: no-repeat;
+			background-image: url(../image/study-destinations/working-rights/working-rights-shape-1.svg);
+
+			@media screen and (max-width: 1024px) {
+				width: 720px;
+			}
+
+			@media screen and (max-width: 767px) {
+				width: 350px;
+			}
+		}
+	}
+
+	.container {
+		z-index: 2;
+	}
+}
+
+.page-section-title {
+	font-family: "Raleway";
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 45px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #000c2e;
+
+	@media screen and (max-width: 767px) {
+		font-size: 24px;
+	}
+}
+
+.working-rights-blue-box-wrapper {
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	@media screen and (max-width: 767px) {
+		font-size: 16px;
+	}
+}
+
+.working-rights-white-box-wrapper {
+	position: relative;
+	overflow: hidden;
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	&.with-oval-shape {
+		&:before,
+		&:after {
+			position: absolute;
+			content: "";
+			background-repeat: no-repeat;
+			background-size: contain;
+			left: 0;
+			z-index: -1;
+		}
+
+		&:before {
+			top: 0;
+			width: 700.75px;
+			height: 689.26px;
+			background-image: url(../image/study-destinations/working-rights/working-rights-shape-2.svg);
+
+			@media screen and (max-width: 1024px) {
+				width: 350px;
+				height: 300px;
+			}
+		}
+
+		&:after {
+			bottom: 0;
+			height: 388px;
+			width: 776px;
+			background-image: url(../image/study-destinations/working-rights/working-rights-shape-4.svg);
+
+			@media screen and (max-width: 1024px) {
+				height: 160px;
+				width: 370px;
+			}
+		}
+	}
+
+	.middle-oval-shape {
+		position: absolute;
+		content: "";
+		width: 388px;
+		height: 776px;
+		z-index: -1;
+		background-repeat: no-repeat;
+		background-size: contain;
+		right: 0;
+		top: 50%;
+		transform: translate(0, -50%);
+
+		@media screen and (max-width: 1024px) {
+			width: 150px;
+			height: 350px;
+		}
+	}
+
+	p {
+		font-family: "Inter";
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 34px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: #535968;
+
+		@media screen and (max-width: 767px) {
+			font-size: 16px;
+		}
+	}
+
+	.featured-img {
+		img {
+			border-radius: 10px;
+		}
+	}
+
+	.container {
+		z-index: 3;
+	}
+}
+// Working Right E
+
+// upper-wave-shape-bg S
+.upper-wave-shape-bg {
+	position: relative;
+	background-color: #ffffff;
+	overflow: hidden;
+
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+
+	&:before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		height: 574px;
+		width: 100%;
+		background-image: url(../image/study-destinations/upper-wave-shape-bg.svg);
+		z-index: 1;
+		background-size: contain;
+		background-position: top center;
+		background-repeat-y: no-repeat;
+	}
+}
+// upper-wave-shape-bg E
+
+// with-light-blue-bg S
+.with-light-blue-bg {
+	background: #f0f6ff;
+}
+// with-light-blue-bg E
+
+.uni-card {
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+}
+
+.uni-title {
+	font-family: "Raleway";
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #000c2e;
+}
+
+// Left Right Oval Shape Bg S
+.left-right-oval-shape {
+	position: relative;
+	background-color: #ffffff;
+	overflow: hidden;
+
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+
+	&:before,
+	&:after {
+		position: absolute;
+		content: "";
+		z-index: 1;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	&:before {
+		top: 0;
+		left: 0;
+		height: 577px;
+		width: 577px;
+		background-image: url(../image/left-oval-shape.svg);
+		background-position: left;
+
+		@media screen and (max-width: 991px) {
+			height: 250px;
+			width: 250px;
+		}
+	}
+
+	&:after {
+		bottom: 0;
+		right: 0;
+		height: 754px;
+		width: 238px;
+		background-image: url(../image/right-oval-shape.svg);
+		background-position: right;
+
+		@media screen and (max-width: 991px) {
+			height: 370px;
+			width: 150px;
+		}
+	}
+}
+// Left Right Oval Shape Bg E
+
+.cost-heading {
+	background-color: #15234a;
+	color: #ffffff;
+	font-family: "Raleway";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 35px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.middle-card-box {
+	box-shadow: 15px 15px 80px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+
+	.table {
+		thead {
+			th {
+				font-family: "Inter";
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 22px;
+				letter-spacing: 0em;
+				text-align: left;
+				color: #000000;
+			}
+		}
+
+		tbody {
+			th,
+			td {
+				font-family: "Inter";
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 22px;
+				letter-spacing: 0em;
+				text-align: left;
+				color: #535968;
+			}
+		}
+	}
+}
+
+// destination-blog-country-area S
+.destination-blog-country-area {
+	background-color: transparent;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: -50px;
+}
+// destination-blog-country-area E

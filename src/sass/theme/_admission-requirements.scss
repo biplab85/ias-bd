@@ -1,0 +1,231 @@
+.dar-box-wrapper {
+	position: relative;
+	max-width: 765px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 8px solid #15234a;
+	box-shadow: 20px 25px 50px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+	padding: 80px 60px;
+
+	@media screen and (max-width: 991px) {
+		padding: 60px 25px;
+	}
+
+	@media screen and (max-width: 767px) {
+		margin-bottom: 80px;
+	}
+
+	&.with-bottom-icon {
+		position: relative;
+
+		&:after {
+			position: absolute;
+			content: "";
+			bottom: -40px;
+			left: -182px;
+			height: 205px;
+			width: 245px;
+			background-image: url(../image/study-destinations/admission-requirements-icon.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+
+			@media screen and (max-width: 767px) {
+				bottom: -120px;
+				left: -20px;
+			}
+		}
+	}
+
+	.dar-content-item {
+		position: relative;
+
+		&:before {
+			position: absolute;
+			content: "";
+			right: -33px;
+			top: calc(50% - 2px);
+			height: 2px;
+			width: 35px;
+			background-color: #15234a;
+			display: block;
+			z-index: -1;
+
+			@media screen and (max-width: 767px) {
+				display: none;
+			}
+		}
+	}
+
+	.dar-left-content-box,
+	.dar-right-content-box {
+		position: relative;
+		z-index: 2;
+
+		&:before {
+			position: absolute;
+			content: "";
+			top: 25px;
+			width: 2px;
+			display: block;
+			z-index: -1;
+		}
+	}
+
+	.dar-left-content-box {
+		&:before {
+			right: -35px;
+			height: calc(100% - 52px);
+			background-color: #15234a;
+
+			@media screen and (max-width: 767px) {
+				right: calc(50% - 2px);
+				height: calc(100% + 20px);
+				top: 50px;
+			}
+		}
+	}
+
+	.dar-right-content-box {
+		&:before {
+			left: -35px;
+			height: calc(100% - 52px);
+			background-color: #476cd2;
+
+			@media screen and (max-width: 767px) {
+				left: calc(50% - 2px);
+				height: calc(100% + 20px);
+				top: inherit;
+				bottom: 50px;
+			}
+		}
+
+		.dar-content-item {
+			position: relative;
+
+			&:before {
+				right: inherit;
+				left: -35px;
+				z-index: -1;
+				background-color: #476cd2;
+			}
+		}
+	}
+}
+
+.dar-middle-content-item {
+	position: relative;
+	z-index: 2;
+	margin-bottom: 64px;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 767px) {
+		&:first-of-type {
+			margin-top: 64px;
+		}
+
+		&:last-of-type {
+			margin-bottom: 64px;
+		}
+	}
+}
+
+.dar-middle-item-color-box {
+	position: relative;
+	min-width: 126px;
+	min-height: 126px;
+	padding: 17px;
+	border-radius: 10px;
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0em;
+	color: #ffffff;
+
+	&.box-primary-bg {
+		background: #15234a;
+		box-shadow: 20px 20px 40px rgba(21, 35, 74, 0.44);
+
+		&:before {
+			left: -41px;
+			background-color: #15234a;
+		}
+	}
+
+	&.box-light-blue-bg {
+		background: #476cd2;
+		box-shadow: 20px 20px 40px rgba(71, 108, 210, 0.44);
+
+		&:before {
+			right: -41px;
+			background-color: #476cd2;
+		}
+	}
+
+	&:before {
+		position: absolute;
+		content: "";
+		top: calc(50% - 2px);
+		height: 2px;
+		width: 43px;
+		display: block;
+		z-index: -1;
+
+		@media screen and (max-width: 767px) {
+			display: none;
+		}
+	}
+}
+
+.dar-content-item {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	padding: 6px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	min-width: 176px;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.dar-item-color-box {
+		text-align: center;
+		padding: 10px;
+		border-radius: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: "Inter";
+		font-size: 8px;
+		font-weight: 700;
+		line-height: 10px;
+		letter-spacing: 0em;
+		text-align: center;
+		min-width: 50px;
+		min-height: 42px;
+
+		&.box-primary-bg {
+			background: #15234a;
+			color: #fff;
+		}
+
+		&.box-light-blue-bg {
+			background: #476cd2;
+			color: #fff;
+		}
+	}
+
+	.dar-item-title {
+		font-family: "Inter";
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+}
