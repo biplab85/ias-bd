@@ -1,0 +1,182 @@
+.our-teams-header {
+    height: 570px;
+    background-image: url(../../assets/image/teams/01.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin: 0;
+    .our-teams-header-images{
+        margin: 30px 0 0 0;
+        img{
+            position: relative;
+            right: -24px;
+        }
+    }
+}
+.our-teams-section {
+    position: relative;
+    overflow: hidden;
+    background-color:#F3F8FF;
+    background-image: url(../../assets/image/teams/team-top-bg.svg), 
+                      url(../../assets/image/teams/team-bottom-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top center, bottom left;
+    background-size: 100%, auto;
+    width: 100%;
+    padding: 75px 0;
+}
+
+.single-teams-title{
+    h3{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+        color: #000C2E;
+    }
+    p{
+        font-weight: 700;
+        font-size: 16px;
+        color: #476CD2;
+        margin: 0;
+    }
+}  
+.single-teams{
+    width: 300px;
+    background: #FFFFFF;
+    background: #F7F9FC;
+    box-shadow: 0px 37.8824px 108.236px -21.6471px rgba(0, 22, 84, 0.2);
+    border-radius: 10.8236px;
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 50px;
+    .skewed-bg{
+        background: #1A73E8;
+        transform: skew(0deg, -16deg);
+        height: 220px;
+        padding: 70px 15px 15px 15px;
+        margin-top: -42px;
+        .single-teams-top{
+            transform: skew(0deg, 16deg);
+            text-align: center;
+            .teams-name{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                color: #FFFFFF;
+                margin-bottom: 15px;
+                text-align: left;
+            }
+            .teams-top-info{
+                display: flex;
+                align-items: start;
+                justify-content: space-between;
+                .teams-designation{
+                  text-align: left;
+                  p{
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #fff;
+                    strong{
+                        display: block;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #FFFFFF;
+                    }
+                  }
+                }
+                .teams-images{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img{
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+            }
+        }
+    }
+    .single-teams-des{
+        padding: 70px 24px 24px;
+        min-height: 180px;
+        p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        color: #535968;
+        margin: 0;
+        }
+    }
+    .single-teams-footer{
+        padding: 20px;
+        background: #fff;
+        ul{
+            margin-bottom: 20px;
+            padding: 0 0 0 10px;
+            li{
+                list-style: none;
+                margin-bottom: 10px;
+                a{
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 18px;
+                color: #535968;
+                text-decoration: none;
+                }
+            }
+        }
+        .ias-btn{
+            padding: 10px !important;
+        }
+    }
+   
+}
+
+// Team Detail
+.team-detail{
+    padding: 80px 0;
+    .team-detail-profile{
+        width: 472px;
+        height: 595px;
+        background: #FFFFFF;
+        box-shadow: 15px 20px 60px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        .detail-profile-img{
+            margin-bottom: 15px;
+
+        }
+        .detail-profile-name{
+            h4{
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #000C2E;
+            }
+            p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #535968;
+            span{
+            font-size: 13px;
+            display: block;
+            }
+            }
+        }
+        .detail-profile-social{
+            max-width: 300px;
+            margin: auto;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+}

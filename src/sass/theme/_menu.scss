@@ -113,6 +113,7 @@
 	font-size: 15px;
 	border-color: transparent;
 	color: #000 !important;
+	padding: 0 0 12px 0;
 }
 
 .stellarnav li:hover li a:hover,
@@ -658,4 +659,13 @@ body.stellarnav-noscroll-x {
 	.stellarnav.mobile .location-btn-mobile.third span {
 		display: none;
 	}
+}
+
+.nav-flag-icon{
+	background-color: red;
+    width: 45px;
+    height: 25px;
+    display: inline-flex;
+    position: absolute;
+    right: 0;
 }

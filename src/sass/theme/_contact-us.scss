@@ -1,0 +1,109 @@
+.contact-block-wrap {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .contact-block {
+        width: 280px;
+        height: 280px;
+        padding: 40px 20px;
+        margin: 0 40px 40px 0;
+        background: #fff;
+        box-shadow: 10px 9px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        .contact-icon {
+            width: 90px;
+            height: 90px;
+            background: #476cd2;
+            margin: auto auto 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            img {
+                width: 34px;
+            }
+        }
+        .contact-info {
+            h4 {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #000c2e;
+            }
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #535968;
+            }
+        }
+    }
+}
+.contact-map {
+    .map-block {
+        border-radius: 10px;
+        height: 280px;
+        width: 100%;
+        .map-overlay {
+            background-color: rgba(21, 35, 74, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            -webkit-transition: all 700ms ease;
+            -moz-transition: all 700ms ease;
+            -ms-transition: all 700ms ease;
+            -o-transition: all 700ms ease;
+            transition: all 700ms ease;
+            left: 0;
+            right: 0;
+            .map-play {
+                width: 70px;
+                height: 70px;
+                -webkit-transition: all 700ms ease;
+                -moz-transition: all 700ms ease;
+                -ms-transition: all 700ms ease;
+                -o-transition: all 700ms ease;
+                transition: all 700ms ease;
+                img {
+                    width: 100%;
+                    -webkit-transition: all 700ms ease;
+                    -moz-transition: all 700ms ease;
+                    -ms-transition: all 700ms ease;
+                    -o-transition: all 700ms ease;
+                    transition: all 700ms ease;
+                }
+            }
+            &:hover {
+                .map-play {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.access-services {
+    padding: 80px 0 70px;
+    background-color: #fff;
+    .access-services-block {
+        width: 580px;
+        height: 506px;
+        background: #ffffff;
+        box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        padding: 30px;
+    }
+}

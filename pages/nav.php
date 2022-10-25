@@ -29,28 +29,28 @@
         <li class="drop-left">
             <a href="http://design.iasbd.co.uk/pages/ias-blog.php">Blog <i class="menu-drop"></i></a>
             <ul>
-                <li><a href="">Australia </a></li>
-                <li><a href="">Canada</a></li>
-                <li><a href="">Nz</a></li>
-                <li><a href="">Malaysia</a></li>
+                <li><a href="">Australia <i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
+                <li><a href="">Canada<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
+                <li><a href="">Nz<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
+                <li><a href="">Malaysia<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
             </ul>
         </li>
         <li class="drop-left">
             <a href="">Events <i class="menu-drop"></i></a>
             <ul>
-                <li><a href="">Australia </a></li>
-                <li><a href="">Canada</a></li>
-                <li><a href="">Nz</a></li>
-                <li><a href="">Malaysia</a></li>
+                <li><a href="">Australia <i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
+                <li><a href="">Canada<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
+                <li><a href="">Nz<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
+                <li><a href="">Malaysia<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
             </ul>
         </li>
         <li class="drop-left">
             <a href="">Success Story <i class="menu-drop"></i></a>
             <ul>
-                <li><a href="">Australia </a></li>
-                <li><a href="">Canada</a></li>
-                <li><a href="">Nz</a></li>
-                <li><a href="">Malaysia</a></li>
+                <li><a href="">Australia <i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
+                <li><a href="">Canada<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
+                <li><a href="">Nz<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
+                <li><a href="">Malaysia<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
             </ul>
         </li>
         <li class="drop-left">
@@ -63,16 +63,16 @@
         <li class="drop-left">
             <a href="">Registration <i class="menu-drop"></i></a>
             <ul>
-                <li><a href="">Admin Registration</a></li>
-                <li><a href="">Online Registration</a></li>
+                <li><a href="http://design.iasbd.co.uk/pages/admin-registration.php">Admin Registration</a></li>
+                <li><a href="http://design.iasbd.co.uk/pages/online-registration-page.php">Online Registration</a></li>
             </ul>
         </li>
-        <li><a href="">Contact Us</a></li>
+        <li><a href="http://design.iasbd.co.uk/pages/contact-us.php">Contact Us</a></li>
         <li class="drop-left">
             <a href="">More <i class="menu-drop"></i></a>
             <ul>
                 <li><a href="http://design.iasbd.co.uk/pages/course.php">Courses</a></li>
-                <li><a href="">Our Team</a></li>
+                <li><a href="http://design.iasbd.co.uk/pages/team.php">Our Team</a></li>
                 <li><a href="">Login</a></li>
             </ul>
         </li>

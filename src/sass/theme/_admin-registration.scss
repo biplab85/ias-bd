@@ -1,0 +1,260 @@
+.admin-registration-section{
+    padding: 80px 0;
+    .admin-registration-box{
+        min-height: 900px;
+        background: #FFFFFF;
+        box-shadow: 15px 20px 60px rgba(0, 0, 0, 0.12);
+        border-radius: 20px;
+        .admin-registration-slider{
+            max-width: 425px;
+            min-height: 900px;
+            background: #476CD2;
+            border-radius: 20px 0px 0px 20px;
+            padding: 170px 50px 50px 50px;
+            box-sizing: border-box;
+            h3{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 45px;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+            img{
+               width: 58px;
+               height: 18px;
+            }
+            }
+            .registration-slider{
+                .item-content{
+                    img{
+                        max-width: 315px;
+                    }
+                    p{  margin: 50px 0 0 0;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        text-align: justify;
+                        color: #FFFFFF;
+                        
+                    }
+                }
+            }
+        }
+    }
+    .admin-registration-forms{
+      position: relative;
+      overflow: hidden;
+      padding: 40px 40px 40px 15px;
+      .general-information{
+        .title{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            color: #000C2E;
+            margin-bottom: 30px;
+            span{
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+                color: #476CD2;
+                display: block;
+                margin: 12px 0 0 0;
+            }
+        }
+      }
+    }
+}
+.add-new-education{
+    margin-bottom: 15px;
+    a{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #15234A;
+        text-decoration: none;
+    }
+}
+.reg-capture{
+  img{
+    width: 100%;
+  }
+}
+.choose-profile-photo{
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    border: 1px solid #DADADA;
+    border-radius: 0.25rem;
+    height: 55px;
+    padding: 7px;
+    label {
+        background: #15234A;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 36px;
+        color: #fff;
+        margin: 0 10px 0 0 !important;
+        line-height: 26px;
+        display: block !important;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 5px 10px;
+      }
+      span{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #535968;
+      }    
+}
+
+.reg-social{
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li{
+            margin: 0 5px;
+            list-style: none;
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: #888EA0;
+                margin: 0;
+            }
+            a{
+              img{
+                width:22px;
+              }
+            }
+        }
+    }
+}
+
+.registration-successful-box{
+    background: #476CD2 !important;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .reg-successful-box{
+        max-width: 580px;
+        p{
+            font-weight: 700;
+            font-size: 36px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            margin-bottom: 40px;
+        }
+        .successful-images{
+            margin-bottom: 70px;
+        }
+        .login-click-here{
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            a{
+            text-decoration-line: underline;
+            font-weight: 500;
+            color: #FFFFFF;
+            }
+        }
+    }
+}
+ 
+
+// Login page
+.login-wrap{
+   .log-in-top{
+        text-align: center;
+        margin-bottom: 40px;
+        .log-in-icon{
+        width: 48px;
+        height: 48px;
+        margin: auto auto 20px auto;
+        background: #fff;
+        box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.16);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .log-in-info{
+            h2{
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 30px !important;
+            line-height: 35px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #000C2E;
+            margin-bottom: 15px;
+            }
+            p{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: 0.02em;
+            color: #535968;
+            }
+        }
+        .log-in-flags{
+            max-width: 300px;
+            margin: auto;
+            img{
+            width: 100%;
+            }
+        }
+   }
+   .login-remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      .form-check{
+        .form-check-input{
+            width: 14px !important;
+            height: 14px !important;
+        }
+        .form-check-label{
+            margin: 0;
+            padding: 0;
+        }
+      }
+      p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: 0.02em;
+        color: #535968;
+        a{
+           color: #0055FF;
+        }
+      }
+     .dont-account{
+        p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #535968;
+        a{
+           color: #0055FF;
+        }
+        }
+     }
+     
+   }
+   .ias-btn{
+    width: 262px;
+    height: 56px;
+    color: #fff;
+    background: #15234A;
+    box-shadow: 0px 15px 40px -15px #001347;
+    border-radius: 8px;
+   }
+}
