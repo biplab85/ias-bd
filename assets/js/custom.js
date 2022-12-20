@@ -106,9 +106,17 @@ $(document).ready(function () {
 });
 
 
+// Success page confetti effect
 $(window).ready(function () {
     setInterval(function () {
         $('#confetti').addClass("d-none")
     }, 8000);
-
 });
+
+
+// Page preloader
+$(window).on('load', function () { // makes sure the whole site is loaded 
+    $('#status').fadeOut(); // will first fade out the loading animation 
+    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+    $('body').delay(350).css({ 'overflow': 'visible' });
+})

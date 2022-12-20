@@ -15,7 +15,9 @@
 
 <body>
 
-
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
 
   <!-- Top Header container S-->
   <?php include '../pages/top-header.php'; ?>
