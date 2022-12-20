@@ -290,55 +290,63 @@
     }
 }
 
-
-.global-form{
+.global-form {
     label.form-label {
-         font-weight: 700;
-         font-size: 16px;
-         line-height: 19px;
-         color: #535968;
-         background-color: #fff;
-         padding: 0 10px;
-         position: absolute;
-         text-transform: uppercase;
-         top: -10px;
-         left: 20px;
-     }
-     .form-control,
-     .form-select{
-         display: block;
-         border: 1px solid #DADADA;
-         height: 55px;
-         font-weight: 400;
-         font-size: 14px;
-         line-height: 17px;
-         color: #C7C7C7;
-     }
-     select:focus,
-     input:focus {
-         border: 1px solid #000C2E;
-         color: #353841;
-         outline: 0;
-         box-shadow: none !important;
-     }
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #535968;
+        background-color: #fff;
+        padding: 0 10px;
+        position: absolute;
+        text-transform: uppercase;
+        top: -10px;
+        left: 20px;
+    }
+    .form-control,
+    .form-select {
+        display: block;
+        border: 1px solid #dadada;
+        height: 55px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #c7c7c7;
+    }
+    select:focus,
+    input:focus {
+        border: 1px solid #000c2e;
+        color: #353841;
+        outline: 0;
+        box-shadow: none !important;
+    }
     .error .form-control,
     .error .form-select {
-        border: 1px solid #E5645C;
-        color: #E5645C;
+        border: 1px solid #e5645c;
+        color: #e5645c;
         outline: 0;
         box-shadow: none !important;
     }
     .error label.form-label {
-        color: #E5645C;
+        color: #e5645c;
     }
     .error ::placeholder {
-        color: #E5645C;
+        color: #e5645c;
         opacity: 1;
-      }
+    }
     .error:-ms-input-placeholder {
-        color: #E5645C;
-      }
-    .error::-ms-input-placeholder { 
-        color: #E5645C;
-      }
- }
+        color: #e5645c;
+    }
+    .error::-ms-input-placeholder {
+        color: #e5645c;
+    }
+}
+
+#confetti {
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+}

@@ -106,9 +106,9 @@ $(document).ready(function () {
 });
 
 
+$(window).ready(function () {
+    setInterval(function () {
+        $('#confetti').addClass("d-none")
+    }, 8000);
 
-
-
-
-
-
+});
