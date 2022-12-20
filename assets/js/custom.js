@@ -4,7 +4,7 @@ $(document).ready(function () {
     $('.site-banner').slick({
         dots: true,
         draggable: true,
-        autoplay: false, /* this is the new line */
+        autoplay: true, /* this is the new line */
         autoplaySpeed: 2000,
         infinite: true,
         slidesToShow: 1,
@@ -37,6 +37,30 @@ $(document).ready(function () {
     });
 
 
+    //Registration Slider
+    $('.registration-slider').slick({
+        dots: true,
+        arrows: false,
+        draggable: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+
+
+
+    //Jquery Steps
+    $(function () {
+        $("#wizard").steps({
+            headerTag: "h2",
+            bodyTag: "section.step-box",
+            transitionEffect: "slideLeft"
+        });
+    });
+
 
     //Share button open~close S
     const shareButton = document.querySelectorAll("button.shareButton")
@@ -62,13 +86,27 @@ $(document).ready(function () {
     //Share button open~close E
 
 
-
     jQuery('.stellarnav').stellarNav({
         theme: 'light',
         breakpoint: 960,
         position: 'right',
     });
+
+
+    // Photo gallery 
+    $('.photo-gallery-grid').isotope({
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        masonry: {
+            horizontalOrder: true,
+            columnWidth: '.grid-sizer'
+        }
+    });
+
 });
+
+
+
 
 
 

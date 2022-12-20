@@ -1,0 +1,225 @@
+// Video Gallery S
+.video-card {
+	position: relative;
+	background: #ffffff;
+	box-shadow: 10px 20px 60px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	transition: 0.4s all;
+
+	&:hover {
+		transform: scale(1.35);
+		z-index: 5;
+
+		@media screen and (max-width: 1024px) {
+			transform: scale(1);
+		}
+	}
+}
+
+.feature-video-box {
+	position: relative;
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+}
+
+.video-card-title-wrap {
+	max-width: calc(100% - 25px);
+}
+
+.video-card-title {
+	font-family: "Roboto";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0.05em;
+	color: #000c2e;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.video-card-info {
+	font-family: "Inter";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	color: #535968;
+
+	.icon {
+		height: 16px;
+		width: 16px;
+		display: inline-block;
+
+		&.eye-icon {
+			background-image: url(../image/video-gallery/eye-icon.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
+		&.duration-icon {
+			background-image: url(../image/video-gallery/duration-icon.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+	}
+
+	li {
+		margin-right: 15px;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+
+		.text {
+			color: #535968;
+		}
+	}
+}
+
+.flag-icon {
+	img {
+		max-width: 28px;
+		border-radius: 50rem;
+	}
+}
+// Video Gallery E
+
+// Video Details S
+.video-details-title {
+	font-family: "Roboto";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color: #000c2e;
+}
+
+.video-content-wrapper {
+	font-family: "Inter";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: justify;
+	color: #353841;
+
+	@media screen and (max-width: 767px) {
+		text-align: left;
+	}
+}
+// Video Details E
+
+// video-bottom-info-box S
+.video-bottom-info-box {
+	position: relative;
+	overflow: hidden;
+	padding: 30px 97px;
+	background-color: #17a2b8;
+	border-radius: 14px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+
+	@media screen and (max-width: 1024px) {
+		padding: 30px;
+	}
+
+	@media screen and (max-width: 991px) {
+		background-size: 50%;
+	}
+
+	@media screen and (max-width: 767px) {
+		background-size: 30%;
+	}
+
+	.video-bottom-info-wrap {
+		max-width: 303px;
+	}
+}
+
+.video-info-title {
+	font-family: "Roboto";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color: #ffffff;
+}
+
+.appointment-btn {
+	position: relative;
+	background: #ffffff;
+	color: #17a2b8;
+	box-shadow: 0px 10.45px 27.8667px -10.45px #001347;
+	border-radius: 5.57333px;
+	font-family: "Roboto";
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 14px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	padding: 13px 40px 13px 17px;
+
+	&:before {
+		position: absolute;
+		content: "";
+		right: 17px;
+		top: 13px;
+		height: 13px;
+		width: 13px;
+		background-image: url(../image/video-gallery/calander-icon.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		display: block;
+	}
+}
+// video-bottom-info-box E
+
+// related-video-area S
+.video-section-title {
+	font-family: "Roboto";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	text-align: left;
+	color: #000c2e;
+	padding-bottom: 7px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #7490dd;
+}
+
+.rp-video-box {
+	position: relative;
+	padding: 10px 10px 10px 130px;
+	background: #ffffff;
+	box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+
+	.rp-video-featured-img {
+		display: block;
+		height: calc(100% - 20px);
+		width: 110px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		object-fit: fill;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		bottom: 10px;
+		border-radius: 10px;
+	}
+
+	.main-title {
+		font-family: "Roboto";
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 16px;
+		letter-spacing: 0.05em;
+		text-align: left;
+		color: #000c2e;
+	}
+}
+// related-video-area E

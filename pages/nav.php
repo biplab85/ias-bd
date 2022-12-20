@@ -56,8 +56,8 @@
         <li class="drop-left">
             <a href="">Gallery <i class="menu-drop"></i></a>
             <ul>
-                <li><a href="">Photo Gallery</a></li>
-                <li><a href="">Video Gallery</a></li>
+                <li><a href="http://design.iasbd.co.uk/pages/photo-gallery.php">Photo Gallery</a></li>
+                <li><a href="http://design.iasbd.co.uk/pages/video-gallery.php">Video Gallery</a></li>
             </ul>
         </li>
         <li class="drop-left">
@@ -73,7 +73,7 @@
             <ul>
                 <li><a href="http://design.iasbd.co.uk/pages/course.php">Courses</a></li>
                 <li><a href="http://design.iasbd.co.uk/pages/team.php">Our Team</a></li>
-                <li><a href="">Login</a></li>
+                <li><a href="http://design.iasbd.co.uk/pages/login.php">Login</a></li>
             </ul>
         </li>
     </ul>

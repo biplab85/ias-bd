@@ -6,11 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IASBD</title>
-  <link rel="stylesheet" href="../assets/css/jquery.steps.css">
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="">
-  <link rel="stylesheet" type="text/css" href="../assets/css/slick.css" />
-  <link rel="stylesheet" type="text/css" href="../assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
 
 <body>
@@ -25,24 +23,16 @@
   <?php include '../pages/menu.php'; ?>
   <!-- Menu Container E-->
 
-  <section class="ias-header m-0">
+  <section class="ceo-messaage-header">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row">
         <div class="col-md-6">
-          <div class="content-wrapper mb-30 mb-md-0">
-            <div class="content-header-section white">
-              <h3 class="title">Fill Out the Form to Register </h3>
-            </div>
-
-            <div class="description">
-              International Admission Service is one of the leading and trusted with education consultancy firms in Dhaka, Bangladesh. We simplify the in study abroad journey by connecting international students and the an best international academic institutions under one roof.
-
-            </div>
+          <div class="content-header-section">
+            <h3 class="title">About Our CEO</h3>
           </div>
-        </div>
-
-        <div class="col-md-6 text-center text-md-end">
-          <img src="../assets/image/admin-registration/admin-reg.svg" alt="" class="img-fluid">
+          <div class="ceo-messges-content">
+            Our CEO, H M Mashiur Rahman Sir, knows that your success is the key to his business. Our Founder, H M Mashiur Rahman Sir, has been an international student at one point in his life. He goes above and beyond to ensure the entire study abroad process runs smartly, smoothly, and transparently. Read more
+          </div>
         </div>
       </div>
     </div>
@@ -626,12 +616,11 @@
 
 
 
-  <script src="../assets/js/bundle.js"></script>
+  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>
+  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="../assets/js/slick.js"></script>
-  <script type="text/javascript" src="../assets/js/menu.js"></script>
-  <script type="text/javascript" src="../assets/js/jquery.steps.js"></script>
-  <script type="text/javascript" src="../assets/js/custom.js"></script>
+  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
+  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/custom.js"></script>
 </body>
 
 </html>
