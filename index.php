@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
     <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">    
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
@@ -32,8 +34,8 @@
     <!-- Site Slider E-->
 
     <section class="study-abroad-consultant">
-        <img src="assets/image/study-abroad-consultant.svg" alt="" title="" />
-        <div class="content">
+        <img class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s" src="assets/image/study-abroad-consultant.svg" alt="" title="" />
+        <div class="content wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
             <div class="header-section">
                 <h3 class="title">Study Abroad Consultant</h3>
                 <span class="sub-title">Lorem Ipsum Dolor Sit Amet Adipiscing Elit</span>
@@ -50,7 +52,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="content">
+                    <div class="content wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="content-header-section white">
                             <h3 class="title">Services We Provide</h3>
                             <span class="sub-title">Apprise Education, Reprise Innovation</span>
@@ -110,6 +112,7 @@
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/custom.js"></script>
 </body>
 

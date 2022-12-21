@@ -10,7 +10,7 @@
         </div>
         <div class="service-list-container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <a href="#">
                         <div class="service-item">
                             <span class="icon">
@@ -22,7 +22,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <a href="#">
                         <div class="service-item">
                             <span class="icon">
@@ -34,7 +34,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <a href="#">
                         <div class="service-item">
                             <span class="icon">
@@ -46,7 +46,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <a href="#">
                         <div class="service-item">
                             <span class="icon">
@@ -61,7 +61,7 @@
             </div>
         </div>
 
-        <div class="btn-container text-center">
+        <div class="btn-container text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
             <a class="ias-btn" href="#">Explore All</a>
         </div>
     </div>

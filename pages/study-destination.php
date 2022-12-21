@@ -21,7 +21,7 @@
 <section class="study-destination-area study-destinations m-0">
     <div class="container">
         <div class="row card-container justify-content-center m-0">
-            <div class="col-md-4 col-lg-3 mb-40">
+            <div class="col-md-4 col-lg-3 mb-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card h-100">
                     <div class="banner">
                         <img src="../assets/image/study-destinations/aus.png" alt="destinations">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-3 mb-40">
+            <div class="col-md-4 col-lg-3 mb-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card h-100">
                     <div class="banner">
                         <img src="../assets/image/study-destinations/ca.png" alt="destinations">
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-3 mb-40">
+            <div class="col-md-4 col-lg-3 mb-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card h-100">
                     <div class="banner">
                         <img src="../assets/image/study-destinations/uk.png" alt="destinations">
@@ -77,7 +77,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-3 mb-40">
+            <div class="col-md-4 col-lg-3 mb-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card h-100">
                     <div class="banner">
                         <img src="../assets/image/study-destinations/nz.png" alt="destinations">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-3 mb-40">
+            <div class="col-md-4 col-lg-3 mb-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card h-100">
                     <div class="banner">
                         <img src="../assets/image/study-destinations/usa.png" alt="destinations">
@@ -113,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-3 mb-40">
+            <div class="col-md-4 col-lg-3 mb-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card h-100">
                     <div class="banner">
                         <img src="../assets/image/study-destinations/sw.png" alt="destinations">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-3 mb-40">
+            <div class="col-md-4 col-lg-3 mb-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card h-100">
                     <div class="banner">
                         <img src="../assets/image/study-destinations/my.png" alt="destinations">
@@ -156,7 +156,7 @@
 <section class="footer-container">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="footer-desc">
                     <div class="footer-logo">
                         <img src="assets/image/footer-logo.svg" alt="" title="" />

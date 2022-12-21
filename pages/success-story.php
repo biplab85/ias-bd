@@ -10,7 +10,7 @@
         </div>
 
         <div class="row card-container">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
                         <img class="banner-bg" src="assets/image/success-story/bg.png" alt="" title="" />
@@ -67,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
                         <img class="banner-bg" src="assets/image/success-story/bg.png" alt="" title="" />
@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
                         <img class="banner-bg" src="assets/image/success-story/bg.png" alt="" title="" />
@@ -202,7 +202,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
             <div class="col-md-12">
                 <div class="btn-container text-center">
                     <a class="ias-btn" href="#">View More Stories</a>

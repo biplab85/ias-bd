@@ -1,3 +1,4 @@
+body, html { overflow-x:hidden; }
 /*Study Abroad Consultant S */
 .study-abroad-consultant {
 	display: flex;
@@ -243,7 +244,8 @@
 
 			.card {
 				background-color: #17a2b8;
-				box-shadow: 10px 20px 40px -6px rgba(0, 52, 155, 0.15);
+				//box-shadow: 10px 20px 40px -6px rgba(0, 52, 155, 0.15);
+				box-shadow: 0 0 22px rgba(0, 0, 0, 0.08%);
 				border-radius: 10px;
 				width: 246px;
 				height: 150px;
@@ -338,7 +340,7 @@
 
 		.card {
 			background: #ffffff;
-			box-shadow: 0px 35px 60px -20px rgba(0, 22, 84, 0.35);
+			box-shadow: 0 0 22px rgba(0, 0, 0, 0.08%);
 			border-radius: 10px;
 			padding: 0 0 30px 0;
 			transition: 0.5s;
@@ -526,7 +528,8 @@
 
 		.card {
 			background: #ffffff;
-			box-shadow: 30px 60px 130px rgba(0, 2, 9, 0.25);
+			//box-shadow: 30px 60px 130px rgba(0, 2, 9, 0.25);
+			box-shadow: 0 0 22px rgba(0, 0, 0, 0.08);
 			border-radius: 10px;
 			padding: 0 0 30px 0;
 			transition: 0.5s;
@@ -770,7 +773,7 @@
 
 		.card {
 			background: #ffffff;
-			box-shadow: 30px 60px 130px rgba(0, 2, 9, 0.25);
+			box-shadow: 0 0 22px rgba(0, 0, 0, 0.08%);
 			border-radius: 10px;
 			padding: 0 0 30px 0;
 			transition: 0.5s;

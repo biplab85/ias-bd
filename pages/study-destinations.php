@@ -14,7 +14,7 @@
         </div>
 
         <div class="row card-container">
-            <div class="col-md-3">
+            <div class="col-md-3 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
                         <img src="assets/image/study-destinations/5.jpg" alt="" title="" />
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
                         <img src="assets/image/study-destinations/1.jpg" alt="" title="" />
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
                         <img src="assets/image/study-destinations/4.jpg" alt="" title="" />
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
                         <img src="assets/image/study-destinations/3.jpg" alt="" title="" />
@@ -96,7 +96,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
             <div class="col-md-12">
                 <div class="btn-container text-center">
                     <a class="ias-btn" href="#">All Destinations</a>

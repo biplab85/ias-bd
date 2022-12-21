@@ -2,7 +2,7 @@
     <div class="students-consultancy-wrapper">
         <div class="students-consultancy-list">
             <div>
-                <div class="card one">
+                <div class="card one  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
                         <img src="assets/image/icon/students-consultancy/01.svg" alt="" title="" />
                     </div>
@@ -11,7 +11,7 @@
                     </div>
                     <h3>University Network</h3>
                 </div>
-                <div class="card two">
+                <div class="card two wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
                         <img src="assets/image/icon/students-consultancy/02.svg" alt="" title="" />
                     </div>
@@ -19,19 +19,19 @@
                 </div>
             </div>
             <div>
-                <div class="card three">
+                <div class="card three wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
                         <img src="assets/image/icon/students-consultancy/03.svg" alt="" title="" />
                     </div>
                     <h3>Speak in Your Local Language</h3>
                 </div>
-                <div class="card four">
+                <div class="card four wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
                         <img src="assets/image/icon/students-consultancy/04.svg" alt="" title="" />
                     </div>
                     <h3>Foreign Graduate Consultants</h3>
                 </div>
-                <div class="card five">
+                <div class="card five wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
                         <img src="assets/image/icon/students-consultancy/05.svg" alt="" title="" />
                     </div>
