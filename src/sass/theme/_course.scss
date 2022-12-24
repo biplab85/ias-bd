@@ -248,63 +248,62 @@
                     color: #353841;
                     margin: 0 0 20px 0;
 
-                    &:last-child{
+                    &:last-child {
                         margin: 0 0 0 0;
                     }
                 }
             }
 
-            .career-counselling-social-share{
+            .career-counselling-social-share {
                 display: inline-flex;
                 align-items: center;
                 justify-content: space-between;
 
-                .share-title{
+                .share-title {
                     margin: 0 20px 0 0;
 
-                    img{
-                        margin-right:10px ;
+                    img {
+                        margin-right: 10px;
                     }
 
-                    span{
-                        font-family: 'Inter';
+                    span {
+                        font-family: "Inter";
                         font-style: normal;
                         font-weight: 700;
                         font-size: 18px;
                         line-height: 22px;
-                        color: #000C2E;
+                        color: #000c2e;
                     }
                 }
 
-                .social-link{
+                .social-link {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
 
-                    a{
+                    a {
                         display: block;
                         margin: 0 15px 0 0;
                     }
                 }
             }
 
-            .consultations-from{
+            .consultations-from {
                 margin: 70px 0 0 0;
 
-                .img-container{
+                .img-container {
                     width: 90%;
 
-                    img{
+                    img {
                         width: 100%;
                     }
                 }
 
-                .content{
+                .content {
                     margin: 0 0 0 50px;
                     min-width: 340px;
 
-                    h2{
-
+                    h2 {
                         font-weight: 700;
                         font-size: 22px;
                         line-height: 35px;
@@ -313,42 +312,42 @@
             }
         }
 
-        .career-counselling-right-asside{
+        .career-counselling-right-asside {
             min-width: 325px;
 
-            .title{
+            .title {
                 font-style: normal;
                 font-weight: 700;
                 font-size: 24px;
                 line-height: 28px;
                 text-align: left;
                 letter-spacing: 0.02em;
-                color: #000C2E;
-                border-bottom: 1px solid #7490DD;
+                color: #000c2e;
+                border-bottom: 1px solid #7490dd;
                 margin: 0 0 35px 0;
                 padding: 0 0 10px 0;
             }
 
-            .service{
+            .service {
                 margin: 0 0 60px 0;
 
-                &.featured-services{
+                &.featured-services {
                     margin: 0;
                 }
 
-                .card{
-                    background: #FFFFFF;
+                .card {
+                    background: #ffffff;
                     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.09);
                     border-radius: 10px;
                     padding: 45px;
                     text-align: center;
                     margin: 0 0 30px 0;
-    
-                    &:last-child{
+
+                    &:last-child {
                         margin: 0 0 0 0;
                     }
-    
-                    .icon{
+
+                    .icon {
                         background-image: url(../../assets/image/icon/service/icon-bg.svg);
                         background-repeat: no-repeat;
                         background-position: 50%;
@@ -359,19 +358,19 @@
                         align-items: center;
                         justify-content: flex-end;
                     }
-    
-                    .card-title{
+
+                    .card-title {
                         font-style: normal;
                         font-weight: 800;
                         font-size: 20px;
                         line-height: 23px;
                         text-align: center;
                         letter-spacing: 0.05em;
-                        color: #000C2E;
+                        color: #000c2e;
                         margin: 0 0 15px 0;
                     }
-    
-                    p{
+
+                    p {
                         font-style: normal;
                         font-weight: 400;
                         font-size: 14px;
@@ -380,14 +379,291 @@
                         color: #353841;
                         margin: 0 0 15px 0;
                     }
-    
-                    a{
+
+                    a {
                         width: 100%;
                         padding: 10px;
                     }
                 }
             }
-          
+        }
+    }
+}
+
+.course-details-header{
+    height: 400px;
+}
+
+.course-details-container {
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+    top: -50px;
+
+    .course-details-title {
+        background-color: #ffffff;
+        box-shadow: 10px 15px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        width: 1200px;
+        height: 170px;
+        margin: 0 auto 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div {
+            border-color: #e3e3e3;
+            border-style: solid;
+            border-width: 0 1px 0 0;
+            width: 25%;
+            text-align: center;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            &:last-child {
+                border-width: 0;
+            }
+
+            span {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                display: block;
+                margin: 0 0 15px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+
+                &.university {
+                    color: #8019b0;
+                }
+
+                &.country {
+                    color: #17a2b8;
+                }
+
+                &.faculty {
+                    color: #1d4c8c;
+                }
+
+                &.tution-fees {
+                    color: #15234a;
+                }
+
+                &.duration {
+                    color: #ff8000;
+                }
+
+                img {
+                    margin: 0 5px 0 0;
+                }
+            }
+
+            h3 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                color: #000c2e;
+            }
+        }
+    }
+
+    .course-overview {
+        margin: 0 0 50px 0;
+        h3 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000c2e;
+            margin: 0 0 30px 0;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #000c2e;
+            margin: 0 0 30px 0;
+        }
+    }
+
+    .admission-requirements {
+        margin: 0 0 50px 0;
+        h3 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000c2e;
+            margin: 0 0 30px 0;
+        }
+
+        .list {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .btn {
+                background-color: #1d4c8c;
+                border-radius: 6px;
+                color: #fff;
+                margin: 0 24px 0 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                min-width: 180px;
+                transition: 0.5s;
+
+                &:hover {
+                    opacity: 0.9;
+                }
+
+                &:active {
+                    transform: scale(0.94);
+                }
+
+                &:last-child {
+                    margin: 0 0 0 0;
+                }
+
+                &.year {
+                    background-color: #1d4c8c;
+                }
+                &.marks {
+                    background-color: #8019b0;
+                }
+                &.ielts {
+                    background-color: #15234a;
+                }
+                &.tofel {
+                    background-color: #17a2b8;
+                }
+                &.pte {
+                    background-color: #ff8000;
+                }
+                &.douling {
+                    background-color: #8019b0;
+                }
+
+                span {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 20px;
+                    display: block;
+                    width: 100%;
+
+                    &:last-child {
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+
+    .more-course {
+        margin: 0 0 50px 0;
+        h3 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000c2e;
+            margin: 0 0 30px 0;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            a {
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                padding: 10px 20px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: #535968;
+                transition: 0.5s;
+                display: block;
+                margin: 0 20px 0 0;
+                border-radius: 5px;
+
+                &:last-child {
+                    margin: 0;
+                }
+
+                &:hover {
+                    opacity: 0.9;
+                    background-color: #476cd2;
+                    color: #fff;
+                }
+
+                &:active {
+                    transform: scale(0.94);
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+
+    .suggested-courses {
+        margin: 0 0 100px 0;
+        h3 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000c2e;
+            margin: 0 0 20px 0;
+        }
+
+        .list {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            div {
+                padding: 15px;
+                margin: 0 27px 0 0;
+                background-color: #ffffff;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                width: 24%;
+
+                h3 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #000c2e;
+                    margin: 0 0 10px 0;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 12px;
+                    color: #535968;
+                    margin: 0 0 10px 0;
+
+                    img{
+                        width: 25px;
+                        margin: 0 5px 0 0;
+                    }
+                }
+            }
         }
     }
 }

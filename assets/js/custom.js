@@ -1,8 +1,8 @@
-   // css3 animation
-   new WOW().init();
+// css3 animation
+new WOW().init();
 
 
-$(document).ready(function () { 
+$(document).ready(function () {
 
     //Banner 
     $('.site-banner').slick({
@@ -52,6 +52,27 @@ $(document).ready(function () {
         fade: true,
         autoplay: true,
         autoplaySpeed: 2000,
+    });
+
+
+
+    //Speakers Slider
+    $('.speakers-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.speakers-nav'
+    });
+    $('.speakers-nav').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: '.speakers-for',
+        dots: false,
+        focusOnSelect: true,
+        arrows: true,
+        prevArrow: "<button type='button' class='slick-prev'><i class='fa-solid fa-arrow-left'></i></button>",
+        nextArrow: "<button type='button' class='slick-next'><i class='fa-solid fa-arrow-right'></i></button>"
     });
 
 
