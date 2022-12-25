@@ -179,77 +179,93 @@
                 </div>
             </div>
 
-            <div>
+            <div class="university-courses-offer">
                 <h3>Courses offered by University of Sydney</h3>
                 <div>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
 
-                    <div>
-                        <a href="#">
-                            <i><img src="../assets/image/univevrsity/icon/clock.svg" /></i>
+                    <div class="btn-list">
+                        <a class="arts" href="#">
+                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Arts (Hons.)
                         </a>
-                        <a href="#">
-                            <i><img src="../assets/image/univevrsity/icon/clock.svg" /></i>
-                            Bachelor of Arts (Hons.)
+                        <a class="science" href="#">
+                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            Bachelor of Science (Hons.)
                         </a>
-                        <a href="#">
-                            <i><img src="../assets/image/univevrsity/icon/clock.svg" /></i>
-                            Bachelor of Arts (Hons.)
+                        <a class="analysis" href="#">
+                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            Master of Economics Analysis
                         </a>
-                        <a href="#">
-                            <i><img src="../assets/image/univevrsity/icon/clock.svg" /></i>
-                            Bachelor of Arts (Hons.)
+                        <a class="commerce" href="#">
+                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            Bachelor of Commerce (Honours)
                         </a>
-                        <a href="#">
-                            <i><img src="../assets/image/univevrsity/icon/clock.svg" /></i>
-                            Bachelor of Arts (Hons.)
+                        <a class="nursing" href="#">
+                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            Bachelor of Science and Master of Nursing
                         </a>
-                        <a href="#">
-                            <i><img src="../assets/image/univevrsity/icon/clock.svg" /></i>
-                            Bachelor of Arts (Hons.)
+                        <a class="curating" href="#">
+                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            Master of Art Curating
                         </a>
-                        <a href="#">
-                            <i><img src="../assets/image/univevrsity/icon/clock.svg" /></i>
-                            Bachelor of Arts (Hons.)
+                        <a class="bachelor-science" href="#">
+                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            Bachelor of Science
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div>
+            <div class="more-university">
                 <h3>More Universities in Australia</h3>
-                <div>
-                    <div>
+                <div class="list">
+                    <div class="content">
                         <a href="#">
-                            <div class="">
-                                <img src="../assets/image/univevrsity/logo.svg" alt="" title="" />
+                            <div class="icon">
+                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
                             <span> University of Sydney</span>
                         </a>
                     </div>
-                    <div>
+                    <div class="content">
                         <a href="#">
-                            <div class="">
-                                <img src="../assets/image/univevrsity/logo.svg" alt="" title="" />
+                            <div class="icon">
+                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
                             <span> University of Sydney</span>
                         </a>
                     </div>
-                    <div>
+                    <div class="content">
                         <a href="#">
-                            <div class="">
-                                <img src="../assets/image/univevrsity/logo.svg" alt="" title="" />
+                            <div class="icon">
+                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
                             <span> University of Sydney</span>
                         </a>
                     </div>
-                    <div>
+                    <div class="content">
                         <a href="#">
-                            <div class="">
-                                <img src="../assets/image/univevrsity/logo.svg" alt="" title="" />
+                            <div class="icon">
+                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
+                            </div>
+                            <span> University of Sydney</span>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
+                            </div>
+                            <span> University of Sydney</span>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
                             <span> University of Sydney</span>
                         </a>

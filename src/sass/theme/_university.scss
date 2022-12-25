@@ -2,10 +2,9 @@
     background-color: #f3f8ff;
 
     .university-details {
-        border: 1px solid red;
         width: 1200px;
         margin: 0px auto;
-        padding: 80px 0 0 0;
+        padding: 80px 0 100px 0;
 
         .university-info {
             display: flex;
@@ -191,7 +190,7 @@
 
         .university-cost {
             margin: 0 0 80px 0;
-            
+
             h3 {
                 font-style: normal;
                 font-weight: 700;
@@ -216,10 +215,9 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                margin: 20px 0 0 0;
+                margin: 40px 0 0 0;
 
                 .cost-btn {
-                    border: 1px solid red;
                     display: flex;
                     align-items: center;
                     justify-content: flex-start;
@@ -235,29 +233,28 @@
                         justify-content: center;
                         margin: 0 10px 0 0;
 
-                        &.tution-fee{
-                            background-color: #17A2B8;
+                        &.tution-fee {
+                            background-color: #17a2b8;
                         }
 
-                        &.cost-living{
-                            background-color: #8019B0;
+                        &.cost-living {
+                            background-color: #8019b0;
                         }
 
-                        &.undergraduate{
-                            background-color: #15234A;
+                        &.undergraduate {
+                            background-color: #15234a;
                         }
 
-                        &.graduate{
-                            background-color: #FF8000;
+                        &.graduate {
+                            background-color: #ff8000;
                         }
 
-                        &.fee{
-                            background-color: #1D4C8C;
+                        &.fee {
+                            background-color: #1d4c8c;
                         }
                     }
 
                     .info {
-                        
                         h3 {
                             font-style: normal;
                             font-weight: 700;
@@ -275,6 +272,144 @@
                             color: #535968;
                             margin: 0 0 5px 0;
                         }
+                    }
+                }
+            }
+        }
+
+        .university-courses-offer {
+            margin: 0 0 80px 0;
+
+            h3 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 35px;
+                letter-spacing: 0.05em;
+                color: #000c2e;
+                margin: 0 0 20px 0;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                text-align: justify;
+                color: #535968;
+            }
+
+            .btn-list {
+                margin: 20px 0 0 0;
+
+                a {
+                    background-color: #8019b0;
+                    border-radius: 6px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: justify;
+                    color: #ffffff;
+                    padding: 16px;
+                    margin: 0 16px 16px 0;
+
+                    &.arts {
+                        background-color: #8019b0;
+                    }
+
+                    &.science {
+                        background-color: #17a2b8;
+                    }
+
+                    &.analysis {
+                        background-color: #1d4c8c;
+                    }
+
+                    &.commerce {
+                        background-color: #ff8000;
+                    }
+
+                    &.nursing {
+                        background-color: #15234a;
+                    }
+
+                    &.arts {
+                        background-color: #8019b0;
+                    }
+
+                    &.curating {
+                        background-color: #ff8000;
+                    }
+
+                    &.bachelor-science {
+                        background-color: #17a2b8;
+                    }
+
+                    i {
+                        margin: 0 10px 0 0;
+                    }
+                }
+            }
+        }
+
+        .more-university {
+            h3 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 45px;
+                text-align: center;
+                letter-spacing: 0.04em;
+                color: #000c2e;
+                margin: 0 0 50px 0;
+            }
+
+            .list {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+
+                .content {
+                    width: 21%;
+                    background-color: #ffffff;
+                    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+                    border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    height: 280px;
+                    padding: 40px;
+                    margin: 20px;
+
+                    a {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        height: 100%;
+                    }
+
+                    .icon {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0 0 20px 0;
+                    }
+
+                    span {
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 20px;
+                        line-height: 23px;
+                        text-align: center;
+                        color: #000c2e;
                     }
                 }
             }
