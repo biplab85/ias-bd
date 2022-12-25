@@ -110,32 +110,7 @@
                         }
                     }
 
-                    .social-share {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-
-                        .share-title {
-                            margin: 0 20px 0 0;
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 18px;
-                            line-height: 22px;
-                            color: #000c2e;
-                            display: flex;
-                            align-items: center;
-
-                            img {
-                                margin: 0 10px 0 0;
-                            }
-                        }
-
-                        .social-link {
-                            a {
-                                margin: 0 15px 0 0;
-                            }
-                        }
-                    }
+                    
                 }
             }
 
@@ -416,3 +391,4 @@
         }
     }
 }
+
