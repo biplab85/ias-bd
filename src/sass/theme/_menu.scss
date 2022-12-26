@@ -7,6 +7,10 @@
 	background-position: center;
 	margin: 0 0 0 4px;
 	background-size: 100%;
+
+	@media only screen and (max-width: 767.88px), (max-device-width: 767.88px){
+        display: none;
+    }
 }
 
 /* all nav */
@@ -51,12 +55,11 @@
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 17px;
-	color: #000C2E;
+	color: #000c2e;
 	border-bottom: 2px solid transparent;
 }
 
-
-.stellarnav li:hover a{
+.stellarnav li:hover a {
 	border-bottom: 2px solid #476cd2;
 	color: #476cd2 !important;
 }
@@ -80,36 +83,45 @@
 	display: none;
 	box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.05);
 	border-radius: 8px;
-    padding: 15px 15px;
-    background-color: #FFF;
+	padding: 15px 15px;
+	background-color: #fff;
 	border: 1px solid #efefef;
+
+	@media only screen and (max-width: 767.88px), (max-device-width: 767.88px){
+		width: 95%!important;
+		top: -4px !important;
+    }
 }
 
-.stellarnav ul ul::after{
+.stellarnav ul ul::after {
 	content: "";
 	position: absolute;
-    top: -7px;
-    right: 3px;
-    width: 15px;
-    height: 15px;
-    background-color: #FFF;
-    border-radius: 0;
-    transform: rotate(45deg);
-    border-style: solid;
-    border-width: 2px;
-    border-color: #efefef transparent transparent #efefef;
+	top: -7px;
+	right: 3px;
+	width: 15px;
+	height: 15px;
+	background-color: #fff;
+	border-radius: 0;
+	transform: rotate(45deg);
+	border-style: solid;
+	border-width: 2px;
+	border-color: #efefef transparent transparent #efefef;
 }
 
 .stellarnav li li {
 	display: block;
-    margin: 0 0 12px 0;
+	margin: 0 0 12px 0;
 }
-.stellarnav li li:last-child{
+.stellarnav li li:last-child {
 	margin: 0;
+
+	a{
+		border-width: 0px !important;
+	}
 }
 
 .stellarnav li:hover li a,
-.stellarnav li li a{
+.stellarnav li li a {
 	font-size: 15px;
 	border-color: transparent;
 	color: #000 !important;
@@ -117,7 +129,7 @@
 }
 
 .stellarnav li:hover li a:hover,
-.stellarnav li li a:hover{
+.stellarnav li li a:hover {
 	color: #476cd2 !important;
 	border-color: #476cd2 !important;
 }
@@ -430,6 +442,25 @@ body.stellarnav-noscroll-x {
 }
 .stellarnav.mobile {
 	position: static;
+
+	@media only screen and (max-width: 767.88px), (max-device-width: 767.88px){
+		text-align: right;
+		background-color: transparent;
+		background: transparent;
+
+		a.menu-toggle{
+			padding: 0;
+			color: #FFF;
+
+			span.bars{
+				color: #FFF;
+
+				span{
+					background: #FFF;
+				}
+			}
+		}
+	}
 }
 .stellarnav.mobile.fixed {
 	position: static;
@@ -554,6 +585,10 @@ body.stellarnav-noscroll-x {
 	overflow-x: hidden;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
+
+	@media only screen and (max-width: 767.88px), (max-device-width: 767.88px){
+        max-width: none !important;
+    }
 }
 .stellarnav.mobile.right > ul {
 	right: 0;
@@ -661,11 +696,11 @@ body.stellarnav-noscroll-x {
 	}
 }
 
-.nav-flag-icon{
+.nav-flag-icon {
 	background-color: red;
-    width: 45px;
-    height: 25px;
-    display: inline-flex;
-    position: absolute;
-    right: 0;
+	width: 45px;
+	height: 25px;
+	display: inline-flex;
+	position: absolute;
+	right: 0;
 }

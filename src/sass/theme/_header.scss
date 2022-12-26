@@ -89,6 +89,12 @@
     margin: 10px 0 0px 0;
     padding: 0 0 18px 0;
 
+    @media only screen and (max-width: 767.88px), (max-device-width: 767.88px){
+        margin: 0;
+        padding: 20px 0;
+        background-color: #15234a;
+    }
+
     .menu-container{
         display: flex;
         align-items: center;
@@ -97,6 +103,18 @@
         .site-logo{
             width: 180px;
             height: 55px;
+
+            a{
+                @media only screen and (max-width: 767.88px), (max-device-width: 767.88px){
+                    display: block;
+                    height: 100%;
+
+                    img{
+                        filter: brightness(0) invert(1);
+                    }
+                }
+            }
+            
         }
 
         .menu-list{

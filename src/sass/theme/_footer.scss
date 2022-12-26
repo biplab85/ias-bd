@@ -2,6 +2,7 @@
 .footer-container {
     background-color: #001a57;
     padding: 50px 0;
+    
 
     .footer-desc {
         .footer-logo {
@@ -43,6 +44,15 @@
     }
 
     .footer-menu {
+
+        @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+            margin: 20px 0;
+            background-color: #152d64;
+            border-radius: 15px;
+            padding: 15px;
+        }
+
+
         h4 {
             font-style: normal;
             font-weight: 700;
@@ -51,6 +61,11 @@
             letter-spacing: 0.05em;
             color: #ffffff;
             margin: 0 0 15px 0;
+
+            @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                border-bottom: 1px dotted #4167c1;
+                padding: 0 0 15px 0;
+            }
         }
 
         ul {
@@ -177,13 +192,26 @@
             align-items: center;
             justify-content: flex-end;
 
+            @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                margin-top: 25px;
+                display: block;
+            }
+
             ul {
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
                 list-style: none;
 
+                @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                   margin: 0;
+                   padding: 0;
+                   justify-content: space-between;
+                }
+
                 li {
+
+
                     &:last-child {
                         a {
                             padding: 0;
@@ -203,6 +231,13 @@
                         padding: 0 10px 0 0;
                         margin: 0 0px 0 10px;
                         border-right: 1px solid #fff;
+
+                        @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                            border: 0px !important;
+                            font-size: 12px;
+                            padding: 0;
+                            margin: 0 4px;
+                        }
                     }
                 }
             }

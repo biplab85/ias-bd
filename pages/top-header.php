@@ -19,7 +19,7 @@
                 <div class="social-share-wrapper">
                     <div class="contact-info">
                         <i><img src="http://design.iasbd.co.uk/assets/image/icon/support.svg" /></i>
-                        <span>test@test.com</span>
+                        <span>+8801711875240</span>
                     </div>
 
                     <div class="social-share">

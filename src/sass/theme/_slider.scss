@@ -7,11 +7,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+        height: 400px;
+    }
+
     .site-banner {
         height: 650px;
-        overflow: hidden; 
-        
-        .slick-list{
+        overflow: hidden;
+
+        @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+            height: 400px;
+        }
+
+        .slick-list {
             padding: 0 !important;
         }
 
@@ -22,8 +30,16 @@
             height: 650px;
             justify-content: flex-end;
 
-            img{
+            @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                height: 400px;
+            }
+
+            img {
                 width: auto;
+
+                @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                    width: 100%;
+                }
             }
 
             .content {
@@ -38,6 +54,14 @@
                 justify-content: center;
                 flex-direction: column;
 
+                @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                    width: 100%;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    left: 0;
+                    top: 10%;
+                }
+
                 h4 {
                     font-style: normal;
                     font-weight: 700;
@@ -46,13 +70,24 @@
                     letter-spacing: 0.02em;
                     color: #000c2e;
                     margin: 0 0 42px 0;
+
+                    @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                        font-size: 25px;
+                        line-height: 30px;
+                        padding: 0 15px;
+                        text-align: center;
+                    }
                 }
 
-                .slider-action{
+                .slider-action {
                     display: flex;
                     align-items: center;
                     justify-content: flex-start;
                     width: 100%;
+
+                    @media only screen and (max-width: 767.88px), (max-device-width: 767.88px){
+                        justify-content: center;
+                    }
 
                     .btn {
                         background-color: #001a57;
@@ -68,7 +103,7 @@
                         text-decoration: none;
                     }
 
-                    .play-btn{
+                    .play-btn {
                         display: flex;
                         align-items: center;
                         justify-content: flex-start;
@@ -78,19 +113,18 @@
                         font-weight: 700;
                         font-size: 16px;
                         line-height: 19px;
-                        color: #15234A;
+                        color: #15234a;
 
-                        i{
+                        i {
                             margin: 0 10px 0 0;
                         }
                     }
                 }
-               
             }
         }
     }
 
-    .slick-dots{
+    .slick-dots {
         position: absolute;
         left: 1%;
         top: 0;
@@ -102,26 +136,31 @@
         justify-content: center;
         flex-direction: column-reverse;
 
-        li{
+        @media only screen and (max-width: 767.88px), (max-device-width: 767.88px){
+            justify-content: flex-start;
+            left: 2%;
+        }
+
+        li {
             margin: 8px 0;
             width: 26px;
             height: 26px;
-            border: 2px solid transparent;            
+            border: 2px solid transparent;
             border-radius: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
 
-            &.slick-active{
-                border: 2px solid #15234A;
+            &.slick-active {
+                border: 2px solid #15234a;
 
-                button{
-                    background-color: #15234A;
+                button {
+                    background-color: #15234a;
                 }
             }
 
-            button{
-                background-color: #9BAECA;
+            button {
+                background-color: #9baeca;
                 width: 10px;
                 height: 10px;
                 border-radius: 100%;
@@ -129,4 +168,3 @@
         }
     }
 }
-
