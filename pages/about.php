@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">    
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
@@ -28,7 +30,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="content-wrapper">
+                        <div class="content-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                             <div class="content-header-section">
                                 <h3 class="title">About Us</h3>
                                 <span class="sub-title">Lorem Ipsum Dolor Sit Amet Adipiscing Elit</span>
@@ -44,11 +46,11 @@
         </div>
     </section>
 
-    <section class="mission">
+    <section class="mission wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
         <div class="container">
             <div class="row">
                 <div class="offset-md-6 col-md-6">
-                    <div class="content-header-section">
+                    <div class="content-header-section wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <h3 class="title">Our Mission</h3>
                         <span class="sub-title">Lorem Ipsum Dolor Sit Amet Adipiscing Elit</span>
                     </div>
@@ -60,11 +62,11 @@
         </div>
     </section>
 
-    <section class="vission">
+    <section class="vission wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="content-header-section white">
+                    <div class="content-header-section white wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <h3 class="title">Our Mission</h3>
                         <span class="sub-title">Lorem Ipsum Dolor Sit Amet Adipiscing Elit</span>
                     </div>
@@ -110,8 +112,9 @@
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>    
-    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/custom.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="../assets/js/custom.js"></script>
 </body>
 
 </html>

@@ -7,10 +7,19 @@
     justify-content: center;
     margin: 0 0 80px 0;
 
+    @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+       background-size: 100%;
+     }
+
     .students-consultancy-wrapper {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+           display: block;
+           padding: 0 15px;
+        }
 
         .students-consultancy-list {
             display: flex;
@@ -19,8 +28,17 @@
             width: 550px;
             margin: 0 80px 0 0;
 
+            @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                display: block;
+                width: 100%;
+             }
+
             .second-clmn{
                 margin: 100px 0 0 0;
+
+                @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                    margin: 0;
+                 }
             }
 
             .card {
@@ -31,6 +49,10 @@
                 height: 150px;
                 padding: 25px;
                 margin: 0 0 30px 0;
+
+                @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                    width: 100%;
+                 }
 
                 &.one {
                     background-color: #1d4c8c;
@@ -91,6 +113,11 @@
 
         .students-consultancy-desc {
             width: 800px;
+
+            @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                width: 100%;
+             }
+
             .shareButton-wrapper {
                 font-weight: 400;
                 font-size: 18px;

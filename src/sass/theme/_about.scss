@@ -6,6 +6,10 @@
     background-color: #fff;
     height: 570px;
 
+    @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+        background-size: 50%, auto;
+    }
+
     .content-wrapper {
         height: 570px;
         width: 650px;
@@ -13,6 +17,10 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+
+        @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+			width: 100%;
+		}
 
         .description {
             font-style: normal;
@@ -34,6 +42,11 @@
     padding: 80px 0;
     margin: 80px 0;
 
+    @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+        background-size: 50%;
+        background-position: bottom right;
+    }
+
     .description {
         font-style: normal;
         font-weight: 400;
@@ -53,6 +66,11 @@
     padding: 80px 0;
     margin: 80px 0;
 
+    @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+        background-size: 50%;
+        background-position: bottom right;
+    }
+
     .description {
         font-style: normal;
         font-weight: 400;
@@ -67,6 +85,11 @@
 .get-there-section {
     position: relative;
     padding: 80px 0;
+
+    @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+        width: 100%;
+        overflow: hidden;
+    }
 
     .content-header-section {
         margin: 0 0 80px 0;
@@ -260,6 +283,11 @@
         width: 1200px;
         margin: 60px 0 0 0;
 
+        @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+			width: 100%;
+            display: block;
+		}
+
         .partner-list {
             width: 580px;
             height: 260px;
@@ -269,6 +297,11 @@
             display: flex;
             align-items: center;
             justify-content: flex-start;
+
+            @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
+                width: 100%;
+                margin: 0 0 15px 0;
+            }
 
             .details {
                 width: 300px;

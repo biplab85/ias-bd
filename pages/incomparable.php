@@ -5,7 +5,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="incomparable-list">
                     <div class="icon">
                         <img src="../assets/image/incomparable/01.svg" alt="" title="" />
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="incomparable-list">
                     <div class="icon">
                         <img src="../assets/image/incomparable/02.svg" alt="" title="" />
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="incomparable-list">
                     <div class="icon">
                         <img src="../assets/image/incomparable/03.svg" alt="" title="" />
@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="incomparable-list">
                     <div class="icon">
                         <img src="../assets/image/incomparable/04.svg" alt="" title="" />

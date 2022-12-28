@@ -6,7 +6,7 @@
     <div class="specialization-content">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <a href="#">
                         <div class="specialization-list">
                             <div class="icon">
@@ -18,7 +18,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/1.svg" alt="" title="" />
@@ -29,7 +29,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/2.svg" alt="" title="" />
@@ -39,7 +39,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/3.svg" alt="" title="" />
@@ -49,7 +49,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/4.svg" alt="" title="" />
@@ -59,7 +59,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/5.svg" alt="" title="" />
@@ -69,7 +69,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/6.svg" alt="" title="" />
@@ -79,7 +79,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/7.svg" alt="" title="" />
@@ -89,7 +89,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/8.svg" alt="" title="" />
@@ -99,7 +99,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/9.svg" alt="" title="" />
@@ -109,7 +109,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/10.svg" alt="" title="" />
@@ -119,7 +119,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/11.svg" alt="" title="" />
@@ -129,7 +129,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/12.svg" alt="" title="" />
@@ -139,7 +139,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3  wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="specialization-list">
                         <div class="icon">
                             <img src="../assets/image/icon/our-specialization/13.svg" alt="" title="" />
