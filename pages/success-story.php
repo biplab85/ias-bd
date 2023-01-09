@@ -13,8 +13,14 @@
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
-                        <img class="banner-bg" src="assets/image/success-story/bg.png" alt="" title="" />
-                        <img class="auth" src="assets/image/success-story/01.jpg" alt="" title="" />
+                        <img class="banner-bg" src="assets/image/success-story/banner-bg.svg" alt="" title="" />
+
+                        <div class="auth-wrapper">
+                            <div class="auth-container">
+                                <img class="" src="assets/image/success-story/170X170.jpg" alt="" title="" />
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="description">
@@ -70,8 +76,14 @@
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
-                        <img class="banner-bg" src="assets/image/success-story/bg.png" alt="" title="" />
-                        <img class="auth" src="assets/image/success-story/01.jpg" alt="" title="" />
+                        <img class="banner-bg" src="assets/image/success-story/banner-bg.svg" alt="" title="" />
+
+                        <div class="auth-wrapper">
+                            <div class="auth-container">
+                                <img class="" src="assets/image/success-story/170X170-0.jpg" alt="" title="" />
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="description">
@@ -127,8 +139,14 @@
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
-                        <img class="banner-bg" src="assets/image/success-story/bg.png" alt="" title="" />
-                        <img class="auth" src="assets/image/success-story/01.jpg" alt="" title="" />
+                        <img class="banner-bg" src="assets/image/success-story/banner-bg.svg" alt="" title="" />
+
+                        <div class="auth-wrapper">
+                            <div class="auth-container">
+                                <img class="" src="assets/image/success-story/170X170-1.jpg" alt="" title="" />
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="description">

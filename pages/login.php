@@ -6,9 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IASBD</title>
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="../assets/css/slick.css" />
-  <link rel="stylesheet" type="text/css" href="../assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
+  <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">
+  <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
 
 <body>
@@ -167,11 +169,12 @@
 
 
 
-  <script src="../assets/js/bundle.js"></script>
+  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>
+  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="../assets/js/slick.js"></script>
-  <script type="text/javascript" src="../assets/js/menu.js"></script>
-  <script type="text/javascript" src="../assets/js/custom.js"></script>
+  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
+  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
+  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/custom.js"></script>
 </body>
 
 </html>

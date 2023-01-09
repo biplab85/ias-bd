@@ -9,11 +9,11 @@ $(document).ready(function () {
         dots: true,
         draggable: true,
         autoplay: true, /* this is the new line */
-        autoplaySpeed: 2000,
+        autoplaySpeed: 2000444444,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        touchThreshold: 1000,
+        touchThreshold: 100055588,
     });
 
 

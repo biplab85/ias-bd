@@ -19,7 +19,7 @@
                     <div class="banner">
                         <img src="assets/image/study-destinations/5.jpg" alt="" title="" />
                         <i class="flag">
-                            <img src="assets/image/study-destinations/flag.png" alt="" title="" />
+                            <img src="assets/image/study-destinations/65X65.png" alt="" title="" />
                         </i>
                     </div>
 
@@ -39,7 +39,7 @@
                     <div class="banner">
                         <img src="assets/image/study-destinations/1.jpg" alt="" title="" />
                         <i class="flag">
-                            <img src="assets/image/study-destinations/flag.png" alt="" title="" />
+                            <img src="assets/image/study-destinations/65X65.png" alt="" title="" />
                         </i>
                     </div>
 
@@ -59,7 +59,7 @@
                     <div class="banner">
                         <img src="assets/image/study-destinations/4.jpg" alt="" title="" />
                         <i class="flag">
-                            <img src="assets/image/study-destinations/flag.png" alt="" title="" />
+                            <img src="assets/image/study-destinations/65X65.png" alt="" title="" />
                         </i>
                     </div>
 
@@ -79,7 +79,7 @@
                     <div class="banner">
                         <img src="assets/image/study-destinations/3.jpg" alt="" title="" />
                         <i class="flag">
-                            <img src="assets/image/study-destinations/flag.png" alt="" title="" />
+                            <img src="assets/image/study-destinations/65X65.png" alt="" title="" />
                         </i>
                     </div>
 

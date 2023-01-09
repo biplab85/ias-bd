@@ -86,8 +86,9 @@
     <script type="text/javascript" src="../assets/js/slick.js"></script>
     <script type="text/javascript" src="../assets/js/menu.js"></script>
     <script type="text/javascript" src="../assets/js/jquery.steps.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.confetti.js"></script>v
     <script type="text/javascript" src="../assets/js/custom.js"></script>
-    <script type="text/javascript" src="../assets/js/jquery.confetti.js"></script>
+    
 </body>
 
 </html>
