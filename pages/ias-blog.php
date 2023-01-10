@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
@@ -24,7 +24,7 @@
     <!-- Menu Container E-->
 
     <!-- Content Header S-->
-    <section class="ias-header" style="background-image: url(../assets/image/blog/blog-header.svg);">
+    <section class="ias-header" style="background-image: url(../assets/image/blog/blog-header.svg); background-size: 68vh;">
         <div class="container">
             <div class="col-md-6">
                 <div class="content-wrapper">
@@ -50,13 +50,13 @@
                         <input type="text" name="" value="" placeholder="Search anything..." />
                         <div class="devider"></div>
                         <select name="">
-                            <option>Biplab</option>
-                            <option>Biplab</option>
-                            <option>Biplab</option>
-                            <option>Biplab</option>
-                            <option>Biplab</option>
-                            <option>Biplab</option>
-                            <option>Biplab</option>
+                            <option>Bangladesh</option>
+                            <option>Bangladesh</option>
+                            <option>Bangladesh</option>
+                            <option>Bangladesh</option>
+                            <option>Bangladesh</option>
+                            <option>Bangladesh</option>
+                            <option>Bangladesh</option>
                         </select>
                         <button>Search <i></i></button>
                     </form>

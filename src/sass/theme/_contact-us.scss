@@ -105,5 +105,65 @@
         box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
         border-radius: 15px;
         padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.contact-section {
+    background-image: url(../../assets/image/contact-bg.svg);
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+
+.contact-service-wrapper {
+    .contact-service {
+        padding: 40px 0 0 0;
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .services-call-box {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 320px;
+            height: 88px;
+            margin: auto;
+
+            .icon {
+                min-width: 86px;
+                min-height: 86px;
+                background-color: #1d4c8c;
+                border-radius: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                z-index: 1;
+            }
+
+            .services-call-number {
+                width: 245px;
+                height: 60px;
+                background-color: #0c3063;
+                border-radius: 10px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: center;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                position: relative;
+                left: -25px;
+                padding: 0 0 0 40px;
+            }
+        }
     }
 }
