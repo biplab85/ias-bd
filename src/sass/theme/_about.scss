@@ -323,13 +323,23 @@
             align-items: center;
             justify-content: flex-start;
             background-color: #476cd2;
-            background-repeat: no-repeat;
-            background-position: right 30px center;
             position: relative;
+
+            &::after{
+                content: "";
+                background-image: url(../../assets/image/partner/overlaping.svg);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                width: 360px;
+                height: 260px;
+                z-index: 1;
+                background-position: right -34px top -1px;
+            }
 
             &.second{
                 background-color: #15234A;
-                background-image: url(../../../assets/image/partner/vector1.svg);
             }
 
             @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
@@ -376,6 +386,22 @@
                     }
                 }
             }
+
+            .partner-img{
+                position: absolute;
+                right: 0;
+                top: 80px;
+                z-index: 11;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                img{
+                    width: 80%;
+                    position: relative;
+                    right: 30px;
+                }
+            }
         }
     }
 }
@@ -388,7 +414,7 @@
         url(../../assets/image/about-us/ceo-messges/1.svg);
     background-repeat: no-repeat;
     background-position: right 20px center, right top;
-    background-size: 27%, auto;
+    background-size: 40%, auto;
     background-color: #f3f8ff;
     display: flex;
     align-items: center;

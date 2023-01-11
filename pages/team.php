@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IASBD</title>
-  <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
@@ -49,7 +49,7 @@
 
   <section class="our-teams-section">
     <div class="container">
-      <div class="row justify-content-center text-center mb-50">
+      <div class="row justify-content-center text-center mb-80">
         <div class="single-teams-title mb-40">
           <h3>Management Board</h3>
           <p>Lorem Ipsum is simply dummy text of the printing.</p>
@@ -107,7 +107,7 @@
 
       <div class="row justify-content-center text-center mb-50">
         <div class="single-teams-title mb-40">
-          <h3>Management Board</h3>
+          <h3>Advisory Board</h3>
           <p>Lorem Ipsum is simply dummy text of the printing.</p>
         </div>
         <!-- End Title -->
@@ -221,7 +221,7 @@
         <!-- End Title -->
         <div class="d-flex justify-content-center flex-wrap">
           <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
+            <div class="skewed-bg black">
               <div class="single-teams-top">
                 <h3 class="teams-name">H M Mashiur Rahman</h3>
                 <div class="teams-top-info">
@@ -230,7 +230,7 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="../assets/image/success-story/share.svg">
+                      <img class="" src="../assets/image/share-white.svg">
                     </div>
                   </div>
 
@@ -704,6 +704,29 @@
         <!-- End  -->
       </div>
       <!-- End Row -->
+
+      <section class="consultations-from">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="consultations-from-container">
+                <div class="img-container">
+                  <img class="banner-bg" src="../assets/image/consultation-from/cunsultation-from.svg" alt="" title="">
+                </div>
+                <div class="content">
+                  <h2>Get the Best Consultations from Our Experienced Advisors </h2>
+                  <p>
+                    Just book an appointment and get the advise from our experts to transform your dream into reality.
+                  </p>
+                  <div class="btn-container">
+                    <a class="ias-btn outline shadow-none" href="#">Book Appointment Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </div>
 

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
@@ -24,7 +24,7 @@
     <!-- Menu Container E-->
 
 
-    <section class="service-header service-common" style="background-image: url(../assets/image/service/service-1.svg);">
+    <section class="service-header service-common" style="background-image: url(../assets/image/service/service-1.svg); ">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -61,7 +61,7 @@
         </div>
     </section>
 
-    <section class="content-service-common left" style="background-image: url(../assets/image/service/3.svg);">
+    <section class="content-service-common left double-bg" style="background-image: url(../assets/image/service/3.svg), url(../assets/image/service/dlouble.svg);  background-size: contain, cover; background-repeat: no-repeat, no-repeat; background-position: left, top;">
         <div class="container">
             <div class="row">
                 <div class="offset-md-6 col-md-6">
@@ -80,7 +80,7 @@
         </div>
     </section>
 
-    <section class="content-service-common solid" style="background-image: url(../assets/image/service/4.svg);">
+    <section class="content-service-common" style="background-image: url(../assets/image/service/4.svg); background-position: right center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -99,7 +99,7 @@
         </div>
     </section>
 
-    <section class="content-service-common left double-bg" style="background-image:  url(../assets/image/service/5.svg), url(../assets/image/service/dlouble.svg);">
+    <section class="content-service-common left solid" style="background-image:  url(../assets/image/service/5.svg), url(../assets/image/service/dlouble.svg); background-position: left center; background-size: contain;">
         <div class="container">
             <div class="row">
                 <div class="offset-md-6 col-md-6">
@@ -118,7 +118,7 @@
         </div>
     </section>
 
-    <section class="content-service-common" style="background-image: url(../assets/image/service/6.svg);">
+    <section class="content-service-common" style="background-image: url(../assets/image/service/6.svg); background-position: right center;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -137,7 +137,7 @@
         </div>
     </section>
 
-    <section class="content-service-common left" style="background-image: url(../assets/image/service/7.svg);">
+    <section class="content-service-common left double-bg" style="background-image: url(../assets/image/service/115.svg), url(../assets/image/service/dlouble.svg); background-size: contain, cover; background-repeat: no-repeat, no-repeat; background-position: left, top;">
         <div class="container">
             <div class="row">
                 <div class="offset-md-6 col-md-6">
@@ -156,7 +156,7 @@
         </div>
     </section>
 
-    <section class="content-service-common" style="background-image: url(../assets/image/service/8.svg);">
+    <section class="content-service-common" style="background-image: url(../assets/image/service/7.svg);">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -175,7 +175,7 @@
         </div>
     </section>
 
-    <section class="content-service-common left" style="background-image: url(../assets/image/service/9.svg);">
+    <section class="content-service-common left solid" style="background-image: url(../assets/image/service/116.svg); background-position: left top; background-size: contain;">
         <div class="container">
             <div class="row">
                 <div class="offset-md-6 col-md-6">
@@ -194,7 +194,7 @@
         </div>
     </section>
 
-    <section class="content-service-common" style="background-image: url(../assets/image/service/5.svg);">
+    <section class="content-service-common" style="background-image: url(../assets/image/service/117.svg); background-position: right;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">

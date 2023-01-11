@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
@@ -26,7 +26,7 @@
     <section class="ceo-messaage-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="content-header-section">
                         <h3 class="title">About Our CEO</h3>
                     </div>
@@ -41,7 +41,7 @@
     <section class="ceo-info-container">
         <h2>Message From Our CEO</h2>
         <div class="ceo-img">
-
+            <img src="../assets/image/about-us/ceo-messges/author.svg" alt="" title="" />
         </div>
         <div class="info">
             <h4>H.M. Mashiur Rahman</h4>
