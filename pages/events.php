@@ -51,8 +51,8 @@
     <section class="events-section">
        <div class="container">
          <div class="row">
-          <div class="events-search">
-            <form class="row ms-4 me-4 search-form">
+          <div class="events-search mb-80">
+            <form class="row ms-2 me-2 search-form">
               <div class="col-md-8 p-0">
                 <input type="text" class="form-control" placeholder="Search anything...">
               </div>

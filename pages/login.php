@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IASBD</title>
-  <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">
   <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
   <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />

@@ -53,7 +53,7 @@
       <div class="admin-registration-box">
         <div class="row">
           <div class="col-md-4">
-            <div class="admin-registration-slider">
+            <div class="admin-registration-slider dark">
               <h3>Facing problem to fill out the form?</h3>
               <div class="registration-slider">
                 <div>

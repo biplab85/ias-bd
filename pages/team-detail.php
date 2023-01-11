@@ -29,71 +29,71 @@
     <section class="team-detail">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
-                    <div class="team-detail-profile">
-                        <div class="detail-profile-img">
-                            <img class="" src="../assets/image/teams/team-detail/01.jpg">
-                        </div>
-                        <div class="detail-profile-name">
-                            <h4>H M Mashiur Rahman</h4>
-                            <p>Chief Executive Officer - CEO
-                                <span>Bachelor of Business Administration (BBA)</span>
-                            </p>
-                        </div>
-                        <div class="social-share">
-                            <div class="share-title">
-                                <img class="auth" src="../assets/image/blog/share.svg" alt="" title="">
-                                <span>Share on</span>
+                <div class="col-md-12">
+                    <div class="profile-wrapper">
+                        <div class="team-detail-profile">
+                            <div class="detail-profile-img">
+                                <img class="" src="../assets/image/teams/team-detail/01.jpg">
                             </div>
-                            <div class="social-link">
-                                <a href="#">
-                                    <img class="banner-bg" src="../assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
-                                </a>
-                                <a href="#">
-                                    <img class="banner-bg" src="../assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
-                                </a>
-                                <a href="#">
-                                    <img class="banner-bg" src="../assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
-                                </a>
-                                <a href="#">
-                                    <img class="banner-bg" src="../assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
-                                </a>
+                            <div class="detail-profile-name">
+                                <h4>H M Mashiur Rahman</h4>
+                                <p>Chief Executive Officer - CEO
+                                    <span>Bachelor of Business Administration (BBA)</span>
+                                </p>
                             </div>
+                            <div class="social-share">
+                                <div class="share-title">
+                                    <img class="auth" src="../assets/image/blog/share.svg" alt="" title="">
+                                    <span>Share on</span>
+                                </div>
+                                <div class="social-link">
+                                    <a href="#">
+                                        <img class="banner-bg" src="../assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                    </a>
+                                    <a href="#">
+                                        <img class="banner-bg" src="../assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                    </a>
+                                    <a href="#">
+                                        <img class="banner-bg" src="../assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                    </a>
+                                    <a href="#">
+                                        <img class="banner-bg" src="../assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-detail-info">
+                            <h5>About H M Mashiur Rahman</h5>
+                            <div class="description">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries,
+                                    but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+                                    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                                    Lorem Ipsum passages, and more recently with desktop publishing software
+                                    like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div>
+
+                            <div class="team-detail-link">
+                                <ul>
+                                    <li>
+                                        <img class="" src="../assets/image/teams/call.svg">
+                                        <span>01234 567890</span>
+                                    </li>
+                                    <li>
+                                        <img class="" src="../assets/image/teams/mail.svg">
+                                        <span>name@iasbd.co.uk</span>
+                                    </li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                     <!-- End -->
-                </div>
-                <div class="col-md-7">
-                    <div class="team-detail-info">
-                        <h5>About H M Mashiur Rahman</h5>
-                        <div class="description">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                It has survived not only five centuries,
-                                but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-                                Lorem Ipsum passages, and more recently with desktop publishing software
-                                like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        </div>
-
-                        <div class="team-detail-link">
-                            <ul>
-                                <li>
-                                    <img class="" src="../assets/image/teams/call.svg">
-                                    <span>01234 567890</span>
-                                </li>
-                                <li>
-                                    <img class="" src="../assets/image/teams/mail.svg">
-                                    <span>name@iasbd.co.uk</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="consultations-from-container">
+                    <div class="consultations-from-container teal">
                         <div class="img-container">
                             <img class="banner-bg" src="../assets/image/consultation-from/cunsultation-from.svg" alt="" title="">
                         </div>

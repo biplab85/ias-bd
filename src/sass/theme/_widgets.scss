@@ -1052,6 +1052,18 @@ html {
 		align-items: flex-end;
 		padding: 0 35px;
 
+		&.teal {
+			background-color: #17a2b8;
+
+			.btn-container {
+				.ias-btn {
+					background-color: #FFF !important;
+					color: #17a2b8 !important;
+					border-color: #17a2b8 !important;
+				}
+			}
+		}
+
 		@media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
 			flex-direction: column-reverse;
 			padding: 15px 15px 0 15px;

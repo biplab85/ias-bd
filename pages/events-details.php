@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="../assets/css/jquery.steps.css">
   <link rel="stylesheet" href="../assets/css/jquery.classycountdown.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="">
   <link rel="stylesheet" type="text/css" href="../assets/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="../assets/css/slick-theme.css" />
 </head>
@@ -166,12 +165,32 @@
               <li>Lorem ipsum dolor sit amet dummy text adipiscing elit.</li>
               <li>Lorem ipsum dolor sit amet dummy text adipiscing elit.</li>
             </ul>
+            <div class="social-share justify-content-start">
+              <div class="share-title">
+                <img class="auth" src="../assets/image/blog/share.svg" alt="" title="">
+                <span class="m-0">Share on</span>
+              </div>
+              <div class="social-link">
+                <a href="#">
+                  <img class="banner-bg" src="../assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                </a>
+                <a href="#">
+                  <img class="banner-bg" src="../assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                </a>
+                <a href="#">
+                  <img class="banner-bg" src="../assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                </a>
+                <a href="#">
+                  <img class="banner-bg" src="../assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                </a>
+              </div>
+            </div>
           </div>
           <!-- End Content -->
         </div>
         <!-- End Col -->
         <div class="col-md-5 offset-md-1">
-          <div class="global-form">
+          <div class="global-form event-details-form">
             <div class="global-form-heading">
               <h3>Registration</h3>
             </div>
@@ -203,7 +222,7 @@
 
               <div class="mb-20 position-relative">
                 <div class="btn-container text-center">
-                  <a class="min-250 ias-btn outline shadow-none active" href="#">Submit</a>
+                  <button class="min-250 ias-btn">Submit</button>
                 </div>
               </div>
 
