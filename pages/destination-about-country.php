@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IASBD</title>
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
-</head>
-
-<body>
-
-
-
-    <!-- Top Header container S-->
-    <?php include '../pages/top-header.php'; ?>
-    <!-- Top Header container E-->
-
-    <!-- Menu Container S-->
-    <?php include '../pages/menu.php'; ?>
-    <!-- Menu Container E-->
+<?php include('header.php'); ?>
 
     <!-- Content Header S-->
-    <section class="ias-header destination-about-country-header mb-0" style="background-image: url(../assets/image/study-destinations/about-country/destination-about-country-banner.svg);">
+    <section class="ias-header destination-about-country-header mb-0 h-344" style="background-image: url(../assets/image/study-destinations/about-country/destination-about-country-banner.svg);">
         <div class="container">
             <div class="col-md-12">
                 <div class="content-wrapper text-center">
@@ -48,9 +25,9 @@
         <!-- Culture S -->
         <div class="dac-item-wrap with-bg">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
-                        <figure class="dac-item-featured-img">
+                        <figure class="dac-item-featured-img mb-3 mb-md-0">
                             <img src="../assets/image/study-destinations/about-country/culture-img.jpg" alt="dac" class="img-fluid">
                         </figure>
                     </div>
@@ -67,9 +44,9 @@
         <!-- POPULATION S -->
         <div class="dac-item-wrap">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6 order-md-2">
-                        <figure class="dac-item-featured-img">
+                        <figure class="dac-item-featured-img mb-3 mb-md-0">
                             <img src="../assets/image/study-destinations/about-country/population-img.jpg" alt="dac" class="img-fluid">
                         </figure>
                     </div>
@@ -86,9 +63,9 @@
         <!-- CLIMATE S -->
         <div class="dac-item-wrap with-bg">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
-                        <figure class="dac-item-featured-img">
+                        <figure class="dac-item-featured-img mb-3 mb-md-0">
                             <img src="../assets/image/study-destinations/about-country/climate-img.jpg" alt="dac" class="img-fluid">
                         </figure>
                     </div>
@@ -105,9 +82,9 @@
         <!-- GEOGRAPHY S -->
         <div class="dac-item-wrap">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6 order-md-2">
-                        <figure class="dac-item-featured-img">
+                        <figure class="dac-item-featured-img mb-3 mb-md-0">
                             <img src="../assets/image/study-destinations/about-country/geography-img.jpg" alt="dac" class="img-fluid">
                         </figure>
                     </div>
@@ -124,9 +101,9 @@
         <!-- HISTORY S -->
         <div class="dac-item-wrap with-bg">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
-                        <figure class="dac-item-featured-img">
+                        <figure class="dac-item-featured-img mb-3 mb-md-0">
                             <img src="../assets/image/study-destinations/about-country/history-img.jpg" alt="dac" class="img-fluid">
                         </figure>
                     </div>
@@ -143,9 +120,9 @@
         <!-- Legal System S -->
         <div class="dac-item-wrap">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6 order-md-2">
-                        <figure class="dac-item-featured-img">
+                        <figure class="dac-item-featured-img mb-3 mb-md-0">
                             <img src="../assets/image/study-destinations/about-country/legal-system-img.jpg" alt="dac" class="img-fluid">
                         </figure>
                     </div>
@@ -165,11 +142,13 @@
     <?php include '../pages/footer.php'; ?>
     <!-- Footer E-->
 
-
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>
+    <script type="text/javascript" src="../assets/js/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.steps.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/custom.js"></script>
 </body>
 

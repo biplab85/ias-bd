@@ -108,12 +108,14 @@
     <?php include './pages/footer.php'; ?>
     <!-- Footer E-->
 
-    <script type="text/javascript" src="assets/js/bundle.js"></script>
-    <script type="text/javascript" src="assets/js/menu.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>
+    <script type="text/javascript" src="assets/js/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.steps.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/slick.js"></script>
-    <script type="text/javascript" src="assets/js/wow.min.js"></script>
-    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/custom.js"></script>
 </body>
 
 </html>

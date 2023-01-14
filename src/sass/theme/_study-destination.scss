@@ -35,6 +35,10 @@
 	background-color: #dffbff;
 	background-position: center bottom;
 
+	&.h-344 {
+		height: 344px;
+	}
+
 	.description {
 		&.with-transparent-bg {
 			background-color: rgba(#1d4c8c, 0.7);
@@ -45,7 +49,25 @@
 
 // Filter S
 .filter-menu-wrapper {
-	padding: 26px 0;
+	padding: 0;
+
+	.navbar-nav {
+		width: 100%;
+		justify-content: space-between;
+
+		@media screen and (max-width: 991px) {
+			justify-content: inherit;
+		}
+	}
+
+	@media screen and (max-width: 991px) {
+		padding: 20px 0;
+
+		.navbar-collapse {
+			margin-top: 5px;
+		}
+	}
+
 	.nav-link {
 		font-family: "Inter";
 		font-size: 10px;
@@ -53,18 +75,31 @@
 		line-height: 12px;
 		letter-spacing: 0em;
 		text-align: center;
-		padding: 15px 8px;
-		border-radius: 5px;
+		padding: 19px 11px;
+		border-radius: 0;
 		background-color: #ffffff;
 		color: #535968;
-		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-		margin-right: 10px;
 		transition: 0.4s all;
+
+		@media screen and (max-width: 991px) {
+			text-align: left;
+		}
 
 		&.active,
 		&:hover {
 			background-color: #ff8000;
 			color: #ffffff !important;
+		}
+	}
+
+	.navbar {
+		padding: 0;
+	}
+
+	.navbar-toggler {
+		&:focus {
+			outline: 0;
+			box-shadow: none;
 		}
 	}
 }
@@ -492,7 +527,11 @@
 
 // with-light-blue-bg S
 .with-light-blue-bg {
-	background: #f0f6ff;
+	background-color: #f0f6ff !important;
+}
+
+.with-light-blue-bg-2 {
+	background-color: #e2eaff !important;
 }
 // with-light-blue-bg E
 
@@ -613,3 +652,17 @@
 	background-position: -50px;
 }
 // destination-blog-country-area E
+
+.inset-upper-shadow {
+	position: relative;
+	box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+	font-family: "Raleway";
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 45px;
+	letter-spacing: 0em;
+	text-align: left;
+}

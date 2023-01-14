@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IASBD</title>
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
-</head>
-
-<body>
-
-
-
-    <!-- Top Header container S-->
-    <?php include '../pages/top-header.php'; ?>
-    <!-- Top Header container E-->
-
-    <!-- Menu Container S-->
-    <?php include '../pages/menu.php'; ?>
-    <!-- Menu Container E-->
+<?php include('header.php'); ?>
 
     <!-- Content Header S-->
-    <section class="ias-header destination-about-country-header mb-0" style="background-image: url(../assets/image/study-destinations/about-country/destination-about-country-banner.svg);">
+    <section class="ias-header destination-about-country-header mb-0 h-344" style="background-image: url(../assets/image/study-destinations/about-country/destination-about-country-banner.svg);">
         <div class="container">
             <div class="col-md-12">
                 <div class="content-wrapper text-center">
@@ -44,7 +21,7 @@
     <!-- Filter E -->
 
     <!-- Destination Body Content Area S -->
-    <section class="destination-universities-area left-right-oval-shape py-80">
+    <section class="destination-universities-area left-right-oval-shape py-80 inset-upper-shadow">
         <div class="container">
             <div class="middle-card-box bg-white py-20 py-md-40 py-lg-80 px-10 px-md-40 px-lg-80">
                 <!-- Graduate Program -->
@@ -52,9 +29,9 @@
                 <div class="table-responsive mb-50">
                     <table class="table w-100 border-0 table-hover border-light">
                         <thead>
-                            <tr class="with-light-blue-bg">
-                                <th class="w-50 border-light">Course Name</th>
-                                <th class="w-50 border-light">Course Fee</th>
+                            <tr>
+                                <th class="w-50 border-light with-light-blue-bg">Course Name</th>
+                                <th class="w-50 border-light with-light-blue-bg-2">Course Fee</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -87,9 +64,9 @@
                 <div class="table-responsive">
                     <table class="table w-100 border-0 table-hover border-light">
                         <thead>
-                            <tr class="with-light-blue-bg">
-                                <th class="w-50 border-light">Course Name</th>
-                                <th class="w-50 border-light">Course Fee</th>
+                            <tr>
+                                <th class="w-50 border-light with-light-blue-bg">Course Name</th>
+                                <th class="w-50 border-light with-light-blue-bg-2">Course Fee</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -126,9 +103,12 @@
     <!-- Footer E-->
 
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>
+    <script type="text/javascript" src="../assets/js/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.steps.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/custom.js"></script>
 </body>
 
