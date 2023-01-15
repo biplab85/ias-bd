@@ -85,6 +85,14 @@
             margin: 0 0 50px 0;
             box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
 
+            .form-check-label {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: #535968;
+            }
+
             &:last-child {
                 margin: 0;
             }
@@ -133,6 +141,14 @@
             border-radius: 10px;
             margin: 0 0 60px 0;
             box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+
+            .form-check-label {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: #535968;
+            }
 
             &:last-child {
                 margin: 0 0 0 0;

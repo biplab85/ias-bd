@@ -54,18 +54,11 @@
                         <div class="course-filter-card">
                             <h3 class="title">Program Level</h3>
                             <div>
-                                <div class="form-check p-0">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Undergraduate
-                                    </label>
-                                    <input class="form-check-input float-end" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                </div>
-                                <div class="form-check p-0">
-                                    <input class="form-check-input float-end" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">
-                                        Postgraduate
-                                    </label>
-                                </div>
+                                <label class="iasbd-radio right w-100">
+                                    <input type="radio" name="" value="">
+                                    <span class="checkmark"></span>
+                                    <span class="text form-check-label ">Remember me</span>
+                                </label>
                             </div>
                         </div>
                         <div class="course-filter-card">

@@ -25,29 +25,6 @@
     <?php include '../pages/menu.php'; ?>
     <!-- Menu Container E-->
 
-    <section class="ias-header m-0">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="content-wrapper mb-30 mb-md-0">
-                        <div class="content-header-section white">
-                            <h3 class="title">Fill Out the Form to Register </h3>
-                        </div>
-
-                        <div class="description">
-                            International Admission Service is one of the leading and trusted with education consultancy firms in Dhaka, Bangladesh. We simplify the in study abroad journey by connecting international students and the an best international academic institutions under one roof.
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 text-center text-md-end">
-                    <img src="../assets/image/admin-registration/admin-reg.svg" alt="" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <section class="admin-registration-section">
         <div class="container">

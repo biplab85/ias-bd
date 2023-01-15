@@ -188,17 +188,212 @@ a {
 	}
 }
 
-
 @keyframes MoveUpDown {
-	0%, 100% {
-	  bottom: 0;
+	0%,
+	100% {
+		bottom: 0;
 	}
 	50% {
-	  bottom: 100px;
+		bottom: 100px;
 	}
-  }
-  
-@keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
 }
+
+@keyframes mover {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
+
+/* The container */
+.iasbd-checkbox {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+	padding-left: 30px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+
+	.text{
+		position: relative;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		letter-spacing: 0.02em;
+		color: #535968;
+	}
+}
+
+/* Hide the browser's default checkbox */
+.iasbd-checkbox input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* Create a custom checkbox */
+.iasbd-checkbox .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.iasbd-checkbox:hover input ~ .checkmark {
+	background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.iasbd-checkbox input:checked ~ .checkmark {
+	background-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.iasbd-checkbox .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+.iasbd-checkbox input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.iasbd-checkbox .checkmark:after {
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 5px;
+	height: 10px;
+	margin: auto;
+	border: solid #000;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* The container */
+.iasbd-radio {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+	padding-left: 30px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	&.right{
+		padding: 0;
+		
+
+		.checkmark{
+			left: inherit;
+			right: 0;
+		}
+	}
+	
+
+	.text{
+		position: relative;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		letter-spacing: 0.02em;
+		color: #535968;
+	}
+}
+
+/* Hide the browser's default checkbox */
+.iasbd-radio input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+	
+}
+
+/* Create a custom checkbox */
+.iasbd-radio .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background-color: #fff;
+	border: 2px solid #535968;
+	border-radius: 100%;
+
+	
+}
+
+/* On mouse-over, add a grey background color */
+.iasbd-radio:hover input ~ .checkmark {
+	background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.iasbd-radio input:checked ~ .checkmark {
+	background-color: #fff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.iasbd-radio .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+.iasbd-radio input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.iasbd-radio .checkmark:after {
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 10px;
+	height: 10px;
+	margin: auto;
+	border-radius: 100%;
+	background-color: #535968;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+

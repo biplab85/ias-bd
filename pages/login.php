@@ -105,12 +105,11 @@
                         <div class="col-md-12">
                           <div class="mb-50 position-relative">
                             <div class="login-remember">
-                              <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                <label class="form-check-label" for="flexCheckChecked">
-                                  Remember me
-                                </label>
-                              </div>
+                              <label class="iasbd-checkbox">
+                                <input type="checkbox" name="" value="">
+                                <span class="checkmark"></span>
+                                <span class="text">Remember me</span>
+                              </label>
                               <div class="forgot-password">
                                 Forgot Password? <a href="#">Click here</a> to reset.
                               </div>
