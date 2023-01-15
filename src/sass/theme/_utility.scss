@@ -179,3 +179,26 @@ a {
 	}
 }
 
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+
+@keyframes MoveUpDown {
+	0%, 100% {
+	  bottom: 0;
+	}
+	50% {
+	  bottom: 100px;
+	}
+  }
+  
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}

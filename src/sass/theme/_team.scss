@@ -47,6 +47,15 @@
     overflow: hidden;
     padding: 0;
     margin-bottom: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.10);
+        z-index: 5;
+        transition: 0.5s;
+    }
 
     .skewed-bg {
         background: #1a73e8;
@@ -57,6 +66,10 @@
 
         &.black {
             background: #15234a;
+        }
+
+        &.teal {
+            background: #17A2B8;
         }
 
         .single-teams-top {

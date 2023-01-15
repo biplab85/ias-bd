@@ -62,14 +62,14 @@ const minifyJsTask = () => {
 const browsersyncServe = (cb) => {
     php.server({
         // change base url as per your project location
-        base: 'http://localhost/ias-bd/',
+        base: 'http://localhost/aditya/enamul/ias-bd/',
         port: 3006,
         keepalive: true,
     });
 
     browsersync.init({
         // change proxy url as per your project location
-        proxy: "http://localhost/ias-bd/",
+        proxy: "http://localhost/aditya/enamul/ias-bd/",
         baseDir: "./",
         notify: false,
     });

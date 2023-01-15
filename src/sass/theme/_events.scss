@@ -61,6 +61,15 @@
     border-radius: 10px;
     margin-bottom: 50px;
     border-bottom: 14px solid #ff8000;
+    position: relative;
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.15);
+        z-index: 5;
+        transition: 0.5s;
+    }
+
     .single-events-img {
         a {
             display: block;
@@ -227,6 +236,8 @@
                 list-style-type: none;
                 display: flex;
                 margin-bottom: 20px;
+                align-items: flex-start;
+                justify-content: space-between;
                 img {
                     margin-right: 5px;
                 }
@@ -510,12 +521,13 @@
         width: 700px;
         position: absolute;
         right: 90px;
-        bottom: -28px;
+        bottom: 0px;
         .slick-slide {
             margin-right: 15px;
         }
         .speakers-nav-image {
             border-radius: 15px;
+            cursor: pointer;
             img {
                 border: 10px solid transparent;
                 border-radius: 15px;
@@ -533,7 +545,7 @@
             height: 32px;
             border-radius: 50%;
             background: #f2f8ff;
-            top: -80px;
+            top: -50px;
             cursor: pointer;
             color: #15234a !important;
 

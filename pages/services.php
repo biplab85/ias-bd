@@ -24,7 +24,7 @@
     <!-- Menu Container E-->
 
 
-    <section class="service-header service-common" style="background-image: url(../assets/image/service/service-1.svg); ">
+    <section class="service-header service-common" style="background-image: url(../assets/image/service/service-1.svg); background-size: auto; ">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

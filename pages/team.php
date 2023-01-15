@@ -65,7 +65,7 @@
                     <strong>BBA</strong>
                   </p>
                   <div class="social-block">
-                    <img class="" src="../assets/image/success-story/share.svg">
+                    <img class="" src="../assets/image/share-white.svg">
                   </div>
                 </div>
 
@@ -113,7 +113,7 @@
         <!-- End Title -->
         <div class="d-flex justify-content-center">
           <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
+            <div class="skewed-bg teal">
               <div class="single-teams-top">
                 <h3 class="teams-name">H M Mashiur Rahman</h3>
                 <div class="teams-top-info">
@@ -122,7 +122,7 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="../assets/image/success-story/share.svg">
+                      <img class="" src="../assets/image/share-white.svg">
                     </div>
                   </div>
 
@@ -161,7 +161,7 @@
           <!-- End Single Teams -->
 
           <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
+            <div class="skewed-bg teal">
               <div class="single-teams-top">
                 <h3 class="teams-name">H M Mashiur Rahman</h3>
                 <div class="teams-top-info">
@@ -170,7 +170,7 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="../assets/image/success-story/share.svg">
+                      <img class="" src="../assets/image/share-white.svg">
                     </div>
                   </div>
 

@@ -28,14 +28,14 @@
   <section class="events-details-header">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="events-header-content">
-            <h4>Study Abroad</h4>
+            <h4 class="ps-0">Study Abroad</h4>
             <div class="workshop-img">
               <img class="" src="../assets/image/events/details/h1.png">
             </div>
-            <ul>
-              <li>
+            <ul class="p-0">
+              <li class="">
                 <div class="date">
                   <img class="" src="../assets/image/events/details/cal.svg">
                   <span>Aug 18, 2022</span>
@@ -46,7 +46,7 @@
                 </div>
               </li>
               <li>
-                <img class="" src="../assets/image/events/details/clock.svg">
+                <img class="" src="../assets/image/events/details/location.svg">
                 <span>Gulshan Club Ltd, Gulshan 2, Dhaka 1212, Bangladesh.</span>
               </li>
             </ul>

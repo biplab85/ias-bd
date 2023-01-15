@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">    
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">
     <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
@@ -34,7 +36,17 @@
     <!-- Site Slider E-->
 
     <section class="study-abroad-consultant">
-        <img class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s" src="assets/image/study-abroad-consultant.svg" alt="" title="" />
+        <div class="tstanimation wow fadeInLeft" id="studyAbroadConsultant"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('studyAbroadConsultant'),
+                path: 'assets/json/secondimage.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
+       
         <div class="content wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
             <div class="header-section">
                 <h3 class="title">Study Abroad Consultant</h3>

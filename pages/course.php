@@ -34,6 +34,7 @@
                     <div class="course-seach-form">
                         <form>
                             <input type="text" name="" value="" placeholder="Enter Course Name" />
+                            <button></button>
                         </form>
                     </div>
                 </div>
