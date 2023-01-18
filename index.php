@@ -36,17 +36,19 @@
     <!-- Site Slider E-->
 
     <section class="study-abroad-consultant">
-        <div class="tstanimation wow fadeInLeft" id="studyAbroadConsultant"></div>
-        <script>
-            var animation = bodymovin.loadAnimation({
-                container: document.getElementById('studyAbroadConsultant'),
-                path: 'assets/json/secondimage.json',
-                render: 'svg',
-                loop: true,
-                autoplay: true,
-            });
-        </script>
-       
+        <div class="study-abroad-consultant-img">
+            <div class="study-abroad-consultant-json wow fadeInLeft" id="studyAbroadConsultant"></div>
+            <script>
+                var animation = bodymovin.loadAnimation({
+                    container: document.getElementById('studyAbroadConsultant'),
+                    path: 'assets/json/secondimage.json',
+                    render: 'svg',
+                    loop: true,
+                    autoplay: true,
+                });
+            </script>
+        </div>
+
         <div class="content wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
             <div class="header-section">
                 <h3 class="title">Study Abroad Consultant</h3>

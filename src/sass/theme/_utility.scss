@@ -219,9 +219,8 @@ a {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	
 
-	.text{
+	.text {
 		position: relative;
 		font-style: normal;
 		font-weight: 400;
@@ -290,16 +289,6 @@ a {
 	transform: rotate(45deg);
 }
 
-
-
-
-
-
-
-
-
-
-
 /* The container */
 .iasbd-radio {
 	display: inline-flex;
@@ -313,18 +302,16 @@ a {
 	-ms-user-select: none;
 	user-select: none;
 
-	&.right{
+	&.right {
 		padding: 0;
-		
 
-		.checkmark{
+		.checkmark {
 			left: inherit;
 			right: 0;
 		}
 	}
-	
 
-	.text{
+	.text {
 		position: relative;
 		font-style: normal;
 		font-weight: 400;
@@ -341,7 +328,6 @@ a {
 	cursor: pointer;
 	height: 0;
 	width: 0;
-	
 }
 
 /* Create a custom checkbox */
@@ -354,8 +340,6 @@ a {
 	background-color: #fff;
 	border: 2px solid #535968;
 	border-radius: 100%;
-
-	
 }
 
 /* On mouse-over, add a grey background color */
@@ -397,3 +381,19 @@ a {
 	transform: rotate(45deg);
 }
 
+.study-abroad-consultant-img {
+	position: relative;
+
+	.study-abroad-consultant-json {
+		position: relative;
+		left: -79px;
+	}
+}
+
+.backgorund-center{
+	background-position: center;
+}
+
+.backgorund-repeat{
+	background-repeat: repeat;
+}

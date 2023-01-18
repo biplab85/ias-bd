@@ -1,9 +1,255 @@
 .blog-container-section {
     padding: 0;
-    
+
     .card {
         margin: 0 0 50px 0;
     }
 }
 
+.blog-details-container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 80px 0 0 0;
 
+    .blog-left-aside {
+        width: 835px;
+
+        .blog-details-img {
+            margin: 0 0 70px 0;
+        }
+
+        .title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 45px;
+            letter-spacing: 0.05em;
+            color: #000c2e;
+            margin: 0 0 40px 0;
+        }
+
+        .blog-details-info {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 0 0 54px 0;
+
+            div {
+                margin: 0 40px 0 0;
+
+                img {
+                    margin: 0 10px 0 0;
+                }
+
+                .flag {
+                    width: 48px;
+                    height: 26px;
+                }
+
+                span {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #000c2e;
+                }
+            }
+        }
+
+        .blog-details-desc {
+            margin: 0 0 40px 0;
+
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                text-align: justify;
+                color: #535968;
+                margin: 0 0 25px 0;
+            }
+
+            h3 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 35px;
+                margin: 0 0 25px 0;
+                text-align: justify;
+                color: #535968;
+            }
+        }
+
+        .tag-share {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 0 80px 0;
+        }
+    }
+
+    .blog-right-aside {
+        width: 325px;
+
+        .related-blog-list {
+            margin: 0 0 50px 0;
+            .related-blog-title {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: 0.02em;
+                color: #000c2e;
+                border-bottom: 1px solid #7490dd;
+                padding: 0 0 7px 0;
+                margin: 0 0 30px 0;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    background: #ffffff;
+                    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.06);
+                    border-radius: 10px 0 10px 0;
+                    margin: 0 0 30px 0;
+
+                    a {
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+                        align-items: center;
+                        justify-content: flex-start;
+
+                        .img {
+                            width: 116px;
+                            height: 123px;
+                            margin: 0 15px 0 0;
+
+                            img {
+                                border-radius: 10px 0 0 10px;
+                            }
+                        }
+
+                        .desc {
+                            h3 {
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 18px;
+                                color: #000c2e;
+                            }
+
+                            p {
+                                font-family: "Inter";
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: #535968;
+                                margin: 0 0 10px 0;
+                            }
+
+                            .info {
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+
+                                div {
+                                    margin: 0 10px 0 0;
+                                }
+
+                                span {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    color: #000c2e;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.iasb-tag {
+    span {
+        display: inline-flex;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 17px;
+        height: 24px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 9px 15px 0;
+        padding: 0 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+        color: #535968;
+
+        &.active {
+            background-color: #15234a;
+            color: #fff;
+        }
+    }
+}
+
+.blog-details-consultations-from {
+    .content {
+        margin: 0 0 0 30px !important;
+
+        h2 {
+            font-weight: 700 !important;
+            font-size: 22px !important;
+            line-height: 35px !important;
+            text-align: justify;
+            letter-spacing: 0.05em !important;
+        }
+    }
+}
+
+.country-list {
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        li {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12) !important;
+            border-radius: 20px 15px 15px 20px !important;
+            width: 48%;
+            margin: 0 0 15px 0;
+
+            a {
+                div {
+                    img {
+                        margin: 0 10px 0 0;
+                    }
+                }
+
+                .name {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #000c2e;
+                }
+            }
+        }
+    }
+}
