@@ -23,6 +23,20 @@
     <?php include '../pages/menu.php'; ?>
     <!-- Menu Container E-->
 
+    <section class="ias-header top-bg h-345 mb-0" style="background-image: url(../assets/image/service/service-details-bg.svg);">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="content-wrapper text-center">
+                    <div class="content-header-section white text-center">
+                        <h3 class="title with-bg d-inline-block mx-auto">Career Counselling</h3>
+                    </div>
+
+                    <div class="description with-transparent-bg text-center mx-auto d-inline-block px-15">Lorem Ipsum is simply dummy text of the printing and<br>typesetting industry.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Career Counselling S -->
     <section class="career-counselling-section">
         <div class="container">

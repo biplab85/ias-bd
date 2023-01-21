@@ -257,5 +257,22 @@
 .wizard > .loading .spinner{
 }
 
+.admin-registration-forms .steps ul li{
+    position: relative;
+}
+
+.admin-registration-forms .steps ul li.current a .number{
+    background-color: #FF8000;
+}
+.admin-registration-forms .steps ul li.current a .step-number{
+    color: #FF8000;
+}
+.admin-registration-forms .steps ul li.done a .number{
+    background-color: #FF8000;
+}
+.admin-registration-forms .steps ul li.done a .step-number{
+    color: #FF8000;
+}
+
 
 
