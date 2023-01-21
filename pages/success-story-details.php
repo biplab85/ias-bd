@@ -72,12 +72,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div>
+                            <div class="details-desc">
+                                <div class="info">
                                     <h3>Samia Rahman</h3>
                                     <p>Masters of Business Administration in Management ( MBA - MIS )</p>
                                 </div>
-                                <div>
+                                <div class="desc">
                                     Big Congratulations to Samia Rahman for achieving United States of America (USA) Study Permit to pursue Masters of Business Administration in Management Information Systems (MBA-MIS). Samia Rahman graduated with an excellent CGPA. We (International Admission Service) wish you all the best to Samia Rahman Visit International Admission Service & meet our professional consultant to discuss your career prospect.
                                 </div>
                             </div>
@@ -110,18 +110,27 @@
                                     </div>
                                 </div>
                             </div>
-                            <section class="consultations-from blog-details-consultations-from">
+                            <section class="success-story-details-consultations-from">
                                 <div class="consultations-from-container">
-                                    <div class="img-container">
-                                        <img class="" src="../assets/image/blog/blog-details-bott0m.svg" alt="" title="">
-                                    </div>
                                     <div class="content">
-                                        <h2>Want to get the right direction? Make an appointment</h2>
-                                        <p>
-                                            Just book an appointment and get the advise from our experts to transform your dream into reality.
-                                        </p>
-                                        <div class="btn-container">
-                                            <a class="ias-btn outline shadow-none" href="#">Book Appointment Now</a>
+                                        <h2>Talk to an Expert in your City. You Could Be the Next.</h2>
+                                        <div>
+                                            <ul>
+                                                <li>
+                                                    <div> <img class="" src="../assets/image/success-story/call.svg" alt="" title=""></div>
+                                                    <span>8801711875240</span>
+                                                </li>
+                                                <li>
+                                                    <div><img class="" src="../assets/image/success-story/mail.svg" alt="" title=""></div>
+                                                    <span>info@iasbd.co.uk</span>
+                                                </li>
+                                                <li>
+                                                    <div><img class="" src="../assets/image/success-story/location.svg" alt="" title=""></div>
+                                                    <span>House No: 313, Road No: 21
+                                                        Mohakhali DOHS, Dhaka: 1212</span>
+                                                </li>
+                                            </ul>
+                                            <a class="book-appointent" href="#">Book Appointment Now <img class="" src="../assets/image/success-story/teal-calender.svg" alt="" title=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -132,26 +141,34 @@
             </div>
             <div class="success-story-right-aside">
                 <div class="related-blog-list">
-                    <h3 class="related-blog-title">Blog About Australia</h3>
+                    <h3 class="related-blog-title">Australia Success Stories</h3>
                     <div class="related-list">
                         <ul>
                             <li>
                                 <a href="">
-                                    <div class="img">
-                                        <img src="../assets/image/blog/test.png" alt="">
+                                    <div class="banner">
+                                        <img class="banner-bg" src="../assets/image/success-story/small-bg.svg" alt="" title="">
+
+                                        <div class="auth-wrapper">
+                                            <div class="auth-container">
+                                                <img class="" src="../assets/image/success-story/Photo.svg" alt="" title="">
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div class="desc">
                                         <h3>
-                                            Lorem Ipsum dolor is a Simply Dummy Text
+                                            Shahbaz Ahmed
                                         </h3>
                                         <p>
-                                            Lorem Ipsum dolor is dummy text in the printing...
+                                            MBA in Management Info...
                                         </p>
                                         <div class="info">
-                                            <div>
-                                                <img class="" src="../assets/image/success-story/flag.svg" alt="" title="">
+                                            <div class="university-name">
+                                                <img class="flag-img" src="../assets/image/success-story/flag-round.svg" alt="" title="">
+                                                <span> University of Notre Dame </span>
                                             </div>
-                                            <div>
+                                            <div class="date">
                                                 <img class="" src="../assets/image/blog/calendar.svg" alt="" title="">
                                                 <span>Jun 02, 2022</span>
                                             </div>
@@ -161,21 +178,29 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <div class="img">
-                                        <img src="../assets/image/blog/test.png" alt="">
+                                    <div class="banner">
+                                        <img class="banner-bg" src="../assets/image/success-story/small-bg.svg" alt="" title="">
+
+                                        <div class="auth-wrapper">
+                                            <div class="auth-container">
+                                                <img class="" src="../assets/image/success-story/Photo.svg" alt="" title="">
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div class="desc">
                                         <h3>
-                                            Lorem Ipsum dolor is a Simply Dummy Text
+                                            Shahbaz Ahmed
                                         </h3>
                                         <p>
-                                            Lorem Ipsum dolor is dummy text in the printing...
+                                            MBA in Management Info...
                                         </p>
                                         <div class="info">
-                                            <div>
-                                                <img class="" src="../assets/image/success-story/flag.svg" alt="" title="">
+                                            <div class="university-name">
+                                                <img class="flag-img" src="../assets/image/success-story/flag-round.svg" alt="" title="">
+                                                <span> University of Notre Dame </span>
                                             </div>
-                                            <div>
+                                            <div class="date">
                                                 <img class="" src="../assets/image/blog/calendar.svg" alt="" title="">
                                                 <span>Jun 02, 2022</span>
                                             </div>
@@ -185,21 +210,29 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <div class="img">
-                                        <img src="../assets/image/blog/test.png" alt="">
+                                    <div class="banner">
+                                        <img class="banner-bg" src="../assets/image/success-story/small-bg.svg" alt="" title="">
+
+                                        <div class="auth-wrapper">
+                                            <div class="auth-container">
+                                                <img class="" src="../assets/image/success-story/Photo.svg" alt="" title="">
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div class="desc">
                                         <h3>
-                                            Lorem Ipsum dolor is a Simply Dummy Text
+                                            Shahbaz Ahmed
                                         </h3>
                                         <p>
-                                            Lorem Ipsum dolor is dummy text in the printing...
+                                            MBA in Management Info...
                                         </p>
                                         <div class="info">
-                                            <div>
-                                                <img class="" src="../assets/image/success-story/flag.svg" alt="" title="">
+                                            <div class="university-name">
+                                                <img class="flag-img" src="../assets/image/success-story/flag-round.svg" alt="" title="">
+                                                <span> University of Notre Dame </span>
                                             </div>
-                                            <div>
+                                            <div class="date">
                                                 <img class="" src="../assets/image/blog/calendar.svg" alt="" title="">
                                                 <span>Jun 02, 2022</span>
                                             </div>
@@ -209,21 +242,29 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <div class="img">
-                                        <img src="../assets/image/blog/test.png" alt="">
+                                    <div class="banner">
+                                        <img class="banner-bg" src="../assets/image/success-story/small-bg.svg" alt="" title="">
+
+                                        <div class="auth-wrapper">
+                                            <div class="auth-container">
+                                                <img class="" src="../assets/image/success-story/Photo.svg" alt="" title="">
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div class="desc">
                                         <h3>
-                                            Lorem Ipsum dolor is a Simply Dummy Text
+                                            Shahbaz Ahmed
                                         </h3>
                                         <p>
-                                            Lorem Ipsum dolor is dummy text in the printing...
+                                            MBA in Management Info...
                                         </p>
                                         <div class="info">
-                                            <div>
-                                                <img class="" src="../assets/image/success-story/flag.svg" alt="" title="">
+                                            <div class="university-name">
+                                                <img class="flag-img" src="../assets/image/success-story/flag-round.svg" alt="" title="">
+                                                <span> University of Notre Dame </span>
                                             </div>
-                                            <div>
+                                            <div class="date">
                                                 <img class="" src="../assets/image/blog/calendar.svg" alt="" title="">
                                                 <span>Jun 02, 2022</span>
                                             </div>
@@ -235,26 +276,34 @@
                     </div>
                 </div>
                 <div class="related-blog-list">
-                    <h3 class="related-blog-title">Featured Blogs</h3>
+                    <h3 class="related-blog-title">Featured Stories</h3>
                     <div class="related-list">
                         <ul>
                             <li>
                                 <a href="">
-                                    <div class="img">
-                                        <img src="../assets/image/blog/test.png" alt="">
+                                    <div class="banner">
+                                        <img class="banner-bg" src="../assets/image/success-story/small-bg.svg" alt="" title="">
+
+                                        <div class="auth-wrapper">
+                                            <div class="auth-container">
+                                                <img class="" src="../assets/image/success-story/Photo.svg" alt="" title="">
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div class="desc">
                                         <h3>
-                                            Lorem Ipsum dolor is a Simply Dummy Text
+                                            Shahbaz Ahmed
                                         </h3>
                                         <p>
-                                            Lorem Ipsum dolor is dummy text in the printing...
+                                            MBA in Management Info...
                                         </p>
                                         <div class="info">
-                                            <div>
-                                                <img class="" src="../assets/image/success-story/flag.svg" alt="" title="">
+                                            <div class="university-name">
+                                                <img class="flag-img" src="../assets/image/success-story/flag-round.svg" alt="" title="">
+                                                <span> University of Notre Dame </span>
                                             </div>
-                                            <div>
+                                            <div class="date">
                                                 <img class="" src="../assets/image/blog/calendar.svg" alt="" title="">
                                                 <span>Jun 02, 2022</span>
                                             </div>
@@ -264,21 +313,29 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <div class="img">
-                                        <img src="../assets/image/blog/test.png" alt="">
+                                    <div class="banner">
+                                        <img class="banner-bg" src="../assets/image/success-story/small-bg.svg" alt="" title="">
+
+                                        <div class="auth-wrapper">
+                                            <div class="auth-container">
+                                                <img class="" src="../assets/image/success-story/Photo.svg" alt="" title="">
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div class="desc">
                                         <h3>
-                                            Lorem Ipsum dolor is a Simply Dummy Text
+                                            Shahbaz Ahmed
                                         </h3>
                                         <p>
-                                            Lorem Ipsum dolor is dummy text in the printing...
+                                            MBA in Management Info...
                                         </p>
                                         <div class="info">
-                                            <div>
-                                                <img class="" src="../assets/image/success-story/flag.svg" alt="" title="">
+                                            <div class="university-name">
+                                                <img class="flag-img" src="../assets/image/success-story/flag-round.svg" alt="" title="">
+                                                <span> University of Notre Dame </span>
                                             </div>
-                                            <div>
+                                            <div class="date">
                                                 <img class="" src="../assets/image/blog/calendar.svg" alt="" title="">
                                                 <span>Jun 02, 2022</span>
                                             </div>
@@ -288,21 +345,29 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <div class="img">
-                                        <img src="../assets/image/blog/test.png" alt="">
+                                    <div class="banner">
+                                        <img class="banner-bg" src="../assets/image/success-story/small-bg.svg" alt="" title="">
+
+                                        <div class="auth-wrapper">
+                                            <div class="auth-container">
+                                                <img class="" src="../assets/image/success-story/Photo.svg" alt="" title="">
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div class="desc">
                                         <h3>
-                                            Lorem Ipsum dolor is a Simply Dummy Text
+                                            Shahbaz Ahmed
                                         </h3>
                                         <p>
-                                            Lorem Ipsum dolor is dummy text in the printing...
+                                            MBA in Management Info...
                                         </p>
                                         <div class="info">
-                                            <div>
-                                                <img class="" src="../assets/image/success-story/flag.svg" alt="" title="">
+                                            <div class="university-name">
+                                                <img class="flag-img" src="../assets/image/success-story/flag-round.svg" alt="" title="">
+                                                <span> University of Notre Dame </span>
                                             </div>
-                                            <div>
+                                            <div class="date">
                                                 <img class="" src="../assets/image/blog/calendar.svg" alt="" title="">
                                                 <span>Jun 02, 2022</span>
                                             </div>
@@ -312,21 +377,29 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <div class="img">
-                                        <img src="../assets/image/blog/test.png" alt="">
+                                    <div class="banner">
+                                        <img class="banner-bg" src="../assets/image/success-story/small-bg.svg" alt="" title="">
+
+                                        <div class="auth-wrapper">
+                                            <div class="auth-container">
+                                                <img class="" src="../assets/image/success-story/Photo.svg" alt="" title="">
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div class="desc">
                                         <h3>
-                                            Lorem Ipsum dolor is a Simply Dummy Text
+                                            Shahbaz Ahmed
                                         </h3>
                                         <p>
-                                            Lorem Ipsum dolor is dummy text in the printing...
+                                            MBA in Management Info...
                                         </p>
                                         <div class="info">
-                                            <div>
-                                                <img class="" src="../assets/image/success-story/flag.svg" alt="" title="">
+                                            <div class="university-name">
+                                                <img class="flag-img" src="../assets/image/success-story/flag-round.svg" alt="" title="">
+                                                <span> University of Notre Dame </span>
                                             </div>
-                                            <div>
+                                            <div class="date">
                                                 <img class="" src="../assets/image/blog/calendar.svg" alt="" title="">
                                                 <span>Jun 02, 2022</span>
                                             </div>
@@ -338,53 +411,6 @@
                     </div>
                 </div>
 
-                <div class="related-blog-list">
-                    <h3 class="related-blog-title">Related Countries</h3>
-                    <div class="country-list">
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <div>
-                                        <img src="../assets/image/blog/flag.png" alt="">
-                                    </div>
-                                    <div class="name">
-                                        New Zealand
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div>
-                                        <img src="../assets/image/blog/flag.png" alt="">
-                                    </div>
-                                    <div class="name">
-                                        New Zealand
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div>
-                                        <img src="../assets/image/blog/flag.png" alt="">
-                                    </div>
-                                    <div class="name">
-                                        New Zealand
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div>
-                                        <img src="../assets/image/blog/flag.png" alt="">
-                                    </div>
-                                    <div class="name">
-                                        New Zealand
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="related-blog-list">
                     <h3 class="related-blog-title">Related Tags</h3>
                     <div>

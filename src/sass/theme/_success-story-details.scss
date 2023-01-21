@@ -8,13 +8,11 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 80px 0 0 0;
-    border: 1px solid red;
 
     .success-story-left-aside {
         width: 835px;
 
         .banner {
-            border: 1px solid red;
             height: 550px;
             position: relative;
             background-color: #1a3270;
@@ -55,8 +53,7 @@
             }
         }
 
-        .info-wrapper {            
-
+        .info-wrapper {
             .name {
                 font-style: normal;
                 font-weight: 700;
@@ -145,6 +142,39 @@
             justify-content: space-between;
             margin: 0 0 80px 0;
         }
+
+        .details-desc {
+            margin: 0 0 50px 0;
+
+            .info {
+                margin: 0 0 35px 0;
+                h3 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 35px;
+                    text-align: justify;
+                    color: #535968;
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    text-align: justify;
+                    color: #535968;
+                }
+            }
+
+            .desc {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: #535968;
+            }
+        }
     }
 
     .success-story-right-aside {
@@ -183,6 +213,55 @@
                         align-items: center;
                         justify-content: flex-start;
 
+                        .banner {
+                            height: 125px;
+                            width: 125px;
+                            position: relative;
+                            background-color: #1a3270;
+                            margin: 0 15px 0 0;
+                            border-radius: 10px 0 0 0;
+
+                            .banner-bg {
+                                height: 100%;
+                                position: relative;
+                                z-index: 1;
+                                width: 100%;
+                            }
+
+                            .auth-wrapper {
+                                width: 100px;
+                                height: 100px;
+                                background-color: #263c77;
+                                border-radius: 100%;
+                                position: absolute;
+                                right: 0;
+                                left: 0;
+                                margin: auto;
+                                top: 0;
+                                bottom: 0;
+                                overflow: hidden;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                .auth-container {
+                                    background-color: #45588a;
+                                    width: 90px;
+                                    height: 90px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border-radius: 100%;
+
+                                    img {
+                                        width: 90px;
+                                        height: 90px;
+                                        border-radius: 100%;
+                                    }
+                                }
+                            }
+                        }
+
                         .img {
                             width: 116px;
                             height: 123px;
@@ -215,12 +294,47 @@
                             }
 
                             .info {
-                                display: flex;
-                                align-items: center;
-                                justify-content: flex-start;
+                                display: block;
 
-                                div {
-                                    margin: 0 10px 0 0;
+                                .university-name {
+                                    margin: 0 0 10px 0;
+                                    display: flex;
+                                    align-items: center;
+
+                                    img {
+                                        width: 20px;
+                                        height: 20px;
+                                        border-radius: 100%;
+                                        margin: 0 10px 0 0;
+                                    }
+
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 10px;
+                                        line-height: 12px;
+                                        color: #535968;
+                                    }
+                                }
+
+                                .date {
+                                    margin: 0 0 0 0;
+                                    display: flex;
+                                    align-items: center;
+
+                                    img {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 0 10px 0 0;
+                                    }
+
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 10px;
+                                        line-height: 12px;
+                                        color: #535968;
+                                    }
                                 }
 
                                 span {
@@ -307,6 +421,83 @@
                     font-size: 14px;
                     line-height: 17px;
                     color: #000c2e;
+                }
+            }
+        }
+    }
+}
+
+.success-story-details-consultations-from {
+    background-image: url(../image/success-story/bg-reg.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #17a2b8;
+    border-radius: 13.9333px;
+    width: 100%;
+    position: relative;
+    height: 280px;
+
+    .consultations-from-container {
+        position: absolute;
+        width: 303.47px;
+        top: 30px;
+        left: 60px;
+
+        .content {
+            h2 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 34px;
+                letter-spacing: 0.05em;
+                color: #ffffff;
+                margin: 0 0 12px 0;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0 0 17px 0;
+                padding: 0;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin: 0 0 10px 0;
+
+                    img {
+                        margin: 0 7px 0 0;
+                    }
+
+                    span {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 10px;
+                        line-height: 12px;
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            .book-appointent {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 195.07px;
+                height: 39.01px;
+                background-color: #ffffff;
+                box-shadow: 0px 10.45px 27.8667px -10.45px #001347;
+                border-radius: 5.57333px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #17a2b8;
+
+                img{
+                    margin: 0 0 0 10px;
                 }
             }
         }
