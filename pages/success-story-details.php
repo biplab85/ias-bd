@@ -40,32 +40,32 @@
             <div class="success-story-left-aside">
                 <div>
                     <div class="banner">
-                        <img class="banner-bg" src="../assets/image/success-story/banner-bg.svg" alt="" title="">
+                        <img class="banner-bg" src="../assets/image/success-story/bg.svg" alt="" title="">
 
                         <div class="auth-wrapper">
                             <div class="auth-container">
-                                <img class="" src="../assets/image/success-story/170X170.jpg" alt="" title="">
+                                <img class="" src="../assets/image/success-story/Photo.svg" alt="" title="">
                             </div>
                         </div>
 
                     </div>
 
-                    <div>
-                        <h3>Big Congratulations to <span> SAMIA RAHMAN</span></h3>
+                    <div class="info-wrapper">
+                        <h3 class="name">Big Congratulations to <span> SAMIA RAHMAN</span></h3>
                         <div>
-                            <div>
-                                <div>
-                                    <img class="banner-bg" src="../assets/image/success-story/flag-round.svg" alt="" title="">
+                            <div class="basic">
+                                <div class="left-asside">
+                                    <img class="flag-img" src="../assets/image/success-story/flag-round.svg" alt="" title="">
                                     <div>
-                                        <h3>University of Notre Dame</h3>
-                                        <div>
-                                            <img class="banner-bg" src="../assets/image/success-story/pin.svg" alt="" title="">
+                                        <h3 class="un-name">University of Notre Dame</h3>
+                                        <div class="location">
+                                            <img class="" src="../assets/image/success-story/pin.svg" alt="" title="">
                                             140 Broadway, Chippendale NSW
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <img class="banner-bg" src="../assets/image/success-story/scholarship.svg" alt="" title="">
+                                <div class="right-asside">
+                                    <img class="" src="../assets/image/success-story/scholarship.svg" alt="" title="">
                                     <div>
                                         <h3>Scholarship awarded $5,000</h3>
                                         <p>Tution fees in total $30,000</p>
@@ -113,7 +113,7 @@
                             <section class="consultations-from blog-details-consultations-from">
                                 <div class="consultations-from-container">
                                     <div class="img-container">
-                                        <img class="banner-bg" src="../assets/image/blog/blog-details-bott0m.svg" alt="" title="">
+                                        <img class="" src="../assets/image/blog/blog-details-bott0m.svg" alt="" title="">
                                     </div>
                                     <div class="content">
                                         <h2>Want to get the right direction? Make an appointment</h2>
