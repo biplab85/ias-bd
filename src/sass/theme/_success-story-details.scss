@@ -1,20 +1,17 @@
-.blog-container-section {
-    padding: 0;
 
-    .card {
-        margin: 0 0 50px 0;
-    }
+.success-container{
+    background-color: #F1F6FE;
 }
-
-.blog-details-container {
+.success-story-details-container {
     width: 1200px;
     margin: auto;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     padding: 80px 0 0 0;
+    border: 1px solid red;
 
-    .blog-left-aside {
+    .success-story-left-aside {
         width: 835px;
 
         .blog-details-img {
@@ -91,7 +88,7 @@
         }
     }
 
-    .blog-right-aside {
+    .success-story-right-aside {
         width: 325px;
 
         .related-blog-list {
