@@ -67,15 +67,15 @@
                         <div class="card-header">
                             <div class="left-asside">
                                 <span>Duke</span>
-                                <a href="#">Duke University</a>
+                                <a href="../pages/success-story-details.php">Duke University</a>
                             </div>
                             <div class="right-asside">
-                                <a href="#">
+                                <a href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/plane.svg" alt="" title="">
                                     </i>
                                 </a>
-                                <a class="glob" href="#">
+                                <a class="glob" href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/glob.svg" alt="" title="">
                                     </i>
@@ -109,7 +109,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="../pages/success-story-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -130,15 +130,15 @@
                         <div class="card-header">
                             <div class="left-asside">
                                 <span>Duke</span>
-                                <a href="#">Duke University</a>
+                                <a href="../pages/success-story-details.php">Duke University</a>
                             </div>
                             <div class="right-asside">
-                                <a href="#">
+                                <a href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/plane.svg" alt="" title="">
                                     </i>
                                 </a>
-                                <a class="glob" href="#">
+                                <a class="glob" href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/glob.svg" alt="" title="">
                                     </i>
@@ -172,7 +172,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="../pages/success-story-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -193,15 +193,15 @@
                         <div class="card-header">
                             <div class="left-asside">
                                 <span>Duke</span>
-                                <a href="#">Duke University</a>
+                                <a href="../pages/success-story-details.php">Duke University</a>
                             </div>
                             <div class="right-asside">
-                                <a href="#">
+                                <a href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/plane.svg" alt="" title="">
                                     </i>
                                 </a>
-                                <a class="glob" href="#">
+                                <a class="glob" href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/glob.svg" alt="" title="">
                                     </i>
@@ -254,7 +254,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="../pages/success-story-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -275,15 +275,15 @@
                         <div class="card-header">
                             <div class="left-asside">
                                 <span>Duke</span>
-                                <a href="#">Duke University</a>
+                                <a href="../pages/success-story-details.php">Duke University</a>
                             </div>
                             <div class="right-asside">
-                                <a href="#">
+                                <a href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/plane.svg" alt="" title="">
                                     </i>
                                 </a>
-                                <a class="glob" href="#">
+                                <a class="glob" href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/glob.svg" alt="" title="">
                                     </i>
@@ -317,7 +317,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="../pages/success-story-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -338,15 +338,15 @@
                         <div class="card-header">
                             <div class="left-asside">
                                 <span>Duke</span>
-                                <a href="#">Duke University</a>
+                                <a href="../pages/success-story-details.php">Duke University</a>
                             </div>
                             <div class="right-asside">
-                                <a href="#">
+                                <a href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/plane.svg" alt="" title="">
                                     </i>
                                 </a>
-                                <a class="glob" href="#">
+                                <a class="glob" href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/glob.svg" alt="" title="">
                                     </i>
@@ -380,7 +380,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="../pages/success-story-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -401,15 +401,15 @@
                         <div class="card-header">
                             <div class="left-asside">
                                 <span>Duke</span>
-                                <a href="#">Duke University</a>
+                                <a href="../pages/success-story-details.php">Duke University</a>
                             </div>
                             <div class="right-asside">
-                                <a href="#">
+                                <a href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/plane.svg" alt="" title="">
                                     </i>
                                 </a>
-                                <a class="glob" href="#">
+                                <a class="glob" href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/glob.svg" alt="" title="">
                                     </i>
@@ -462,7 +462,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="../pages/success-story-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -483,15 +483,15 @@
                         <div class="card-header">
                             <div class="left-asside">
                                 <span>Duke</span>
-                                <a href="#">Duke University</a>
+                                <a href="../pages/success-story-details.php">Duke University</a>
                             </div>
                             <div class="right-asside">
-                                <a href="#">
+                                <a href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/plane.svg" alt="" title="">
                                     </i>
                                 </a>
-                                <a class="glob" href="#">
+                                <a class="glob" href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/glob.svg" alt="" title="">
                                     </i>
@@ -525,7 +525,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="../pages/success-story-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -546,15 +546,15 @@
                         <div class="card-header">
                             <div class="left-asside">
                                 <span>Duke</span>
-                                <a href="#">Duke University</a>
+                                <a href="../pages/success-story-details.php">Duke University</a>
                             </div>
                             <div class="right-asside">
-                                <a href="#">
+                                <a href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/plane.svg" alt="" title="">
                                     </i>
                                 </a>
-                                <a class="glob" href="#">
+                                <a class="glob" href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/glob.svg" alt="" title="">
                                     </i>
@@ -588,7 +588,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="../pages/success-story-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -609,15 +609,15 @@
                         <div class="card-header">
                             <div class="left-asside">
                                 <span>Duke</span>
-                                <a href="#">Duke University</a>
+                                <a href="../pages/success-story-details.php">Duke University</a>
                             </div>
                             <div class="right-asside">
-                                <a href="#">
+                                <a href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/plane.svg" alt="" title="">
                                     </i>
                                 </a>
-                                <a class="glob" href="#">
+                                <a class="glob" href="../pages/success-story-details.php">
                                     <i class="icon">
                                         <img src="../assets/image/success-story/glob.svg" alt="" title="">
                                     </i>
@@ -670,7 +670,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="../pages/success-story-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -679,7 +679,7 @@
         <div class="row wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInDown;">
             <div class="col-md-12">
                 <div class="btn-container text-center">
-                    <a class="ias-btn" href="#">View More Stories</a>
+                    <a class="ias-btn" href="../pages/success-story-details.php">View More Stories</a>
                 </div>
             </div>
         </div>

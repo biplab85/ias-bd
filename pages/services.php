@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">    
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
@@ -54,7 +56,7 @@
                             Now a day it is very hard to search professional student consultancy firm. We come for career advice and career counseling firm. It is one of the best education, consulting firm in Bangladesh.
                             We will review your academic, professional, financial circumstances along with your future study & career plan. According to your needs, we will assist you in selecting suitable course, place of study & all other related issues. You will get proper guidance from us which will fully comply with the update visa requirements.
                         </p>
-                        <a class="ias-btn" href="#">Read more</a>
+                        <a class="ias-btn" href="../pages/service-details.php">Read more</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +75,7 @@
                             Now a day it is very hard to search professional student consultancy firm. We come for career advice and career counseling firm. It is one of the best education, consulting firm in Bangladesh.
                             We will review your academic, professional, financial circumstances along with your future study & career plan. According to your needs, we will assist you in selecting suitable course, place of study & all other related issues. You will get proper guidance from us which will fully comply with the update visa requirements.
                         </p>
-                        <a class="ias-btn" href="#">Read more</a>
+                        <a class="ias-btn" href="../pages/service-details.php">Read more</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +94,7 @@
                             Now a day it is very hard to search professional student consultancy firm. We come for career advice and career counseling firm. It is one of the best education, consulting firm in Bangladesh.
                             We will review your academic, professional, financial circumstances along with your future study & career plan. According to your needs, we will assist you in selecting suitable course, place of study & all other related issues. You will get proper guidance from us which will fully comply with the update visa requirements.
                         </p>
-                        <a class="ias-btn" href="#">Read more</a>
+                        <a class="ias-btn" href="../pages/service-details.php">Read more</a>
                     </div>
                 </div>
             </div>
@@ -111,7 +113,7 @@
                             Now a day it is very hard to search professional student consultancy firm. We come for career advice and career counseling firm. It is one of the best education, consulting firm in Bangladesh.
                             We will review your academic, professional, financial circumstances along with your future study & career plan. According to your needs, we will assist you in selecting suitable course, place of study & all other related issues. You will get proper guidance from us which will fully comply with the update visa requirements.
                         </p>
-                        <a class="ias-btn" href="#">Read more</a>
+                        <a class="ias-btn" href="../pages/service-details.php">Read more</a>
                     </div>
                 </div>
             </div>
@@ -130,7 +132,7 @@
                             Now a day it is very hard to search professional student consultancy firm. We come for career advice and career counseling firm. It is one of the best education, consulting firm in Bangladesh.
                             We will review your academic, professional, financial circumstances along with your future study & career plan. According to your needs, we will assist you in selecting suitable course, place of study & all other related issues. You will get proper guidance from us which will fully comply with the update visa requirements.
                         </p>
-                        <a class="ias-btn" href="#">Read more</a>
+                        <a class="ias-btn" href="../pages/service-details.php">Read more</a>
                     </div>
                 </div>
             </div>
@@ -149,7 +151,7 @@
                             Now a day it is very hard to search professional student consultancy firm. We come for career advice and career counseling firm. It is one of the best education, consulting firm in Bangladesh.
                             We will review your academic, professional, financial circumstances along with your future study & career plan. According to your needs, we will assist you in selecting suitable course, place of study & all other related issues. You will get proper guidance from us which will fully comply with the update visa requirements.
                         </p>
-                        <a class="ias-btn" href="#">Read more</a>
+                        <a class="ias-btn" href="../pages/service-details.php">Read more</a>
                     </div>
                 </div>
             </div>
@@ -168,7 +170,7 @@
                             Now a day it is very hard to search professional student consultancy firm. We come for career advice and career counseling firm. It is one of the best education, consulting firm in Bangladesh.
                             We will review your academic, professional, financial circumstances along with your future study & career plan. According to your needs, we will assist you in selecting suitable course, place of study & all other related issues. You will get proper guidance from us which will fully comply with the update visa requirements.
                         </p>
-                        <a class="ias-btn" href="#">Read more</a>
+                        <a class="ias-btn" href="../pages/service-details.php">Read more</a>
                     </div>
                 </div>
             </div>
@@ -187,7 +189,7 @@
                             Now a day it is very hard to search professional student consultancy firm. We come for career advice and career counseling firm. It is one of the best education, consulting firm in Bangladesh.
                             We will review your academic, professional, financial circumstances along with your future study & career plan. According to your needs, we will assist you in selecting suitable course, place of study & all other related issues. You will get proper guidance from us which will fully comply with the update visa requirements.
                         </p>
-                        <a class="ias-btn" href="#">Read more</a>
+                        <a class="ias-btn" href="../pages/service-details.php">Read more</a>
                     </div>
                 </div>
             </div>
@@ -206,7 +208,7 @@
                             Now a day it is very hard to search professional student consultancy firm. We come for career advice and career counseling firm. It is one of the best education, consulting firm in Bangladesh.
                             We will review your academic, professional, financial circumstances along with your future study & career plan. According to your needs, we will assist you in selecting suitable course, place of study & all other related issues. You will get proper guidance from us which will fully comply with the update visa requirements.
                         </p>
-                        <a class="ias-btn" href="#">Read more</a>
+                        <a class="ias-btn" href="../pages/service-details.php">Read more</a>
                     </div>
                 </div>
             </div>
@@ -221,11 +223,12 @@
 
 
 
-    <script src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
-    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
-    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/custom.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="../assets/js/custom.js"></script>
 </body>
 
 </html>

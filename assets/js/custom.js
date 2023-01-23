@@ -160,7 +160,6 @@ $(document).ready(function () {
     }
     //Share button open~close E
 
-
     jQuery('.stellarnav').stellarNav({
         theme: 'light',
         breakpoint: 960,

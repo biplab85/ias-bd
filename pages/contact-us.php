@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IASBD</title>
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">
+  <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
   <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
@@ -118,7 +120,7 @@
 
             <div class="map-block position-relative overflow-hidden mb-0">
               <div class="map-overlay">
-                <a href="#" class="map-play">
+                <a href="../pages/team-detail.php" class="map-play">
                   <img class="" src="../assets/image/contact-us/icon/play-icon.png" alt="" title="">
                 </a>
               </div>
@@ -180,7 +182,7 @@
             </ul>
 
             <div class="btn-container">
-              <a class="w-100 ias-btn outline shadow-none" href="#">More About Mashiur</a>
+              <a class="w-100 ias-btn outline shadow-none" href="../pages/team-detail.php">More About Mashiur</a>
             </div>
           </div>
           <!-- End Footer-->
@@ -228,7 +230,7 @@
             </ul>
 
             <div class="btn-container">
-              <a class="w-100 ias-btn outline shadow-none" href="#">More About Mashiur</a>
+              <a class="w-100 ias-btn outline shadow-none" href="../pages/team-detail.php">More About Mashiur</a>
             </div>
           </div>
           <!-- End Footer-->
@@ -276,7 +278,7 @@
             </ul>
 
             <div class="btn-container">
-              <a class="w-100 ias-btn outline shadow-none" href="#">More About Mashiur</a>
+              <a class="w-100 ias-btn outline shadow-none" href="../pages/team-detail.php">More About Mashiur</a>
             </div>
           </div>
           <!-- End Footer-->
@@ -324,7 +326,7 @@
             </ul>
 
             <div class="btn-container">
-              <a class="w-100 ias-btn outline shadow-none" href="#">More About Mashiur</a>
+              <a class="w-100 ias-btn outline shadow-none" href="../pages/team-detail.php">More About Mashiur</a>
             </div>
           </div>
           <!-- End Footer-->
@@ -452,7 +454,7 @@
           </li>
         </ul>
 
-        <a href="#" class="appointment-btn m-0">Book Appointment Now</a>
+        <a href="../pages/team-detail.php" class="appointment-btn m-0">Book Appointment Now</a>
       </div>
     </div>
   </section>
@@ -469,7 +471,8 @@
   <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
-  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/custom.js"></script>
+  <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
+  <script type="text/javascript" src="../assets/js/custom.js"></script>
 </body>
 
 </html>

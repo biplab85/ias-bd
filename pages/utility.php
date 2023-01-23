@@ -31,12 +31,22 @@
             <span class="checkmark"></span>
             <span class="text">Remember me</span>
         </label>
-
+        <br>
+        <br>
+        <br>
         <label class="iasbd-radio right">
             <input type="radio">
             <span class="checkmark"></span>
             <span class="text">Remember me</span>
         </label>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="wrap">
+        <button class="animate">Submit</button>
     </div>
 
     <!-- Footer S-->

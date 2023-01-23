@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
-    <link rel="stylesheet" href="../assets/css/jquery.steps.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" type="text/css" href="../assets/css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="../assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">    
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
 <body>
 
@@ -80,13 +80,13 @@
             <div class="col-md-4">
               <div class="single-events">
                   <div class="single-events-img">
-                    <a href="#">
+                    <a href="../pages/events-details.php">
                       <img class="" src="../assets/image/events/01.jpg">
                     </a>
                   </div>
                   <div class="single-events-info">
-                      <a href="#" class="single-events-btn">Upcoming Event</a>
-                      <h4><a href="#">Study Abroad-Workshop</a></h4>
+                      <a href="../pages/events-details.php" class="single-events-btn">Upcoming Event</a>
+                      <h4><a href="../pages/events-details.php">Study Abroad-Workshop</a></h4>
                       <div class="date-social">
                         <ul>
                           <li>
@@ -141,13 +141,13 @@
             <div class="col-md-4">
               <div class="single-events ongoing-event">
                   <div class="single-events-img">
-                    <a href="#">
+                    <a href="../pages/events-details.php">
                       <img class="" src="../assets/image/events/01.jpg">
                     </a>
                   </div>
                   <div class="single-events-info">
-                      <a href="#" class="single-events-btn">Upcoming Event</a>
-                      <h4><a href="#">Study Abroad-Workshop</a></h4>
+                      <a href="../pages/events-details.php" class="single-events-btn">Upcoming Event</a>
+                      <h4><a href="../pages/events-details.php">Study Abroad-Workshop</a></h4>
                       <div class="date-social">
                         <ul>
                           <li>
@@ -202,13 +202,13 @@
             <div class="col-md-4">
               <div class="single-events past-event">
                   <div class="single-events-img">
-                    <a href="#">
+                    <a href="../pages/events-details.php">
                       <img class="" src="../assets/image/events/01.jpg">
                     </a>
                   </div>
                   <div class="single-events-info">
-                      <a href="#" class="single-events-btn">Upcoming Event</a>
-                      <h4><a href="#">Study Abroad-Workshop</a></h4>
+                      <a href="../pages/events-details.php" class="single-events-btn">Upcoming Event</a>
+                      <h4><a href="../pages/events-details.php">Study Abroad-Workshop</a></h4>
                       <div class="date-social">
                         <ul>
                           <li>
@@ -263,13 +263,13 @@
             <div class="col-md-4">
               <div class="single-events">
                   <div class="single-events-img">
-                    <a href="#">
+                    <a href="../pages/events-details.php">
                       <img class="" src="../assets/image/events/01.jpg">
                     </a>
                   </div>
                   <div class="single-events-info">
-                      <a href="#" class="single-events-btn">Upcoming Event</a>
-                      <h4><a href="#">Study Abroad-Workshop</a></h4>
+                      <a href="../pages/events-details.php" class="single-events-btn">Upcoming Event</a>
+                      <h4><a href="../pages/events-details.php">Study Abroad-Workshop</a></h4>
                       <div class="date-social">
                         <ul>
                           <li>
@@ -324,13 +324,13 @@
             <div class="col-md-4">
               <div class="single-events ongoing-event">
                   <div class="single-events-img">
-                    <a href="#">
+                    <a href="../pages/events-details.php">
                       <img class="" src="../assets/image/events/01.jpg">
                     </a>
                   </div>
                   <div class="single-events-info">
-                      <a href="#" class="single-events-btn">Upcoming Event</a>
-                      <h4><a href="#">Study Abroad-Workshop</a></h4>
+                      <a href="../pages/events-details.php" class="single-events-btn">Upcoming Event</a>
+                      <h4><a href="../pages/events-details.php">Study Abroad-Workshop</a></h4>
                       <div class="date-social">
                         <ul>
                           <li>
@@ -385,13 +385,13 @@
             <div class="col-md-4">
               <div class="single-events past-event">
                   <div class="single-events-img">
-                    <a href="#">
+                    <a href="../pages/events-details.php">
                       <img class="" src="../assets/image/events/01.jpg">
                     </a>
                   </div>
                   <div class="single-events-info">
-                      <a href="#" class="single-events-btn">Upcoming Event</a>
-                      <h4><a href="#">Study Abroad-Workshop</a></h4>
+                      <a href="../pages/events-details.php" class="single-events-btn">Upcoming Event</a>
+                      <h4><a href="../pages/events-details.php">Study Abroad-Workshop</a></h4>
                       <div class="date-social">
                         <ul>
                           <li>
@@ -448,7 +448,7 @@
          <div class="row justify-content-center">
            <div class="col-md-3 mt-5">
             <div class="btn-container text-center">
-              <a class="w-100 ias-btn outline shadow-none" href="#">Explore More Events</a>
+              <a class="w-100 ias-btn outline shadow-none" href="../pages/events-details.php">Explore More Events</a>
             </div>
           </div>
          </div>
@@ -464,12 +464,11 @@
 
 
 
-
-    <script src="../assets/js/bundle.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/menu.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="../assets/js/slick.js"></script>
-    <script type="text/javascript" src="../assets/js/menu.js"></script>
-    <script type="text/javascript" src="../assets/js/jquery.steps.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
+    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
     <script type="text/javascript" src="../assets/js/custom.js"></script>
 </body>
 
