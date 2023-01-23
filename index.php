@@ -22,16 +22,16 @@
     </div>
 
     <!-- Top Header container S-->
-    <?php include './pages/top-header.php'; ?>
+    <?php include 'top-header.php'; ?>
     <!-- Top Header container E-->
 
     <!-- Menu Container S-->
-    <?php include './pages/menu.php'; ?>
+    <?php include 'menu.php'; ?>
     <!-- Menu Container E-->
 
     <!-- Site Slider S-->
     <div>
-        <?php include './pages/slider.php'; ?>
+        <?php include 'slider.php'; ?>
     </div>
     <!-- Site Slider E-->
 
@@ -82,44 +82,44 @@
     </section>
 
     <!-- Services Section S -->
-    <?php include './pages/service.php'; ?>
+    <?php include 'service.php'; ?>
     <!-- Services Section E -->
 
     <!-- Student Consultancy Firm in Bangladesh S-->
-    <?php include './pages/students-consultancy.php'; ?>
+    <?php include 'students-consultancy.php'; ?>
     <!-- Student Consultancy Firm in Bangladesh E-->
 
 
     <!-- Top Study Destinations S-->
-    <?php include './pages/study-destinations.php'; ?>
+    <?php include 'study-destinations.php'; ?>
     <!-- Top Study Destinations E-->
 
     <!-- Trusted Partners S-->
-    <?php include './pages/trusted-partners.php'; ?>
+    <?php include 'trusted-partners.php'; ?>
     <!-- Trusted Partners E-->
 
 
     <!-- Success Story S-->
-    <?php include './pages/success-story.php'; ?>
+    <?php include 'success-story.php'; ?>
     <!-- Success Story E-->
 
 
     <!-- Success Story S-->
-    <?php include './pages/blog.php'; ?>
+    <?php include 'blog.php'; ?>
     <!-- Success Story E-->
 
     <!-- Consultations from S-->
-    <?php include './pages/consultation.php'; ?>
+    <?php include 'consultation.php'; ?>
     <!-- Consultations from E-->
 
 
     <!-- Map S-->
-    <?php include './pages/map.php'; ?>
+    <?php include 'map.php'; ?>
     <!-- Map E-->
 
 
     <!-- Footer S-->
-    <?php include './pages/footer.php'; ?>
+    <?php include 'footer.php'; ?>
     <!-- Footer E-->
 
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>
