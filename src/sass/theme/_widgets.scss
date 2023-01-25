@@ -79,10 +79,17 @@ html {
 /*Best Consultancy Firm S */
 .best-consultancy-firm {
 	background-color: #15234a;
-	background-image: url(../../assets/image/best-consultancy-firm.svg);
-	background-repeat: no-repeat;
-	background-position: right center;
 	padding: 80px 0;
+	position: relative;
+	overflow: hidden;
+
+	.servicesWeProvide {
+		position: absolute;
+		right: -15px;
+		bottom: -24px;
+		width: 35%;
+		height: auto;
+	}
 
 	@media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
 		background-position: right bottom 30px;
@@ -419,7 +426,6 @@ html {
 		letter-spacing: 0.05em;
 		color: #353841;
 
-
 		@media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
 			width: 100%;
 		}
@@ -436,7 +442,7 @@ html {
 			transition: 0.5s;
 			cursor: pointer;
 
-			&:hover{
+			&:hover {
 				transform: scale(1.23);
 				z-index: 5;
 			}
@@ -638,15 +644,15 @@ html {
 			position: relative;
 			cursor: pointer;
 
-			&:hover{
+			&:hover {
 				transform: scale(1.23);
 				z-index: 5;
 
-				.glob{
+				.glob {
 					animation: rotation 8s infinite linear;
 				}
 
-				.flag{
+				.flag {
 					animation: mover 1s infinite linear;
 					transition: 0.5s;
 				}
@@ -698,7 +704,6 @@ html {
 				.auth-wrapper {
 					width: 230px;
 					height: 230px;
-					background-color: #263c77;
 					border-radius: 100%;
 					position: absolute;
 					right: 0;
@@ -710,9 +715,9 @@ html {
 					display: flex;
 					align-items: center;
 					justify-content: center;
+					z-index: 9;
 
 					.auth-container {
-						background-color: #45588a;
 						width: 200px;
 						height: 200px;
 						display: flex;
@@ -925,7 +930,7 @@ html {
 			cursor: pointer;
 			position: relative;
 
-			&:hover{
+			&:hover {
 				transform: scale(1.23);
 				z-index: 5;
 			}
@@ -1094,7 +1099,7 @@ html {
 
 			.btn-container {
 				.ias-btn {
-					background-color: #FFF !important;
+					background-color: #fff !important;
 					color: #17a2b8 !important;
 					border-color: #17a2b8 !important;
 				}

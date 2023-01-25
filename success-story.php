@@ -13,6 +13,16 @@
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
+                        <div class="banner-bg wow fadeInLeft" id="bannerBg"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('bannerBg'),
+                                path: 'assets/json/bg-with-like-share.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                         <img class="banner-bg" src="assets/image/success-story/banner-bg.svg" alt="" title="" />
 
                         <div class="auth-wrapper">
@@ -76,7 +86,16 @@
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
-                        <img class="banner-bg" src="assets/image/success-story/banner-bg.svg" alt="" title="" />
+                        <div class="banner-bg wow fadeInLeft" id="bannerBg1"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('bannerBg1'),
+                                path: 'assets/json/bg-with-like-share.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
 
                         <div class="auth-wrapper">
                             <div class="auth-container">
@@ -139,7 +158,16 @@
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="card">
                     <div class="banner">
-                        <img class="banner-bg" src="assets/image/success-story/banner-bg.svg" alt="" title="" />
+                        <div class="banner-bg wow fadeInLeft" id="bannerBg2"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('bannerBg2'),
+                                path: 'assets/json/bg-with-like-share.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
 
                         <div class="auth-wrapper">
                             <div class="auth-container">

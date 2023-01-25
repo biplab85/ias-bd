@@ -1,10 +1,17 @@
 .about-section {
-    background-image: url(../../assets/image/about-us/title-img.svg), url(../../assets/image/about-us/bg.svg);
+    background-image: url(../../assets/image/about-us/bg.svg);
     background-repeat: no-repeat;
-    background-position: bottom right, top center;
-    background-size: auto, 100%;
+    background-position: top center;
+    background-size: 100%;
     background-color: #fff;
     height: 570px;
+    position: relative;
+
+    .aboutSection {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
 
     @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
         background-size: 50%, auto;
@@ -19,8 +26,8 @@
         justify-content: center;
 
         @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
-			width: 100%;
-		}
+            width: 100%;
+        }
 
         .description {
             font-style: normal;
@@ -35,12 +42,17 @@
 }
 
 .mission {
-    background-image: url(../../assets/image/about-us/mission.svg);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: auto;
     padding: 80px 0;
     margin: 80px 0;
+    position: relative;
+    overflow: hidden;
+
+    .ourMission {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 30%;
+    }
 
     @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
         background-size: 50%;
@@ -58,13 +70,18 @@
 }
 
 .vission {
-    background-image: url(../../assets/image/about-us/vission.svg);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: auto;
     background-color: #15234a;
     padding: 80px 0;
     margin: 80px 0;
+    position: relative;
+    overflow: hidden;
+
+    .OurVision {
+        position: absolute;
+        width: 37%;
+        right: -66px;
+        bottom: -23px;
+    }
 
     @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
         background-size: 50%;
@@ -222,7 +239,7 @@
         margin: 0 0 80px 0;
     }
 
-    .incomparable-list-wrapper{
+    .incomparable-list-wrapper {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -230,15 +247,15 @@
         width: 990px;
         margin: auto;
 
-        .list{
+        .list {
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin: 0 0 80px 0;
             width: 100%;
 
-            &:nth-child(2n+2){
-                margin: 0 0 0 0; 
+            &:nth-child(2n + 2) {
+                margin: 0 0 0 0;
             }
 
             .incomparable-list {
@@ -252,18 +269,18 @@
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
-                margin: 0 0 0 0; 
-        
+                margin: 0 0 0 0;
+
                 .icon {
                     margin: 0 0 20px 0;
                 }
-        
+
                 .short-details {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     flex-direction: column;
-        
+
                     h4 {
                         font-style: normal;
                         font-weight: 700;
@@ -274,7 +291,7 @@
                         color: #000c2e;
                         margin: 0 0 10px 0;
                     }
-        
+
                     p {
                         font-style: normal;
                         font-weight: 400;
@@ -289,11 +306,7 @@
                 }
             }
         }
-
-       
     }
-
-    
 }
 /*  What makes us incomparable? E */
 
@@ -309,9 +322,9 @@
         margin: 60px auto 0 auto;
 
         @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
-			width: 100%;
+            width: 100%;
             display: block;
-		}
+        }
 
         .partner-list {
             width: 580px;
@@ -325,7 +338,7 @@
             background-color: #476cd2;
             position: relative;
 
-            &::after{
+            &::after {
                 content: "";
                 background-image: url(../../assets/image/partner/overlaping.svg);
                 position: absolute;
@@ -338,8 +351,8 @@
                 background-position: right -34px top -1px;
             }
 
-            &.second{
-                background-color: #15234A;
+            &.second {
+                background-color: #15234a;
             }
 
             @media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
@@ -387,7 +400,7 @@
                 }
             }
 
-            .partner-img{
+            .partner-img {
                 position: absolute;
                 right: 0;
                 top: 80px;
@@ -396,7 +409,7 @@
                 align-items: center;
                 justify-content: flex-end;
 
-                img{
+                img {
                     width: 80%;
                     position: relative;
                     right: 30px;
@@ -486,15 +499,14 @@
     }
 }
 
-.message-container { 
+.message-container {
     margin: 80px 0 100px 0;
 
     .messge-wrapper {
-        background-image: 
-        url(../../assets/image/about-us/ceo-messges/message-01.png),
-        url(../../assets/image/about-us/ceo-messges/message-02.png),
-        url(../../assets/image/about-us/ceo-messges/message-03.png),
-        url(../../assets/image/about-us/ceo-messges/message-04.png);
+        background-image: url(../../assets/image/about-us/ceo-messges/message-01.png),
+            url(../../assets/image/about-us/ceo-messges/message-02.png),
+            url(../../assets/image/about-us/ceo-messges/message-03.png),
+            url(../../assets/image/about-us/ceo-messges/message-04.png);
         background-repeat: no-repeat;
         background-position: left top, right top, left bottom, right bottom;
         padding: 85px;
@@ -522,7 +534,7 @@
             display: block;
             margin: 0 0 30px 0;
 
-            &:last-child{
+            &:last-child {
                 margin: 0 0 15px 0;
             }
         }
@@ -540,7 +552,6 @@
         }
 
         .message-signature {
-
             h5 {
                 font-style: normal;
                 font-weight: 700;

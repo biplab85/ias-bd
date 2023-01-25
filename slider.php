@@ -20,7 +20,16 @@
                     </div>
                 </div>
 
-                <img class="slider-img" src="assets/image/slider/01.png" />
+                <div class="slider-img wow fadeInLeft" id="bannerOne"></div>
+                <script>
+                    var animation = bodymovin.loadAnimation({
+                        container: document.getElementById('bannerOne'),
+                        path: 'assets/json/home-page-banner-1.json',
+                        render: 'svg',
+                        loop: true,
+                        autoplay: true,
+                    });
+                </script>
             </div>
         </div>
 
@@ -44,7 +53,16 @@
                     </div>
                 </div>
 
-                <img class="slider-img" src="assets/image/slider/02.png" />
+                <div class="slider-img wow fadeInLeft" id="bannerTwo"></div>
+                <script>
+                    var animation = bodymovin.loadAnimation({
+                        container: document.getElementById('bannerTwo'),
+                        path: 'assets/json/home-page-banner-2.json',
+                        render: 'svg',
+                        loop: true,
+                        autoplay: true,
+                    });
+                </script>
             </div>
         </div>
 
@@ -68,7 +86,16 @@
                     </div>
                 </div>
 
-                <img class="slider-img" src="assets/image/slider/03.svg" />
+                <div class="slider-img wow fadeInLeft" id="bannerThree"></div>
+                <script>
+                    var animation = bodymovin.loadAnimation({
+                        container: document.getElementById('bannerThree'),
+                        path: 'assets/json/home-page-banner-3.json',
+                        render: 'svg',
+                        loop: true,
+                        autoplay: true,
+                    });
+                </script>
             </div>
         </div>
     </div>

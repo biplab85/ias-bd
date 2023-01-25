@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">    
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">
     <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
@@ -26,6 +28,16 @@
     <!-- Menu Container E-->
 
     <section class="about-section">
+        <div class="aboutSection wow fadeInLeft" id="aboutSection"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('aboutSection'),
+                path: 'assets/json/about-us-page-banner.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
         <div class="about-header">
             <div class="container">
                 <div class="row">
@@ -47,6 +59,16 @@
     </section>
 
     <section class="mission wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="ourMission wow fadeInLeft" id="ourMission"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('ourMission'),
+                path: 'assets/json/our-mission.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
         <div class="container">
             <div class="row">
                 <div class="offset-md-6 col-md-6">
@@ -63,11 +85,21 @@
     </section>
 
     <section class="vission wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="OurVision wow fadeInLeft" id="OurVision"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('OurVision'),
+                path: 'assets/json/our-vision.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="content-header-section white wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                        <h3 class="title">Our Mission</h3>
+                        <h3 class="title">Our Vision</h3>
                         <span class="sub-title">Lorem Ipsum Dolor Sit Amet Adipiscing Elit</span>
                     </div>
                     <div class="description">
@@ -82,7 +114,7 @@
     <!-- Our goal S-->
     <?php include 'our-goal.php'; ?>
     <!-- Our goal E-->
-    
+
 
     <!-- our specialization S-->
     <?php include 'our-specialization.php'; ?>

@@ -63,6 +63,18 @@
 
 
     <section class="best-consultancy-firm">
+
+        <div class="servicesWeProvide wow fadeInLeft" id="servicesWeProvide"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('servicesWeProvide'),
+                path: 'assets/json/service-we-provide.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

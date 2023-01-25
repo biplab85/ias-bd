@@ -10,9 +10,9 @@
         </li>
         <li><a href="./pages/services.php">Services</a></li>
         <li class="drop-left">
-            <a href="./pages/study-destination.php">Study Destination <i class="menu-drop"></i></a>
+            <a href="./pages/study-destination.php">Study Destination sss<i class="menu-drop"></i></a>
             <ul>
-                <li><a href=".pages/study-in-country.php">Study In Country</a></li>
+                <li><a href=".pages/study-in-country.php">Study In Country <i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
                 <li><a href="./pages/destination-about-country.php">About Country</a></li>
                 <li><a href="./pages/scholarships.php">Scholarships</a></li>
                 <li><a href="./pages/destination-working-rights.php">Destination Working Rights</a></li>

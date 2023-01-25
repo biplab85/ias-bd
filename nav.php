@@ -12,7 +12,7 @@
         <li class="drop-left">
             <a href="study-destination.php">Study Destination <i class="menu-drop"></i></a>
             <ul>
-                <li><a href="study-in-country.php">Study In Country</a></li>
+                <li><a href="study-in-country.php">Study In Country<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
                 <li><a href="destination-about-country.php">About Country</a></li>
                 <li><a href="scholarships.php">Scholarships</a></li>
                 <li><a href="destination-working-rights.php">Destination Working Rights</a></li>

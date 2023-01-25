@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">    
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">
     <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
@@ -26,7 +28,19 @@
     <!-- Menu Container E-->
 
 
-    <section class="service-header service-common" style="background-image: url(assets/image/service/service-1.svg); background-size: auto; ">
+    <section class="service-header service-common">
+
+        <div class="serviceBanner wow fadeInLeft" id="serviceBanner"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('serviceBanner'),
+                path: 'assets/json/service-banner.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -44,7 +58,19 @@
         </div>
     </section>
 
-    <section class="content-service-common" style="background-image: url(assets/image/service/2.svg);">
+    <section class="content-service-common">
+
+        <div class="careerCounselling wow fadeInLeft" id="careerCounselling"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('careerCounselling'),
+                path: 'assets/json/career-counselling.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -82,7 +108,19 @@
         </div>
     </section>
 
-    <section class="content-service-common" style="background-image: url(assets/image/service/4.svg); background-position: right center;">
+    <section class="content-service-common">
+
+        <div class="admissionService wow fadeInLeft" id="admissionService"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('admissionService'),
+                path: 'assets/json/admission-service.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -101,7 +139,19 @@
         </div>
     </section>
 
-    <section class="content-service-common left solid" style="background-image:  url(assets/image/service/5.svg), url(assets/image/service/dlouble.svg); background-position: left center; background-size: contain;">
+    <section class="content-service-common left solid" style="background-image: url(assets/image/service/dlouble.svg); background-position: left center; background-size: contain;">
+
+        <div class="visaDocumentation wow fadeInLeft" id="visaDocumentation"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('visaDocumentation'),
+                path: 'assets/json/visa-documentation2.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
+
         <div class="container">
             <div class="row">
                 <div class="offset-md-6 col-md-6">
@@ -120,7 +170,18 @@
         </div>
     </section>
 
-    <section class="content-service-common" style="background-image: url(assets/image/service/6.svg); background-position: right center;">
+    <section class="content-service-common">
+        <div class="visaInterviewPreparation wow fadeInLeft" id="visaInterviewPreparation"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('visaInterviewPreparation'),
+                path: 'assets/json/visa-interview-preparation.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -139,7 +200,18 @@
         </div>
     </section>
 
-    <section class="content-service-common left double-bg" style="background-image: url(assets/image/service/115.svg), url(assets/image/service/dlouble.svg); background-size: contain, cover; background-repeat: no-repeat, no-repeat; background-position: left, top;">
+    <section class="content-service-common left double-bg" style="background-image: url(assets/image/service/dlouble.svg); background-size: cover; background-repeat: no-repeat; background-position: top;">
+
+        <div class="preDepartureAssistance wow fadeInLeft" id="preDepartureAssistance"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('preDepartureAssistance'),
+                path: 'assets/json/pre-departure-assistance.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
         <div class="container">
             <div class="row">
                 <div class="offset-md-6 col-md-6">
@@ -158,7 +230,18 @@
         </div>
     </section>
 
-    <section class="content-service-common" style="background-image: url(assets/image/service/7.svg);">
+    <section class="content-service-common">
+
+        <div class="forexAssistance wow fadeInLeft" id="forexAssistance"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('forexAssistance'),
+                path: 'assets/json/forex-assistance.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -177,7 +260,18 @@
         </div>
     </section>
 
-    <section class="content-service-common left solid" style="background-image: url(assets/image/service/116.svg); background-position: left top; background-size: contain;">
+    <section class="content-service-common left solid">
+        <div class="scholarshipGuideline wow fadeInLeft" id="scholarshipGuideline"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('scholarshipGuideline'),
+                path: 'assets/json/scholarship-guideline.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
+
         <div class="container">
             <div class="row">
                 <div class="offset-md-6 col-md-6">
@@ -196,7 +290,17 @@
         </div>
     </section>
 
-    <section class="content-service-common" style="background-image: url(assets/image/service/117.svg); background-position: right;">
+    <section class="content-service-common">
+        <div class="travelAssistance wow fadeInLeft" id="travelAssistance"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('travelAssistance'),
+                path: 'assets/json/travel-assistance.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">

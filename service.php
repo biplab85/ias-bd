@@ -14,7 +14,16 @@
                     <a href="#">
                         <div class="service-item">
                             <span class="icon">
-                                <img src="assets/image/icon/service/icon-counselling.svg" alt="" />
+                                <div class="w-50 wow fadeInLeft" id="CareerCounselling"></div>
+                                <script>
+                                    var animation = bodymovin.loadAnimation({
+                                        container: document.getElementById('CareerCounselling'),
+                                        path: 'assets/json/career-ounselling.json',
+                                        render: 'svg',
+                                        loop: true,
+                                        autoplay: true,
+                                    });
+                                </script>
                             </span>
                             <h4 class="title">Career Counselling</h4>
                             <p>We will review your academic, professional, financial circumstances along with...</p>
@@ -26,7 +35,16 @@
                     <a href="#">
                         <div class="service-item">
                             <span class="icon">
-                                <img src="assets/image/icon/service/selection.svg" alt="" />
+                                <div class="w-50 wow fadeInLeft" id="courseSelection"></div>
+                                <script>
+                                    var animation = bodymovin.loadAnimation({
+                                        container: document.getElementById('courseSelection'),
+                                        path: 'assets/json/course-selection.json',
+                                        render: 'svg',
+                                        loop: true,
+                                        autoplay: true,
+                                    });
+                                </script>
                             </span>
                             <h4 class="title">Course Selection</h4>
                             <p>Choosing right course and right place is crucial. For th+at we are here for you, depending upon...</p>
@@ -38,7 +56,16 @@
                     <a href="#">
                         <div class="service-item">
                             <span class="icon">
-                                <img src="assets/image/icon/service/addmission.svg" alt="" />
+                                <div class="w-50 wow fadeInLeft" id="addmission"></div>
+                                <script>
+                                    var animation = bodymovin.loadAnimation({
+                                        container: document.getElementById('addmission'),
+                                        path: 'assets/json/addmission.json',
+                                        render: 'svg',
+                                        loop: true,
+                                        autoplay: true,
+                                    });
+                                </script>
                             </span>
                             <h4 class="title">Admission</h4>
                             <p>You will get full assistance from us in completing / submitting application for...</p>
@@ -50,7 +77,17 @@
                     <a href="#">
                         <div class="service-item">
                             <span class="icon">
-                                <img src="assets/image/icon/service/documentaion.svg" alt="" />
+                                <div class="w-50 wow fadeInLeft" id="visaDocumentation"></div>
+                                <script>
+                                    var animation = bodymovin.loadAnimation({
+                                        container: document.getElementById('visaDocumentation'),
+                                        path: 'assets/json/visa-documentation.json',
+                                        render: 'svg',
+                                        loop: true,
+                                        autoplay: true,
+                                        speed: 3
+                                    });
+                                </script>
                             </span>
                             <h4 class="title">Visa Documentation</h4>
                             <p>Depending upon your student visa requirements and the course you are applying for...</p>
