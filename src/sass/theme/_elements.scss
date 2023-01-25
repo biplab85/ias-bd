@@ -7,6 +7,16 @@
 	background-repeat: no-repeat;
 	background-position: right 20px bottom;
 	margin: 0 0 80px 0;
+	position: relative;
+	overflow: hidden;
+
+	.blogPageBanner{
+		position: absolute;
+		right: 0;
+		bottom: -25px;
+		border: 1px solid red;
+		width: 40%;
+	}
 
 	.content-wrapper {
 		.content-header-section {
