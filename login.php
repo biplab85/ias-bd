@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
   <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
@@ -36,7 +38,16 @@
               <div class="registration-slider">
                 <div>
                   <div class="item-content">
-                    <img src="assets/image/admin-registration/slider-item.png">
+                    <div class="login-animation wow fadeInLeft" id="loginAnimation"></div>
+                    <script>
+                      var animation = bodymovin.loadAnimation({
+                        container: document.getElementById('loginAnimation'),
+                        path: 'assets/json/login-animation.json',
+                        render: 'svg',
+                        loop: true,
+                        autoplay: true,
+                      });
+                    </script>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting sit a</p>
                   </div>
                 </div>
@@ -142,24 +153,6 @@
                 </div>
                 <!-- End General Information -->
   </section>
-  </div>
-  </div>
-
-  </div>
-  <!-- End Registration Forms -->
-  </div>
-
-  </div>
-  </div>
-  <!-- End Admin Registration Box -->
-  </div>
-
-
-
-
-
-  </section>
-
 
   <!-- Footer S-->
   <?php include 'footer.php'; ?>

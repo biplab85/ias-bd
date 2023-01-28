@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
   <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
@@ -25,7 +27,17 @@
   <?php include 'menu.php'; ?>
   <!-- Menu Container E-->
 
-  <section class="ias-header m-0" style="background-image: url(assets/image/contact-us.svg); background-size: 68vh; background-position: right 20px center;">
+  <section class="ias-header m-0">
+    <div class="contactUs wow fadeInLeft" id="contactUs"></div>
+    <script>
+      var animation = bodymovin.loadAnimation({
+        container: document.getElementById('contactUs'),
+        path: 'assets/json/contact-us.json',
+        render: 'svg',
+        loop: true,
+        autoplay: true,
+      });
+    </script>
     <div class="container">
       <div class="col-md-5">
         <div class="content-wrapper">

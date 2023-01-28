@@ -16,9 +16,16 @@
                 </div>
             </div>
 
-            <div class="col-md-6 text-center text-md-end">
-                <img src="assets/image/success-story/success-story.svg" alt="photo-gallery" class="img-fluid">
-            </div>
+            <div class="success-stories-banner banner-bg wow fadeInLeft" id="successStoriesBanner"></div>
+            <script>
+                var animation = bodymovin.loadAnimation({
+                    container: document.getElementById('successStoriesBanner'),
+                    path: 'assets/json/success-stories-banner.json',
+                    render: 'svg',
+                    loop: true,
+                    autoplay: true,
+                });
+            </script>
         </div>
     </div>
 </section>
@@ -27,6 +34,8 @@
 <!-- photo-gallery S -->
 <section class="success-story">
     <div class="container">
+
+
 
         <div class="row card-container">
             <div class="events-search mb-80">
@@ -49,6 +58,151 @@
                         </button>
                     </div>
                 </form>
+            </div>
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="card">
+                    <div class="banner">
+                        <div class="banner-bg wow fadeInLeft" id="bannerBgd"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('bannerBgd'),
+                                path: 'assets/json/bg-with-like-share.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
+
+                        <div class="auth-wrapper">
+                            <div class="auth-container">
+                                <img class="" src="assets/image/success-story/170X170.jpg" alt="" title="" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="description">
+                        <div class="card-header">
+                            <div class="left-asside">
+                                <span>Duke</span>
+                                <a href="#">Duke University</a>
+                            </div>
+                            <div class="right-asside">
+                                <a href="#">
+                                    <i class="icon">
+                                        <img src="assets/image/success-story/plane.svg" alt="" title="" />
+                                    </i>
+                                </a>
+                                <a class="glob" href="#">
+                                    <i class="icon">
+                                        <img src="assets/image/success-story/glob.svg" alt="" title="" />
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="uesr-info">
+                            <div class="name">
+                                <h3>Samia Rahman</h3>
+                                <p>
+                                    Masters of Business Administration in Management ( MBA - MIS )
+                                </p>
+                            </div>
+                            <div class="share">
+                                <h4>
+                                    <i class="flag">
+                                        <img class="auth" src="assets/image/success-story/flag.svg" alt="" title="" />
+                                    </i>
+                                    <span>USA</span>
+                                </h4>
+                                <div class="share-container">
+                                    <span>
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="" />
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <p>
+                            UK's unique and developed education system encourages the students to be creative, innovative, is a and think independently.
+                        </p>
+                    </div>
+                    <div class="btn-container text-center">
+                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="card">
+                    <div class="banner">
+                    <div class="banner-bg wow fadeInLeft" id="bannerBgds"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('bannerBgds'),
+                                path: 'assets/json/bg-with-like-share.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
+                        <img class="banner-bg" src="assets/image/success-story/banner-bg.svg" alt="" title="" />
+
+                        <div class="auth-wrapper">
+                            <div class="auth-container">
+                                <img class="" src="assets/image/success-story/170X170.jpg" alt="" title="" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="description">
+                        <div class="card-header">
+                            <div class="left-asside">
+                                <span>Duke</span>
+                                <a href="#">Duke University</a>
+                            </div>
+                            <div class="right-asside">
+                                <a href="#">
+                                    <i class="icon">
+                                        <img src="assets/image/success-story/plane.svg" alt="" title="" />
+                                    </i>
+                                </a>
+                                <a class="glob" href="#">
+                                    <i class="icon">
+                                        <img src="assets/image/success-story/glob.svg" alt="" title="" />
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="uesr-info">
+                            <div class="name">
+                                <h3>Samia Rahman</h3>
+                                <p>
+                                    Masters of Business Administration in Management ( MBA - MIS )
+                                </p>
+                            </div>
+                            <div class="share">
+                                <h4>
+                                    <i class="flag">
+                                        <img class="auth" src="assets/image/success-story/flag.svg" alt="" title="" />
+                                    </i>
+                                    <span>USA</span>
+                                </h4>
+                                <div class="share-container">
+                                    <span>
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="" />
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <p>
+                            UK's unique and developed education system encourages the students to be creative, innovative, is a and think independently.
+                        </p>
+                    </div>
+                    <div class="btn-container text-center">
+                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                    </div>
+                </div>
             </div>
             <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInLeft;">
                 <div class="card">

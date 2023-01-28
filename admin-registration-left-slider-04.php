@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IASBD</title>
-  <link rel="stylesheet" href="../assets/css/jquery.steps.css">
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/jquery.steps.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="">
-  <link rel="stylesheet" type="text/css" href="../assets/css/slick.css" />
-  <link rel="stylesheet" type="text/css" href="../assets/css/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
 </head>
 
 <body>
@@ -18,11 +18,11 @@
 
 
   <!-- Top Header container S-->
-  <?php include '../pages/top-header.php'; ?>
+  <?php include 'top-header.php'; ?>
   <!-- Top Header container E-->
 
   <!-- Menu Container S-->
-  <?php include '../pages/menu.php'; ?>
+  <?php include 'menu.php'; ?>
   <!-- Menu Container E-->
 
   <section class="ias-header m-0">
@@ -42,7 +42,7 @@
         </div>
 
         <div class="col-md-6 text-center text-md-end">
-          <img src="../assets/image/admin-registration/admin-reg.svg" alt="" class="img-fluid">
+          <img src="assets/image/admin-registration/admin-reg.svg" alt="" class="img-fluid">
         </div>
       </div>
     </div>
@@ -58,11 +58,11 @@
               <div class="registration-slider">
                 <div>
                   <div class="item-content">
-                    <img src="../assets/image/admin-registration/slider-item.png">
+                    <img src="assets/image/admin-registration/slider-item.png">
                     <p>
                       <small>Just give us a call on</small>
                       <span class="contact-info">
-                        <i><img src="../assets/image/admin-registration/call.svg"></i>
+                        <i><img src="assets/image/admin-registration/call.svg"></i>
                         <strong>+8801711875240</strong>
                       </span>
                     </p>
@@ -71,11 +71,11 @@
 
                 <div>
                   <div class="item-content">
-                    <img src="../assets/image/admin-registration/slider-item.png">
+                    <img src="assets/image/admin-registration/slider-item.png">
                     <p>
                       <small>Just give us a call on</small>
                       <span class="contact-info">
-                        <i><img src="../assets/image/admin-registration/call.svg"></i>
+                        <i><img src="assets/image/admin-registration/call.svg"></i>
                         <strong>+8801711875240</strong>
                       </span>
                     </p>
@@ -84,11 +84,11 @@
 
                 <div>
                   <div class="item-content">
-                    <img src="../assets/image/admin-registration/slider-item.png">
+                    <img src="assets/image/admin-registration/slider-item.png">
                     <p>
                       <small>Just give us a call on</small>
                       <span class="contact-info">
-                        <i><img src="../assets/image/admin-registration/call.svg"></i>
+                        <i><img src="assets/image/admin-registration/call.svg"></i>
                         <strong>+8801711875240</strong>
                       </span>
                     </p>
@@ -236,11 +236,11 @@
                     <li>
                       <p>If you are happy by filling the form you can share</p>
                     </li>
-                    <li><a href="#"><img src="../assets/image/admin-registration/social/fb.png"></a></li>
-                    <li><a href="#"><img src="../assets/image/admin-registration/social/tw.png"></a></li>
-                    <li><a href="#"><img src="../assets/image/admin-registration/social/in.png"></a></li>
-                    <li><a href="#"><img src="../assets/image/admin-registration/social/inst.png"></a></li>
-                    <li><a href="#"><img src="../assets/image/admin-registration/social/whats.png"></a></li>
+                    <li><a href="#"><img src="assets/image/admin-registration/social/fb.png"></a></li>
+                    <li><a href="#"><img src="assets/image/admin-registration/social/tw.png"></a></li>
+                    <li><a href="#"><img src="assets/image/admin-registration/social/in.png"></a></li>
+                    <li><a href="#"><img src="assets/image/admin-registration/social/inst.png"></a></li>
+                    <li><a href="#"><img src="assets/image/admin-registration/social/whats.png"></a></li>
                   </ul>
                 </div>
                 <!-- End Reg Social -->
@@ -269,7 +269,7 @@
         <div class="col-md-12">
           <div class="consultations-from-container">
             <div class="img-container">
-              <img class="banner-bg" src="../assets/image/consultation-from/cunsultation-from.svg" alt="" title="">
+              <img class="banner-bg" src="assets/image/consultation-from/cunsultation-from.svg" alt="" title="">
             </div>
             <div class="content">
               <h2>Get the Best Consultations from Our Experienced Advisors </h2>
@@ -289,18 +289,18 @@
 
 
   <!-- Footer S-->
-  <?php include '../pages/footer.php'; ?>
+  <?php include 'footer.php'; ?>
   <!-- Footer E-->
 
 
 
 
-  <script src="../assets/js/bundle.js"></script>
+  <script src="assets/js/bundle.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="../assets/js/slick.js"></script>
-  <script type="text/javascript" src="../assets/js/menu.js"></script>
-  <script type="text/javascript" src="../assets/js/jquery.steps.js"></script>
-  <script type="text/javascript" src="../assets/js/custom.js"></script>
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <script type="text/javascript" src="assets/js/menu.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.steps.js"></script>
+  <script type="text/javascript" src="assets/js/custom.js"></script>
 </body>
 
 </html>

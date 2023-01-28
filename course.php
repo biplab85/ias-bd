@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">    
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">
     <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
@@ -26,7 +28,17 @@
     <!-- Menu Container E-->
 
     <!-- Content Header S-->
-    <section class="course ias-header" style="background-image: url(assets/image/courses/header-bg.svg), url(assets/image/courses/ellips.svg);">
+    <section class="course ias-header" style="background-image: url(assets/image/courses/ellips.svg);">
+        <div class="coursePageBanner wow fadeInLeft" id="coursePageBanner"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('coursePageBanner'),
+                path: 'assets/json/course-page-banner.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
         <div class="container">
             <div class="col-md-6">
                 <div class="content-wrapper">

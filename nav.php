@@ -46,7 +46,7 @@
             <a href="">Registration <i class="menu-drop"></i></a>
             <ul>
                 <li><a href="admin-registration.php">Admin Registration</a></li>
-                <li><a href="online-registration-page.php">Online Registration</a></li>
+                <li><a href="admin-registration-left-slider-04.php">Online Registration</a></li>
             </ul>
         </li>
         <li><a href="contact-us.php">Contact Us</a></li>
