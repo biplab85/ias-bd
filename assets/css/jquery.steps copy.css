@@ -95,7 +95,7 @@
 .wizard > .steps ul .current::after {
     content: "";
     position: absolute;
-    width: 100%;
+    width: 31%;
     height: 2px;
     background-color: #FF8000;
     margin: auto;
@@ -259,24 +259,6 @@
 
 .admin-registration-forms .steps ul li{
     position: relative;
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.admin-registration-forms .steps ul li:first-child{
-    justify-content: flex-start;
-}
-.admin-registration-forms .steps ul li:last-child{
-    justify-content: flex-end;
-}
-
-.admin-registration-forms .steps ul li:last-child::after{
-    width: 65%;
-}
-
-.admin-registration-forms .steps ul li:nth-child(2) a{
-    left: -45px;
 }
 
 .admin-registration-forms .steps ul li.current a .number{

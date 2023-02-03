@@ -643,6 +643,7 @@ html {
 			transition: 0.5s;
 			position: relative;
 			cursor: pointer;
+			z-index: 1;
 
 			&:hover {
 				transform: scale(1.23);

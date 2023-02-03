@@ -120,8 +120,32 @@
                   </li>
                 </ul>
 
-                <div class="social">
-                  <img class="flag" src="assets/image/success-story/share.svg">
+                <div class="dropdown share-btn-with-drpdown">
+                  <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                  </button>
+                  <div class="dropdown-menu share-btn-dropdown-menu">
+                    <div class="share-btn-dropdown-menu-container">
+                      <div class="copy">
+                        <input type="" name="" value="" placeholder="http://www.ias...">
+                        <button>Copy link</button>
+                      </div>
+                      <div class="social-link">
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- End Date Social -->
@@ -181,8 +205,32 @@
                   </li>
                 </ul>
 
-                <div class="social">
-                  <img class="flag" src="assets/image/success-story/share.svg">
+                <div class="dropdown share-btn-with-drpdown">
+                  <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                  </button>
+                  <div class="dropdown-menu share-btn-dropdown-menu">
+                    <div class="share-btn-dropdown-menu-container">
+                      <div class="copy">
+                        <input type="" name="" value="" placeholder="http://www.ias...">
+                        <button>Copy link</button>
+                      </div>
+                      <div class="social-link">
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- End Date Social -->
@@ -242,8 +290,32 @@
                   </li>
                 </ul>
 
-                <div class="social">
-                  <img class="flag" src="assets/image/success-story/share.svg">
+                <div class="dropdown share-btn-with-drpdown">
+                  <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                  </button>
+                  <div class="dropdown-menu share-btn-dropdown-menu">
+                    <div class="share-btn-dropdown-menu-container">
+                      <div class="copy">
+                        <input type="" name="" value="" placeholder="http://www.ias...">
+                        <button>Copy link</button>
+                      </div>
+                      <div class="social-link">
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- End Date Social -->
@@ -302,9 +374,32 @@
                     </div>
                   </li>
                 </ul>
-
-                <div class="social">
-                  <img class="flag" src="assets/image/success-story/share.svg">
+                <div class="dropdown share-btn-with-drpdown">
+                  <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                  </button>
+                  <div class="dropdown-menu share-btn-dropdown-menu">
+                    <div class="share-btn-dropdown-menu-container">
+                      <div class="copy">
+                        <input type="" name="" value="" placeholder="http://www.ias...">
+                        <button>Copy link</button>
+                      </div>
+                      <div class="social-link">
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- End Date Social -->
@@ -364,8 +459,32 @@
                   </li>
                 </ul>
 
-                <div class="social">
-                  <img class="flag" src="assets/image/success-story/share.svg">
+                <div class="dropdown share-btn-with-drpdown">
+                  <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                  </button>
+                  <div class="dropdown-menu share-btn-dropdown-menu">
+                    <div class="share-btn-dropdown-menu-container">
+                      <div class="copy">
+                        <input type="" name="" value="" placeholder="http://www.ias...">
+                        <button>Copy link</button>
+                      </div>
+                      <div class="social-link">
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- End Date Social -->
@@ -425,8 +544,32 @@
                   </li>
                 </ul>
 
-                <div class="social">
-                  <img class="flag" src="assets/image/success-story/share.svg">
+                <div class="dropdown share-btn-with-drpdown">
+                  <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                  </button>
+                  <div class="dropdown-menu share-btn-dropdown-menu">
+                    <div class="share-btn-dropdown-menu-container">
+                      <div class="copy">
+                        <input type="" name="" value="" placeholder="http://www.ias...">
+                        <button>Copy link</button>
+                      </div>
+                      <div class="social-link">
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                        </a>
+                        <a href="#">
+                          <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- End Date Social -->

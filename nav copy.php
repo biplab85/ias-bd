@@ -12,13 +12,18 @@
         <li class="drop-left">
             <a href="study-destination.php">Study Destination <i class="menu-drop"></i></a>
             <ul>
-                <li><a href="destination-about-country.php">Australia<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
-                <li><a href="destination-about-country.php">Canada<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/canada.png);"></i></a></li>
-                <li><a href="destination-about-country.php">Nz<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/new-zealand.png);"></i></a></li>
-                <li><a href="destination-about-country.php">Malaysia<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/malaysia.png);"></i></a></li>
-                <li><a href="destination-about-country.php">Sweden<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/sweden.png);"></i></a></li>
-                <li><a href="destination-about-country.php">USA<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/usa.png);"></i></a></li>
-                <li><a href="destination-about-country.php">UK<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/uk.png);"></i></a></li>
+                <li><a href="study-in-country.php">Study In Country<i class="nav-flag-icon" style="background-image: url(assets/image/menu-flag/aus-flag.svg);"></i></a></li>
+                <li><a href="destination-about-country.php">About Country</a></li>
+                <li><a href="scholarships.php">Scholarships</a></li>
+                <li><a href="destination-working-rights.php">Destination Working Rights</a></li>
+                <li><a href="destination-admission-requirements.php">Admission Requirements</a></li>
+                <li><a href="destination-universities.php">Universities</a></li>
+                <li><a href="destination-cost.php">Cost</a></li>
+                <li><a href="destination-success-stories.php">Success Stories</a></li>
+                <li><a href="destination-blog-country.php">Blog Country</a></li>
+                <li><a href="destination-faq-country.php">FAQ Country</a></li>
+                <li><a href="destination-application-steps.php">Application Steps</a></li>
+                <li><a href="destination-documnets-checklist.php">Documnets Checklist</a></li>
             </ul>
         </li>
         <li class="drop-left">

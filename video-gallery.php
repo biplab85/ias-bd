@@ -40,7 +40,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -79,7 +79,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -92,7 +92,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -118,7 +144,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -131,7 +157,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -157,7 +209,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -170,7 +222,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -196,7 +274,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -209,7 +287,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -235,7 +339,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -248,7 +352,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -274,7 +404,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -287,7 +417,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -313,7 +469,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -326,7 +482,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -352,7 +534,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -365,7 +547,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -391,7 +599,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -404,7 +612,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -430,7 +664,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -443,7 +677,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -469,7 +729,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -482,7 +742,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -508,7 +794,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -521,7 +807,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -547,7 +859,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -560,7 +872,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -586,7 +924,7 @@
                     <div class="feature-video-box">
                         <img src="assets/image/video-gallery/video-thumb.jpg" alt="video" class="img-fluid w-100">
                         <a href="video-gallery-details.php" class="with-play-btn hyperlink d-flex justify-content-center align-items-center">
-                            <img src="assets/image/video-gallery/play-button-icon.svg" alt="play" class="img-fluid">
+                            <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">
                         </a>
                     </div>
                     <div class="video-card-wrap pt-20 px-30 pb-30">
@@ -599,7 +937,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 

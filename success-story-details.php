@@ -147,7 +147,7 @@
                     <div class="related-list">
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="success-story-details.php">
                                     <div class="banner">
                                         <img class="banner-bg" src="assets/image/success-story/small-bg.svg" alt="" title="">
 
@@ -179,7 +179,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="success-story-details.php">
                                     <div class="banner">
                                         <img class="banner-bg" src="assets/image/success-story/small-bg.svg" alt="" title="">
 
@@ -211,7 +211,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="success-story-details.php">
                                     <div class="banner">
                                         <img class="banner-bg" src="assets/image/success-story/small-bg.svg" alt="" title="">
 
@@ -243,7 +243,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="success-story-details.php">
                                     <div class="banner">
                                         <img class="banner-bg" src="assets/image/success-story/small-bg.svg" alt="" title="">
 
@@ -282,7 +282,7 @@
                     <div class="related-list">
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="success-story-details.php">
                                     <div class="banner">
                                         <img class="banner-bg" src="assets/image/success-story/small-bg.svg" alt="" title="">
 
@@ -314,7 +314,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="success-story-details.php">
                                     <div class="banner">
                                         <img class="banner-bg" src="assets/image/success-story/small-bg.svg" alt="" title="">
 
@@ -346,7 +346,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="success-story-details.php">
                                     <div class="banner">
                                         <img class="banner-bg" src="assets/image/success-story/small-bg.svg" alt="" title="">
 
@@ -378,7 +378,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="success-story-details.php">
                                     <div class="banner">
                                         <img class="banner-bg" src="assets/image/success-story/small-bg.svg" alt="" title="">
 

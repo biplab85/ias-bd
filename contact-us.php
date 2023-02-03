@@ -132,8 +132,8 @@
 
             <div class="map-block position-relative overflow-hidden mb-0">
               <div class="map-overlay">
-                <a href="team-detail.php" class="map-play">
-                  <img class="" src="assets/image/contact-us/icon/play-icon.png" alt="" title="">
+                <a href="#" class="map-play">
+                  <img src="assets/image/play-btn.gif" style="width: 66px; height: 66px;" alt="play" class="img-fluid">n
                 </a>
               </div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d58420.41605547438!2d90.4003584!3d23.773183999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1666032642073!5m2!1sen!2sbd" width="100%" height="280px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -163,7 +163,35 @@
                     <strong>BBA</strong>
                   </p>
                   <div class="social-block">
-                    <img class="" src="assets/image/share-white.svg">
+                    <div class="share-container">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -211,7 +239,35 @@
                     <strong>BBA</strong>
                   </p>
                   <div class="social-block">
-                    <img class="" src="assets/image/share-white.svg">
+                    <div class="share-container">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -259,7 +315,35 @@
                     <strong>BBA</strong>
                   </p>
                   <div class="social-block">
-                    <img class="" src="assets/image/share-white.svg">
+                    <div class="share-container">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -307,7 +391,35 @@
                     <strong>BBA</strong>
                   </p>
                   <div class="social-block">
-                    <img class="" src="assets/image/share-white.svg">
+                    <div class="share-container">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 

@@ -18,19 +18,19 @@
                         <h4>Menu</h4>
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a href="index.php">Home</a>
                             </li>
                             <li>
-                                <a href="#">About Us</a>
+                                <a href="about.php">About Us</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a href="services.php">Services</a>
                             </li>
                             <li>
-                                <a href="#">Study Destinations</a>
+                                <a href="study-destination.php">Study Destinations</a>
                             </li>
                             <li>
-                                <a href="#">Blog</a>
+                                <a href="ias-blog.php">Blog</a>
                             </li>
                         </ul>
                     </div>
@@ -38,19 +38,19 @@
                         <h4>Menu</h4>
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a href="index.php">Home</a>
                             </li>
                             <li>
-                                <a href="#">About Us</a>
+                                <a href="about.php">About Us</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a href="services.php">Services</a>
                             </li>
                             <li>
-                                <a href="#">Study Destinations</a>
+                                <a href="study-destination.php">Study Destinations</a>
                             </li>
                             <li>
-                                <a href="#">Blog</a>
+                                <a href="ias-blog.php">Blog</a>
                             </li>
                         </ul>
                     </div>

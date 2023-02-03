@@ -89,12 +89,26 @@
         </div>
     </section>
 
-    <section class="content-service-common left double-bg" style="background-image: url(assets/image/service/3.svg), url(assets/image/service/dlouble.svg);  background-size: contain, cover; background-repeat: no-repeat, no-repeat; background-position: left, top;">
+    <section class="content-service-common left double-bg" style="background-image: url(assets/image/service/dlouble.svg);  background-size: cover; background-repeat: no-repeat; background-position: center">
+        <div class="university-course-selection wow fadeInLeft" style="width: 25%;
+        position: absolute;
+        left: -15px;
+        bottom: -20px;" id="university-course-selection"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('university-course-selection'),
+                path: 'assets/json/university-course-selection.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+            });
+        </script>
+
         <div class="container">
             <div class="row">
                 <div class="offset-md-6 col-md-6">
                     <div class="content-header-section">
-                        <h3 class="title">University & Course Selection</h3>
+                        <h3 class="title">University & Course Selection ssss</h3>
                     </div>
                     <div class="service-content">
                         <p>

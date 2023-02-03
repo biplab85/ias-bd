@@ -17,7 +17,7 @@
     <!-- Content Header E-->
 
     <!-- Filter S -->
-    <?php include 'pages/destination-filter.php'; ?>
+    <?php include 'destination-filter.php'; ?>
     <!-- Filter E -->
 
     <!-- Destination Body Content Area S -->

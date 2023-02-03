@@ -67,7 +67,35 @@
                     <strong>BBA</strong>
                   </p>
                   <div class="social-block">
-                    <img class="" src="assets/image/share-white.svg">
+                    <div class="share-container">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -124,7 +152,33 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="assets/image/share-white.svg">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -155,7 +209,7 @@
               </ul>
 
               <div class="btn-container">
-                <a class="w-100 ias-btn outline shadow-none" href="http://design.iasbd.co.uk/team-details.php">More About Mashiur</a>
+                <a class="w-100 ias-btn outline shadow-none" href="team-detail.php">More About Mashiur</a>
               </div>
             </div>
             <!-- End Footer-->
@@ -172,7 +226,33 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="assets/image/share-white.svg">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -203,7 +283,7 @@
               </ul>
 
               <div class="btn-container">
-                <a class="w-100 ias-btn outline shadow-none" href="#">More About Mashiur</a>
+                <a class="w-100 ias-btn outline shadow-none" href="team-detail.php">More About Mashiur</a>
               </div>
             </div>
             <!-- End Footer-->
@@ -222,6 +302,7 @@
         </div>
         <!-- End Title -->
         <div class="d-flex justify-content-center flex-wrap">
+
           <div class="single-teams ms-3 me-3">
             <div class="skewed-bg black">
               <div class="single-teams-top">
@@ -232,103 +313,33 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="assets/image/share-white.svg">
-                    </div>
-                  </div>
-
-                  <div class="teams-images">
-                    <img class="" src="assets/image/teams/team-detail/01.jpg">
-                  </div>
-                </div>
-                <!-- End Info -->
-              </div>
-              <!-- End -->
-            </div>
-            <!-- End Bg -->
-
-            <div class="single-teams-des">
-              <p>Lorem Ipsum is simply dummy is an text of the printing and is a uncut of typesetting industry.</p>
-            </div>
-            <!-- End Info -->
-            <div class="single-teams-footer">
-              <ul class="text-start">
-                <li>
-                  <img class="" src="assets/image/teams/call.svg">
-                  <a href="01234 567890">01234 567890</a>
-                </li>
-                <li>
-                  <img class="" src="assets/image/teams/mail.svg">
-                  <a href="name@iasbd.co.uk">name@iasbd.co.uk</a>
-                </li>
-              </ul>
-
-              <div class="btn-container">
-                <a class="w-100 ias-btn outline shadow-none" href="#">More About Mashiur</a>
-              </div>
-            </div>
-            <!-- End Footer-->
-          </div>
-          <!-- End Single Teams -->
-
-          <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
-              <div class="single-teams-top">
-                <h3 class="teams-name">H M Mashiur Rahman</h3>
-                <div class="teams-top-info">
-                  <div class="teams-designation">
-                    <p>Chief Executive <br> Officer - CEO
-                      <strong>BBA</strong>
-                    </p>
-                    <div class="social-block">
-                      <img class="" src="assets/image/success-story/share.svg">
-                    </div>
-                  </div>
-
-                  <div class="teams-images">
-                    <img class="" src="assets/image/teams/team-detail/01.jpg">
-                  </div>
-                </div>
-                <!-- End Info -->
-              </div>
-              <!-- End -->
-            </div>
-            <!-- End Bg -->
-
-            <div class="single-teams-des">
-              <p>Lorem Ipsum is simply dummy is an text of the printing and is a uncut of typesetting industry.</p>
-            </div>
-            <!-- End Info -->
-            <div class="single-teams-footer">
-              <ul class="text-start">
-                <li>
-                  <img class="" src="assets/image/teams/call.svg">
-                  <a href="01234 567890">01234 567890</a>
-                </li>
-                <li>
-                  <img class="" src="assets/image/teams/mail.svg">
-                  <a href="name@iasbd.co.uk">name@iasbd.co.uk</a>
-                </li>
-              </ul>
-
-              <div class="btn-container">
-                <a class="w-100 ias-btn outline shadow-none" href="team-detail.php">More About Mashiur</a>
-              </div>
-            </div>
-            <!-- End Footer-->
-          </div>
-          <!-- End Single Teams -->
-
-          <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
-              <div class="single-teams-top">
-                <h3 class="teams-name">H M Mashiur Rahman</h3>
-                <div class="teams-top-info">
-                  <div class="teams-designation">
-                    <p>Chief Executive <br> Officer - CEO
-                      <strong>BBA</strong>
-                    </p>
-                    <div class="social-block">
-                      <img class="" src="assets/image/success-story/share.svg">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -365,9 +376,8 @@
             <!-- End Footer-->
           </div>
           <!-- End Single Teams -->
-
           <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
+            <div class="skewed-bg black">
               <div class="single-teams-top">
                 <h3 class="teams-name">H M Mashiur Rahman</h3>
                 <div class="teams-top-info">
@@ -376,7 +386,33 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="assets/image/success-story/share.svg">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -413,9 +449,8 @@
             <!-- End Footer-->
           </div>
           <!-- End Single Teams -->
-
           <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
+            <div class="skewed-bg black">
               <div class="single-teams-top">
                 <h3 class="teams-name">H M Mashiur Rahman</h3>
                 <div class="teams-top-info">
@@ -424,7 +459,33 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="assets/image/success-story/share.svg">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -461,9 +522,8 @@
             <!-- End Footer-->
           </div>
           <!-- End Single Teams -->
-
           <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
+            <div class="skewed-bg black">
               <div class="single-teams-top">
                 <h3 class="teams-name">H M Mashiur Rahman</h3>
                 <div class="teams-top-info">
@@ -472,7 +532,33 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="assets/image/success-story/share.svg">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -509,9 +595,8 @@
             <!-- End Footer-->
           </div>
           <!-- End Single Teams -->
-
           <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
+            <div class="skewed-bg black">
               <div class="single-teams-top">
                 <h3 class="teams-name">H M Mashiur Rahman</h3>
                 <div class="teams-top-info">
@@ -520,7 +605,33 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="assets/image/success-story/share.svg">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -557,9 +668,8 @@
             <!-- End Footer-->
           </div>
           <!-- End Single Teams -->
-
           <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
+            <div class="skewed-bg black">
               <div class="single-teams-top">
                 <h3 class="teams-name">H M Mashiur Rahman</h3>
                 <div class="teams-top-info">
@@ -568,7 +678,33 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="assets/image/success-story/share.svg">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -605,9 +741,8 @@
             <!-- End Footer-->
           </div>
           <!-- End Single Teams -->
-
           <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
+            <div class="skewed-bg black">
               <div class="single-teams-top">
                 <h3 class="teams-name">H M Mashiur Rahman</h3>
                 <div class="teams-top-info">
@@ -616,7 +751,33 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="assets/image/success-story/share.svg">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -653,9 +814,8 @@
             <!-- End Footer-->
           </div>
           <!-- End Single Teams -->
-
           <div class="single-teams ms-3 me-3">
-            <div class="skewed-bg">
+            <div class="skewed-bg black">
               <div class="single-teams-top">
                 <h3 class="teams-name">H M Mashiur Rahman</h3>
                 <div class="teams-top-info">
@@ -664,7 +824,544 @@
                       <strong>BBA</strong>
                     </p>
                     <div class="social-block">
-                      <img class="" src="assets/image/success-story/share.svg">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="teams-images">
+                    <img class="" src="assets/image/teams/team-detail/01.jpg">
+                  </div>
+                </div>
+                <!-- End Info -->
+              </div>
+              <!-- End -->
+            </div>
+            <!-- End Bg -->
+
+            <div class="single-teams-des">
+              <p>Lorem Ipsum is simply dummy is an text of the printing and is a uncut of typesetting industry.</p>
+            </div>
+            <!-- End Info -->
+            <div class="single-teams-footer">
+              <ul class="text-start">
+                <li>
+                  <img class="" src="assets/image/teams/call.svg">
+                  <a href="01234 567890">01234 567890</a>
+                </li>
+                <li>
+                  <img class="" src="assets/image/teams/mail.svg">
+                  <a href="name@iasbd.co.uk">name@iasbd.co.uk</a>
+                </li>
+              </ul>
+
+              <div class="btn-container">
+                <a class="w-100 ias-btn outline shadow-none" href="team-detail.php">More About Mashiur</a>
+              </div>
+            </div>
+            <!-- End Footer-->
+          </div>
+          <!-- End Single Teams -->
+          <div class="single-teams ms-3 me-3">
+            <div class="skewed-bg black">
+              <div class="single-teams-top">
+                <h3 class="teams-name">H M Mashiur Rahman</h3>
+                <div class="teams-top-info">
+                  <div class="teams-designation">
+                    <p>Chief Executive <br> Officer - CEO
+                      <strong>BBA</strong>
+                    </p>
+                    <div class="social-block">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="teams-images">
+                    <img class="" src="assets/image/teams/team-detail/01.jpg">
+                  </div>
+                </div>
+                <!-- End Info -->
+              </div>
+              <!-- End -->
+            </div>
+            <!-- End Bg -->
+
+            <div class="single-teams-des">
+              <p>Lorem Ipsum is simply dummy is an text of the printing and is a uncut of typesetting industry.</p>
+            </div>
+            <!-- End Info -->
+            <div class="single-teams-footer">
+              <ul class="text-start">
+                <li>
+                  <img class="" src="assets/image/teams/call.svg">
+                  <a href="01234 567890">01234 567890</a>
+                </li>
+                <li>
+                  <img class="" src="assets/image/teams/mail.svg">
+                  <a href="name@iasbd.co.uk">name@iasbd.co.uk</a>
+                </li>
+              </ul>
+
+              <div class="btn-container">
+                <a class="w-100 ias-btn outline shadow-none" href="team-detail.php">More About Mashiur</a>
+              </div>
+            </div>
+            <!-- End Footer-->
+          </div>
+          <!-- End Single Teams -->
+          <div class="single-teams ms-3 me-3">
+            <div class="skewed-bg black">
+              <div class="single-teams-top">
+                <h3 class="teams-name">H M Mashiur Rahman</h3>
+                <div class="teams-top-info">
+                  <div class="teams-designation">
+                    <p>Chief Executive <br> Officer - CEO
+                      <strong>BBA</strong>
+                    </p>
+                    <div class="social-block">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="teams-images">
+                    <img class="" src="assets/image/teams/team-detail/01.jpg">
+                  </div>
+                </div>
+                <!-- End Info -->
+              </div>
+              <!-- End -->
+            </div>
+            <!-- End Bg -->
+
+            <div class="single-teams-des">
+              <p>Lorem Ipsum is simply dummy is an text of the printing and is a uncut of typesetting industry.</p>
+            </div>
+            <!-- End Info -->
+            <div class="single-teams-footer">
+              <ul class="text-start">
+                <li>
+                  <img class="" src="assets/image/teams/call.svg">
+                  <a href="01234 567890">01234 567890</a>
+                </li>
+                <li>
+                  <img class="" src="assets/image/teams/mail.svg">
+                  <a href="name@iasbd.co.uk">name@iasbd.co.uk</a>
+                </li>
+              </ul>
+
+              <div class="btn-container">
+                <a class="w-100 ias-btn outline shadow-none" href="team-detail.php">More About Mashiur</a>
+              </div>
+            </div>
+            <!-- End Footer-->
+          </div>
+          <!-- End Single Teams -->
+          <div class="single-teams ms-3 me-3">
+            <div class="skewed-bg black">
+              <div class="single-teams-top">
+                <h3 class="teams-name">H M Mashiur Rahman</h3>
+                <div class="teams-top-info">
+                  <div class="teams-designation">
+                    <p>Chief Executive <br> Officer - CEO
+                      <strong>BBA</strong>
+                    </p>
+                    <div class="social-block">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="teams-images">
+                    <img class="" src="assets/image/teams/team-detail/01.jpg">
+                  </div>
+                </div>
+                <!-- End Info -->
+              </div>
+              <!-- End -->
+            </div>
+            <!-- End Bg -->
+
+            <div class="single-teams-des">
+              <p>Lorem Ipsum is simply dummy is an text of the printing and is a uncut of typesetting industry.</p>
+            </div>
+            <!-- End Info -->
+            <div class="single-teams-footer">
+              <ul class="text-start">
+                <li>
+                  <img class="" src="assets/image/teams/call.svg">
+                  <a href="01234 567890">01234 567890</a>
+                </li>
+                <li>
+                  <img class="" src="assets/image/teams/mail.svg">
+                  <a href="name@iasbd.co.uk">name@iasbd.co.uk</a>
+                </li>
+              </ul>
+
+              <div class="btn-container">
+                <a class="w-100 ias-btn outline shadow-none" href="team-detail.php">More About Mashiur</a>
+              </div>
+            </div>
+            <!-- End Footer-->
+          </div>
+          <!-- End Single Teams -->
+          <div class="single-teams ms-3 me-3">
+            <div class="skewed-bg black">
+              <div class="single-teams-top">
+                <h3 class="teams-name">H M Mashiur Rahman</h3>
+                <div class="teams-top-info">
+                  <div class="teams-designation">
+                    <p>Chief Executive <br> Officer - CEO
+                      <strong>BBA</strong>
+                    </p>
+                    <div class="social-block">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="teams-images">
+                    <img class="" src="assets/image/teams/team-detail/01.jpg">
+                  </div>
+                </div>
+                <!-- End Info -->
+              </div>
+              <!-- End -->
+            </div>
+            <!-- End Bg -->
+
+            <div class="single-teams-des">
+              <p>Lorem Ipsum is simply dummy is an text of the printing and is a uncut of typesetting industry.</p>
+            </div>
+            <!-- End Info -->
+            <div class="single-teams-footer">
+              <ul class="text-start">
+                <li>
+                  <img class="" src="assets/image/teams/call.svg">
+                  <a href="01234 567890">01234 567890</a>
+                </li>
+                <li>
+                  <img class="" src="assets/image/teams/mail.svg">
+                  <a href="name@iasbd.co.uk">name@iasbd.co.uk</a>
+                </li>
+              </ul>
+
+              <div class="btn-container">
+                <a class="w-100 ias-btn outline shadow-none" href="team-detail.php">More About Mashiur</a>
+              </div>
+            </div>
+            <!-- End Footer-->
+          </div>
+          <!-- End Single Teams -->
+          <div class="single-teams ms-3 me-3">
+            <div class="skewed-bg black">
+              <div class="single-teams-top">
+                <h3 class="teams-name">H M Mashiur Rahman</h3>
+                <div class="teams-top-info">
+                  <div class="teams-designation">
+                    <p>Chief Executive <br> Officer - CEO
+                      <strong>BBA</strong>
+                    </p>
+                    <div class="social-block">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="teams-images">
+                    <img class="" src="assets/image/teams/team-detail/01.jpg">
+                  </div>
+                </div>
+                <!-- End Info -->
+              </div>
+              <!-- End -->
+            </div>
+            <!-- End Bg -->
+
+            <div class="single-teams-des">
+              <p>Lorem Ipsum is simply dummy is an text of the printing and is a uncut of typesetting industry.</p>
+            </div>
+            <!-- End Info -->
+            <div class="single-teams-footer">
+              <ul class="text-start">
+                <li>
+                  <img class="" src="assets/image/teams/call.svg">
+                  <a href="01234 567890">01234 567890</a>
+                </li>
+                <li>
+                  <img class="" src="assets/image/teams/mail.svg">
+                  <a href="name@iasbd.co.uk">name@iasbd.co.uk</a>
+                </li>
+              </ul>
+
+              <div class="btn-container">
+                <a class="w-100 ias-btn outline shadow-none" href="team-detail.php">More About Mashiur</a>
+              </div>
+            </div>
+            <!-- End Footer-->
+          </div>
+          <!-- End Single Teams -->
+          <div class="single-teams ms-3 me-3">
+            <div class="skewed-bg black">
+              <div class="single-teams-top">
+                <h3 class="teams-name">H M Mashiur Rahman</h3>
+                <div class="teams-top-info">
+                  <div class="teams-designation">
+                    <p>Chief Executive <br> Officer - CEO
+                      <strong>BBA</strong>
+                    </p>
+                    <div class="social-block">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="teams-images">
+                    <img class="" src="assets/image/teams/team-detail/01.jpg">
+                  </div>
+                </div>
+                <!-- End Info -->
+              </div>
+              <!-- End -->
+            </div>
+            <!-- End Bg -->
+
+            <div class="single-teams-des">
+              <p>Lorem Ipsum is simply dummy is an text of the printing and is a uncut of typesetting industry.</p>
+            </div>
+            <!-- End Info -->
+            <div class="single-teams-footer">
+              <ul class="text-start">
+                <li>
+                  <img class="" src="assets/image/teams/call.svg">
+                  <a href="01234 567890">01234 567890</a>
+                </li>
+                <li>
+                  <img class="" src="assets/image/teams/mail.svg">
+                  <a href="name@iasbd.co.uk">name@iasbd.co.uk</a>
+                </li>
+              </ul>
+
+              <div class="btn-container">
+                <a class="w-100 ias-btn outline shadow-none" href="team-detail.php">More About Mashiur</a>
+              </div>
+            </div>
+            <!-- End Footer-->
+          </div>
+          <!-- End Single Teams -->
+          <div class="single-teams ms-3 me-3">
+            <div class="skewed-bg black">
+              <div class="single-teams-top">
+                <h3 class="teams-name">H M Mashiur Rahman</h3>
+                <div class="teams-top-info">
+                  <div class="teams-designation">
+                    <p>Chief Executive <br> Officer - CEO
+                      <strong>BBA</strong>
+                    </p>
+                    <div class="social-block">
+                      <div class="dropdown share-btn-with-drpdown">
+                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img class="" src="assets/image/share-white.svg">
+                        </button>
+                        <div class="dropdown-menu share-btn-dropdown-menu left-align">
+                          <div class="share-btn-dropdown-menu-container">
+                            <div class="copy">
+                              <input type="" name="" value="" placeholder="http://www.ias...">
+                              <button>Copy link</button>
+                            </div>
+                            <div class="social-link">
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                              </a>
+                              <a href="#">
+                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
 

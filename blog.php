@@ -33,9 +33,33 @@
                                     </span>
                                 </h4>
                                 <div class="share-container">
-                                    <span>
-                                        <img class="auth" src="assets/image/blog/share.svg" alt="" title="" />
-                                    </span>
+                                    <div class="dropdown share-btn-with-drpdown">
+                                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                        </button>
+                                        <div class="dropdown-menu share-btn-dropdown-menu">
+                                            <div class="share-btn-dropdown-menu-container">
+                                                <div class="copy">
+                                                    <input type="" name="" value="" placeholder="http://www.ias...">
+                                                    <button>Copy link</button>
+                                                </div>
+                                                <div class="social-link">
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -45,7 +69,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="blog-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -72,9 +96,33 @@
                                     </span>
                                 </h4>
                                 <div class="share-container">
-                                    <span>
-                                        <img class="auth" src="assets/image/blog/share.svg" alt="" title="" />
-                                    </span>
+                                    <div class="dropdown share-btn-with-drpdown">
+                                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                        </button>
+                                        <div class="dropdown-menu share-btn-dropdown-menu">
+                                            <div class="share-btn-dropdown-menu-container">
+                                                <div class="copy">
+                                                    <input type="" name="" value="" placeholder="http://www.ias...">
+                                                    <button>Copy link</button>
+                                                </div>
+                                                <div class="social-link">
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -84,7 +132,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="blog-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -111,9 +159,33 @@
                                     </span>
                                 </h4>
                                 <div class="share-container">
-                                    <span>
-                                        <img class="auth" src="assets/image/blog/share.svg" alt="" title="" />
-                                    </span>
+                                    <div class="dropdown share-btn-with-drpdown">
+                                        <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                        </button>
+                                        <div class="dropdown-menu share-btn-dropdown-menu">
+                                            <div class="share-btn-dropdown-menu-container">
+                                                <div class="copy">
+                                                    <input type="" name="" value="" placeholder="http://www.ias...">
+                                                    <button>Copy link</button>
+                                                </div>
+                                                <div class="social-link">
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                    </a>
+                                                    <a href="#">
+                                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -123,7 +195,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Read More</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="blog-details.php">Read More</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +204,7 @@
         <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
             <div class="col-md-12">
                 <div class="btn-container text-center">
-                    <a class="ias-btn" href="#">View More Stories</a>
+                    <a class="ias-btn" href="ias-blog.php">View More Stories</a>
                 </div>
             </div>
         </div>

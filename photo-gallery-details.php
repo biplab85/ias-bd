@@ -6,7 +6,7 @@
             <div class="col-md-12">
                 <div class="content-wrapper text-center">
                     <div class="content-header-section white text-center">
-                        <h3 class="title with-bg d-inline-block mx-auto">Study in Australia</h3>
+                        <h3 class="title with-bg d-inline-block mx-auto">Education Expo</h3>
                     </div>
 
                     <div class="description with-transparent-bg text-center mx-auto d-inline-block px-15">Lorem Ipsum is simply dummy text of the printing and<br>typesetting industry.</div>

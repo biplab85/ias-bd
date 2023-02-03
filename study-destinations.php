@@ -30,7 +30,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Explore All</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="study-in-country.php">Explore All</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Explore All</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="study-in-country.php">Explore All</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Explore All</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="study-in-country.php">Explore All</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                         </p>
                     </div>
                     <div class="btn-container text-center">
-                        <a class="w-100 ias-btn outline shadow-none" href="#">Explore All</a>
+                        <a class="w-100 ias-btn outline shadow-none" href="study-in-country.php">Explore All</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
         <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
             <div class="col-md-12">
                 <div class="btn-container text-center">
-                    <a class="ias-btn" href="#">All Destinations</a>
+                    <a class="ias-btn" href="study-in-country.php">All Destinations</a>
                 </div>
             </div>
         </div>

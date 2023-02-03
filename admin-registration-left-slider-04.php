@@ -102,7 +102,7 @@
 
           <div class="col-md-8">
             <div class="admin-registration-forms global-form">
-              <div class="steps mb-20">
+              <!-- <div class="steps mb-20">
                 <ul>
                   <li class="first current">
                     <a href="#">
@@ -129,7 +129,7 @@
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> -->
               <!-- End Steps -->
               <div class="general-information p-4">
                 <div class="title mb-40"> General Information's </div>
@@ -247,7 +247,7 @@
               </div>
               <!-- End General Information -->
               <div class="btn-container text-center">
-                <a class="mw-262 ias-btn" href="#continue">continue</a>
+                <a class="mw-262 ias-btn" href="#continue">Continue</a>
               </div>
             </div>
           </div>

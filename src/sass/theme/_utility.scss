@@ -459,3 +459,130 @@ body {
 		opacity: 0;
 	}
 }
+
+
+.fancybox__container{
+	z-index: 99999;
+}
+
+
+.share-btn-with-drpdown{
+
+	.share-btn-icon{
+		background-color: transparent;
+		padding: 0;
+		border: 0px;
+		outline: none !important;
+	}
+
+	.share-btn-dropdown-menu{
+		padding: 20px;
+		background-color: #FFFFFF;
+		box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.19);
+		border-radius: 10px;
+		transform: translate(-87%,35px)!important;
+
+		&.left-align{
+
+			transform: translate( -10px, 35px)!important;
+
+			&::after{
+				content: "";
+				position: absolute;
+				top: -7px;
+				left: 15px;
+				right: inherit;
+				width: 15px;
+				height: 15px;
+				background-color: #fff;
+				border-radius: 0;
+				transform: rotate(45deg);
+				border-color: #efefef transparent transparent #efefef;
+				border-style: solid;
+				border-width: 2px;
+			}
+
+		}
+
+		&::after{
+			content: "";
+			position: absolute;
+			top: -7px;
+			right: 15px;
+			width: 15px;
+			height: 15px;
+			background-color: #fff;
+			border-radius: 0;
+			transform: rotate(45deg);
+			border-color: #efefef transparent transparent #efefef;
+			border-style: solid;
+			border-width: 2px;
+		}
+
+		.share-btn-dropdown-menu-container{
+
+			.copy{
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				margin: 0 0 10px 0;
+
+				input{
+					background-image: url(../../assets/image/icon/link.svg);
+					background-size: 15px;
+					background-repeat: no-repeat;
+					background-position: 5px;
+					width: 140px;
+					height: 28px;
+					background-color: #fff;
+					border: 1px solid #e6e6e6;
+					border-radius: 4px 0 0 4px;
+					outline: none!important;
+					padding: 0 0 0 30px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+
+					&::placeholder{
+						font-style: normal;
+						font-weight: 400;
+						font-size: 11px;
+						line-height: 9px;
+						letter-spacing: 0.05em;
+						color: #BEBEBE;
+					}
+				}
+				button{
+					background-image: url(../../assets/image/icon/copy.svg);
+					background-size: 15px;
+					background-repeat: no-repeat;
+					background-position: 5px center;
+					height: 28px;
+					background-color: #15234a;
+					border-radius: 0 4px 4px 0;
+					font-style: normal;
+					font-weight: 400;
+					font-size: 11px;
+					line-height: 9px;
+					letter-spacing: .05em;
+					color: #fff;
+					padding: 0 8px 0 29px;	
+					width: 95px;	
+				}
+			}
+
+			.social-link{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				
+				a{
+
+					img{
+						width: 85%;
+					}
+				}
+			}
+		}
+	}
+}
