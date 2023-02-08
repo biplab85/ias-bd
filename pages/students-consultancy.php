@@ -4,10 +4,19 @@
             <div>
                 <div class="card one  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
-                        <img src="assets/image/icon/students-consultancy/01.svg" alt="" title="" />
+                        <div class="global wow fadeInLeft" id="global"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('global'),
+                                path: 'assets/json/global.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <div class="counter">
-                        <span>200+</span>Global
+                        <span>200+</span>Globalsssss
                     </div>
                     <h3>University Network</h3>
                 </div>

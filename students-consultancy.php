@@ -4,16 +4,36 @@
             <div>
                 <div class="card one  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
-                        <img src="assets/image/icon/students-consultancy/01.svg" alt="" title="" />
+                        <div class="global wow fadeInLeft tudents-consultancy-list-gif" id="global"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('global'),
+                                path: 'assets/json/global.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
-                    <div class="counter">
-                        <span>200+</span>Global
+                    <div>
+                        <div class="counter">
+                            <span>200+</span>Global
+                        </div>
+                        <h3>University Network</h3>
                     </div>
-                    <h3>University Network</h3>
                 </div>
                 <div class="card two wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
-                        <img src="assets/image/icon/students-consultancy/02.svg" alt="" title="" />
+                        <div class="application-submition wow fadeInLeft tudents-consultancy-list-gif" id="application-submitions"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('application-submitions'),
+                                path: 'assets/json/application-submitions.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <h3>On Spot Application Submission</h3>
                 </div>
@@ -21,19 +41,46 @@
             <div>
                 <div class="card three wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
-                        <img src="assets/image/icon/students-consultancy/03.svg" alt="" title="" />
+                        <div class="local-language wow fadeInLeft tudents-consultancy-list-gif" id="local-language"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('local-language'),
+                                path: 'assets/json/local-language.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <h3>Speak in Your Local Language</h3>
                 </div>
                 <div class="card four wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
-                        <img src="assets/image/icon/students-consultancy/04.svg" alt="" title="" />
+                        <div class="highest-visa wow fadeInLeft tudents-consultancy-list-gif" id="highest-visas"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('highest-visas'),
+                                path: 'assets/json/highest-visa.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <h3>Foreign Graduate Consultants</h3>
                 </div>
                 <div class="card five wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
-                        <img src="assets/image/icon/students-consultancy/05.svg" alt="" title="" />
+                        <div class="highest-visa wow fadeInLeft tudents-consultancy-list-gif" id="highest-visa"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('highest-visa'),
+                                path: 'assets/json/highest-visa.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <h3>Highest Visa Success Rate</h3>
                 </div>

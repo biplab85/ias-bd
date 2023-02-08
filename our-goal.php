@@ -4,39 +4,93 @@
             <div>
                 <div class="card one  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
-                        <img src="assets/image/goal/01.svg" alt="" title="" />
+                        <div class="Honesty-Integrity-Objectivity wow fadeInLeft tudents-consultancy-list-gif" id="Honesty-Integrity-Objectivity"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('Honesty-Integrity-Objectivity'),
+                                path: 'assets/json/Honesty-Integrity-Objectivity.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <h3>Honesty, Integrity and Objectivity</h3>
                 </div>
                 <div class="card two  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
-                        <img src="assets/image/goal/02.svg" alt="" title="" />
+                        <div class="Open-Communication-Transparency wow fadeInLeft tudents-consultancy-list-gif" id="Open-Communication-Transparency"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('Open-Communication-Transparency'),
+                                path: 'assets/json/Open-Communication-Transparency.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <h3>Open Communication and Transparency</h3>
                 </div>
                 <div class="card three  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                    <div class="icon">
-                        <img src="assets/image/goal/03.svg" alt="" title="" />
+                    <div class="icon" style="left: -10px;">
+                        <div class="Professional-Skills wow fadeInLeft tudents-consultancy-list-gif" id="Professional-Skills"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('Professional-Skills'),
+                                path: 'assets/json/Professional-Skills.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <h3>Professional Skills and Due Care</h3>
                 </div>
             </div>
             <div class="second-clmn">
                 <div class="card four  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                    <div class="icon">
-                        <img src="assets/image/goal/04.svg" alt="" title="" />
+                    <div class="icon" style="left: 0px;">
+                        <div class="Confidentiality-Professional-Behaviour wow fadeInLeft tudents-consultancy-list-gif" id="Confidentiality-Professional-Behaviour"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('Confidentiality-Professional-Behaviour'),
+                                path: 'assets/json/Confidentiality-Professional-Behaviour.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <h3>Confidentiality and Professional Behaviour</h3>
                 </div>
                 <div class="card five  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
-                        <img src="assets/image/goal/05.svg" alt="" title="" />
+                        <div class="InclusivenessImpartialityRespect wow fadeInLeft tudents-consultancy-list-gif" id="InclusivenessImpartialityRespect"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('InclusivenessImpartialityRespect'),
+                                path: 'assets/json/InclusivenessImpartialityRespect.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <h3>Inclusiveness, Impartiality and Respect</h3>
                 </div>
                 <div class="card six  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                     <div class="icon">
-                        <img src="assets/image/goal/06.svg" alt="" title="" />
+                        <div class="ConsiderationEmpathyInspiration wow fadeInLeft tudents-consultancy-list-gif" id="ConsiderationEmpathyInspiration"></div>
+                        <script>
+                            var animation = bodymovin.loadAnimation({
+                                container: document.getElementById('ConsiderationEmpathyInspiration'),
+                                path: 'assets/json/ConsiderationEmpathyInspiration.json',
+                                render: 'svg',
+                                loop: true,
+                                autoplay: true,
+                            });
+                        </script>
                     </div>
                     <h3>Consideration, Empathy and Inspiration</h3>
                 </div>
