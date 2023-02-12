@@ -367,8 +367,7 @@ html {
 						width: auto;
 					}
 
-					.tudents-consultancy-list-gif{
-
+					.tudents-consultancy-list-gif {
 					}
 				}
 
@@ -1127,7 +1126,13 @@ html {
 		}
 
 		.img-container {
+			overflow: hidden;
+			
 			img {
+				width: 100%;
+				position: relative;
+				bottom: -15px;
+
 				@media only screen and (max-width: 767.88px), (max-device-width: 767.88px) {
 					width: 100%;
 				}

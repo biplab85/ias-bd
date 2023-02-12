@@ -602,7 +602,7 @@
         <div class="col-md-12">
           <div class="consultations-from-container">
             <div class="img-container">
-              <img class="banner-bg" src="../assets/image/consultation-from/cunsultation-from.svg" alt="" title="">
+            <img class="banner-bg" src="assets/image/consultation-from/get-gest-consultations.gif" alt="" title="" />
             </div>
             <div class="content">
               <h2>Get the Best Consultations from Our Experienced Advisors </h2>

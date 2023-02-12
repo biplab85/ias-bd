@@ -20,7 +20,7 @@
                         </span>
                     </div>
                     <div class="partner-img">
-                        <img src="assets/image/partner/partner-1.svg" alt="" title="" />
+                        <img src="assets/image/partner/1.gif" alt="" title="" />
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                         </span>
                     </div>
                     <div class="partner-img">
-                        <img src="assets/image/partner/partner-2.svg" alt="" title="" />
+                        <img src="assets/image/partner/2.gif" alt="" title="" />
                     </div>
                 </div>
             </div>

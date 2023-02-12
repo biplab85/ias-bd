@@ -10,7 +10,7 @@
                     <div class="list">
                         <div class="incomparable-list">
                             <div class="icon">
-                                <img src="assets/image/incomparable/01.svg" alt="" title="" />
+                                <img src="assets/image/what-makes-incomparable/young.gif" alt="" title="" />
                             </div>
                             <div class="short-details">
                                 <h4>Young</h4>
@@ -21,7 +21,7 @@
                         </div>
                         <div class="incomparable-list">
                             <div class="icon">
-                                <img src="assets/image/incomparable/02.svg" alt="" title="" />
+                                <img class="" src="assets/image/what-makes-incomparable/creative.gif" alt="" title="" />
                             </div>
                             <div class="short-details">
                                 <h4>Creative</h4>
@@ -34,7 +34,7 @@
                     <div class="list">
                         <div class="incomparable-list">
                             <div class="icon">
-                                <img src="assets/image/incomparable/03.svg" alt="" title="" />
+                                <img class="committed" src="assets/image/what-makes-incomparable/committed.gif" alt="" title="" />
                             </div>
                             <div class="short-details">
                                 <h4>Committed</h4>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="incomparable-list">
                             <div class="icon">
-                                <img src="assets/image/incomparable/04.svg" alt="" title="" />
+                                <img class="" src="assets/image/what-makes-incomparable/passionate.gif" alt="" title="" />
                             </div>
                             <div class="short-details">
                                 <h4>Passionate</h4>

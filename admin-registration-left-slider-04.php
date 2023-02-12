@@ -35,14 +35,14 @@
             </div>
 
             <div class="description">
-            International Admission Service is one of the leading and trusted with education consultancy firms in Dhaka, Bangladesh. We simplify the in study abroad journey by connecting international students and the an best international academic institutions under one roof.
+              International Admission Service is one of the leading and trusted with education consultancy firms in Dhaka, Bangladesh. We simplify the in study abroad journey by connecting international students and the an best international academic institutions under one roof.
 
             </div>
           </div>
         </div>
 
         <div class="col-md-6 text-center text-md-end">
-          <img src="assets/image/admin-registration/admin-reg.svg" alt="" class="img-fluid">
+          <img src="assets/image/admin-registration/admin.gif" alt="" class="img-fluid">
         </div>
       </div>
     </div>
@@ -54,44 +54,32 @@
         <div class="row">
           <div class="col-md-4">
             <div class="admin-registration-slider dark">
-              <h3>Facing problem to fill out the form?</h3>
               <div class="registration-slider">
                 <div>
                   <div class="item-content">
-                    <img src="assets/image/admin-registration/slider-item.png">
-                    <p>
-                      <small>Just give us a call on</small>
-                      <span class="contact-info">
-                        <i><img src="assets/image/admin-registration/call.svg"></i>
-                        <strong>+8801711875240</strong>
-                      </span>
-                    </p>
+                    <h3>Do an instant registration <i></i></h3>
+                    <img src="assets/image/admin-registration/online-registration-slider-img/1.png">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting sit a</p>
                   </div>
                 </div>
 
                 <div>
                   <div class="item-content">
-                    <img src="assets/image/admin-registration/slider-item.png">
-                    <p>
-                      <small>Just give us a call on</small>
-                      <span class="contact-info">
-                        <i><img src="assets/image/admin-registration/call.svg"></i>
-                        <strong>+8801711875240</strong>
-                      </span>
-                    </p>
+                    <h3>Want to do a complete registration?</h3>
+                    <img src="assets/image/admin-registration/online-registration-slider-img/2.png">
+
+                    <a href="#">Click here <img src="assets/image/admin-registration/online-registration-slider-img/btn-back.png"></a>
                   </div>
                 </div>
 
                 <div>
                   <div class="item-content">
-                    <img src="assets/image/admin-registration/slider-item.png">
-                    <p>
-                      <small>Just give us a call on</small>
-                      <span class="contact-info">
-                        <i><img src="assets/image/admin-registration/call.svg"></i>
-                        <strong>+8801711875240</strong>
-                      </span>
-                    </p>
+                    <h3>Facing problem to fill out the form?</h3>
+                    <img src="assets/image/admin-registration/online-registration-slider-img/3.png">
+                    <div class="call">
+                      <span>Just give us a call on </span>
+                      <h3><img src="assets/image/admin-registration/call.png"> +8801711875240</h3>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -269,7 +257,7 @@
         <div class="col-md-12">
           <div class="consultations-from-container">
             <div class="img-container">
-              <img class="banner-bg" src="assets/image/consultation-from/cunsultation-from.svg" alt="" title="">
+              <img class="banner-bg" src="assets/image/consultation-from/get-gest-consultations.gif" alt="" title="" />
             </div>
             <div class="content">
               <h2>Get the Best Consultations from Our Experienced Advisors </h2>

@@ -13,8 +13,8 @@
             padding: 170px 50px 50px 50px;
             box-sizing: border-box;
 
-            &.dark{
-                background: #15234A;
+            &.dark {
+                background: #15234a;
             }
 
             h3 {
@@ -30,6 +30,23 @@
             }
             .registration-slider {
                 .item-content {
+                    h3 {
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 45px;
+                        color: #ffffff;
+                        margin-bottom: 30px;
+
+                        i {
+                            background-image: url(../../assets/image/admin-registration/arrow.png);
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            width: 58px;
+                            height: 18px;
+                            display: inline-flex;
+                            background-size: 50%;
+                        }
+                    }
                     img {
                         max-width: 315px;
                     }
@@ -49,6 +66,55 @@
                                 img {
                                     width: 18px;
                                 }
+                            }
+                        }
+                    }
+
+                    a {
+                        margin: 50px 0 0 0;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        text-align: justify;
+                        color: #ffffff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+
+                        img {
+                            margin: 0 0 0 10px;
+                        }
+                    }
+
+                    .call {
+                        margin: 50px 0 0 0;
+                        span {
+                            font-family: "Roboto";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 30px;
+                            letter-spacing: 0.05em;
+                            color: #ffffff;
+                            display: block;
+                            margin: 0 0 5px 0;
+                        }
+
+                        h3 {
+                            font-family: Roboto;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 30px;
+                            letter-spacing: 0.05em;
+                            color: #fff;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+
+                            img{
+                                width: auto;
+                                margin: 0 10px 0 0;
                             }
                         }
                     }
@@ -187,6 +253,9 @@
         }
         .successful-images {
             margin-bottom: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .login-click-here {
             font-weight: 400;

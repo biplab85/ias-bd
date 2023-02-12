@@ -44,7 +44,7 @@
         </div>
 
         <div class="col-md-6 text-center text-md-end">
-          <img src="assets/image/admin-registration/admin-reg.svg" alt="" class="img-fluid">
+          <img src="assets/image/admin-registration/admin.gif" alt="" class="img-fluid">
         </div>
       </div>
     </div>
@@ -57,26 +57,33 @@
         <div class="row">
           <div class="col-md-4">
             <div class="admin-registration-slider">
-              <h3>Fill out the form to register <img src="assets/image/admin-registration/arrow.png"></h3>
+
               <div class="registration-slider">
                 <div>
                   <div class="item-content">
-                    <img src="assets/image/admin-registration/slider-item.png">
+                    <h3>Fill out the form to register <i></i></h3>
+                    <img src="assets/image/admin-registration/admin-registration-slider-img/1.png">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting sit a</p>
                   </div>
                 </div>
 
                 <div>
                   <div class="item-content">
-                    <img src="assets/image/admin-registration/slider-item.png">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting sit a</p>
+                    <h3>In a hurry? Want to do a quick registration?</h3>
+                    <img src="assets/image/admin-registration/admin-registration-slider-img/2.png">
+
+                    <a href="#">Click here <img src="assets/image/admin-registration/admin-registration-slider-img/btn-back.png"></a>
                   </div>
                 </div>
 
                 <div>
                   <div class="item-content">
-                    <img src="assets/image/admin-registration/slider-item.png">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting sit a</p>
+                    <h3>Facing problem to fill out the form?</h3>
+                    <img src="assets/image/admin-registration/admin-registration-slider-img/3.png">
+                    <div class="call">
+                      <span>Just give us a call on </span>
+                      <h3><img src="assets/image/admin-registration/call.png"> +8801711875240</h3>
+                    </div>
                   </div>
                 </div>
               </div>

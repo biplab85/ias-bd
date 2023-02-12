@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
-    <link rel="stylesheet" href="../assets/css/jquery.steps.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/jquery.steps.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="">
-    <link rel="stylesheet" type="text/css" href="../assets/css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="../assets/css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
 </head>
 
 <body>
@@ -18,11 +18,11 @@
 
 
     <!-- Top Header container S-->
-    <?php include '../pages/top-header.php'; ?>
+    <?php include 'top-header.php'; ?>
     <!-- Top Header container E-->
 
     <!-- Menu Container S-->
-    <?php include '../pages/menu.php'; ?>
+    <?php include 'menu.php'; ?>
     <!-- Menu Container E-->
 
 
@@ -33,7 +33,7 @@
                     <div class="reg-successful-box">
                         <p>Registration Successful!</p>
                         <div class="successful-images">
-                            <img src="../assets/image/admin-registration/reg-successful.svg" alt="" title="">
+                            <img src="assets/image/admin-registration/registration-successful.gif" alt="" title="">
                         </div>
                         <!-- End -->
                         <div class="login-click-here">
@@ -52,19 +52,19 @@
 
 
     <!-- Footer S-->
-    <?php include '../pages/footer.php'; ?>
+    <?php include 'footer.php'; ?>
     <!-- Footer E-->
 
 
 
 
-    <script src="../assets/js/bundle.js"></script>
+    <script src="assets/js/bundle.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="../assets/js/slick.js"></script>
-    <script type="text/javascript" src="../assets/js/menu.js"></script>
-    <script type="text/javascript" src="../assets/js/jquery.steps.js"></script>
-    <script type="text/javascript" src="../assets/js/jquery.confetti.js"></script>v
-    <script type="text/javascript" src="../assets/js/custom.js"></script>
+    <script type="text/javascript" src="assets/js/slick.js"></script>
+    <script type="text/javascript" src="assets/js/menu.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.steps.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.confetti.js"></script>v
+    <script type="text/javascript" src="assets/js/custom.js"></script>
     
 </body>
 
