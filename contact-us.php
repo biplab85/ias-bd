@@ -477,30 +477,10 @@
       <div class="contact-service-wrapper">
         <div class="contact-service">
           <div class="access-services-block">
-            <div class="services-call-box">
-              <div class="icon">
-                <img class="" src="assets/image/contact-us/service/call.png" alt="" title="">
-              </div>
-              <div class="services-call-number">01711-875240</div>
-            </div>
-            <!-- Call End -->
-            <div class="services-images-box">
-              <img class="" src="assets/image/call-center.svg" alt="" title="">
-            </div>
-            <!-- End Images -->
+            <img class="" src="assets/image/contact-us/right-service.gif" alt="" title="">
           </div>
           <div class="access-services-block">
-            <div class="services-call-box">
-              <div class="icon" style="background-color: #3A5EC2;">
-                <img class="" src="assets/image/contact-us/service/24-7.png" alt="" title="">
-              </div>
-              <div class="services-call-number" style="background-color: #476CD2;">Service</div>
-            </div>
-            <!-- Call End -->
-            <div class="services-images-box">
-              <img class="" src="assets/image/contact-us/service/service-02.png" alt="" title="">
-            </div>
-            <!-- End Images -->
+            <img class="" src="assets/image/contact-us/left-service.gif" alt="" title="">
           </div>
           <!-- End  -->
         </div>
@@ -508,6 +488,7 @@
 
         <!-- End Coll -->
       </div>
+
     </div>
   </section>
 
@@ -529,7 +510,7 @@
               </span>
             </div>
             <div class="partner-img">
-              <img src="assets/image/partner/partner-1.svg" alt="" title="">
+              <img src="assets/image/partner/1.gif" alt="" title="" />
             </div>
           </div>
         </div>
@@ -537,7 +518,7 @@
       <div class="partner-list second">
         <div class="details">
           <div class="short-details">
-            <h4>Referral &amp; Sub-Agents sss</h4>
+            <h4>Education Institutions</h4>
             <p>
               Please speak to us about our referral partner and sub-agent programs.
             </p>
@@ -550,7 +531,7 @@
               </span>
             </div>
             <div class="partner-img">
-              <img src="assets/image/partner/partner-2.svg" alt="" title="">
+              <img src="assets/image/partner/2.gif" alt="" title="" />
             </div>
           </div>
         </div>

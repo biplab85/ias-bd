@@ -984,9 +984,41 @@
                 </div>
             </div>
         </div>
+        <div class="row wow fadeInUp mt-30" data-wow-duration="1s" data-wow-delay="1s">
+            <div class="col-md-12">
+                <div class="btn-container text-center">
+                    <a class="ias-btn" href="#">Load More</a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <!-- video-gallery E -->
+
+<section class="contact-reg-container">
+    <div class="video-bottom-info-box" style="background-image: url(assets/image/video-gallery/video-details-vector.svg);">
+        <div class="video-bottom-info-wrap">
+            <h3 class="video-info-title mb-10">Talk to an Expert in your City. You Could Be the Next.</h3>
+
+            <ul class="entry-meta-list list-inline d-block mb-10">
+                <li class="entry-meta-item mb-15">
+                    <span class="entry-meta-icon"><img src="assets/image/video-gallery/call-icon.svg" alt="call"></span>
+                    <span class="entry-meta-title text-white">+8801711875240</span>
+                </li>
+                <li class="entry-meta-item mb-15">
+                    <span class="entry-meta-icon"><img src="assets/image/video-gallery/mail-icon.svg" alt="mail-icon"></span>
+                    <span class="entry-meta-title text-white">+8801711875240</span>
+                </li>
+                <li class="entry-meta-item mb-15 align-items-start">
+                    <span class="entry-meta-icon"><img src="assets/image/video-gallery/location-icon.svg" alt="date"></span>
+                    <span class="entry-meta-title text-white">House No: 313, Road No: 21<br>Mohakhali DOHS, Dhaka: 1212</span>
+                </li>
+            </ul>
+
+            <a href="team-detail.php" class="appointment-btn m-0">Book Appointment Now</a>
+        </div>
+    </div>
+</section>
 
 <!-- Footer S-->
 <?php include 'footer.php'; ?>

@@ -1127,7 +1127,7 @@ html {
 
 		.img-container {
 			overflow: hidden;
-			
+
 			img {
 				width: 100%;
 				position: relative;
@@ -1318,5 +1318,140 @@ html {
 		height: 0;
 		opacity: 0;
 		transform: scale(0);
+	}
+}
+
+.referal {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 424px;
+	background-color: #3967d9;
+	border-radius: 20.0333px;
+	padding: 0 60px 0 110px;
+
+	&.login-referal{
+		margin-top: 80px;
+	}
+
+	.content {
+		min-width: 480px;
+		width: 480px;
+
+		.title {
+			font-style: normal;
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 45px;
+			letter-spacing: 0.05em;
+			color: #ffffff;
+			margin: 0 0 15px 0;
+		}
+
+		.desc {
+			font-style: normal;
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 22px;
+			color: #ffffff;
+			margin: 0;
+			padding: 0;
+		}
+
+		.copy-code {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin: 30px 0 28px 0;
+
+			h3 {
+				font-style: normal;
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 19px;
+				color: #ffffff;
+				margin: 0 15px 0 0;
+				min-width: 150px;
+			}
+
+			.copy-input {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				background-color: #ffffff;
+				box-shadow: 0px 10.45px 27.8667px -10.45px #001347;
+				border-radius: 5.57333px;
+				height: 50px;
+				padding: 5px 5px 5px 15px;
+
+				input {
+					outline: none !important;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 14px;
+					line-height: 16px;
+					letter-spacing: 0.05em;
+					color: #3967d9;
+					width: 250px;
+					margin-right: 30px;
+					border: 0px !important;
+				}
+
+				button {
+					background-image: url(../../assets/image/icon/copy.svg);
+					background-repeat: no-repeat;
+					background-position: center;
+					background-size: 23px;
+					background-color: #3967d9;
+					width: 61px;
+					height: 38px;
+					border-radius: 5.57333px;
+					border: 0;
+				}
+			}
+		}
+
+		.share {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+
+			h3 {
+				font-style: normal;
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 19px;
+				color: #ffffff;
+				margin: 0 20px 0 0;
+			}
+
+			ul {
+				padding: 0;
+				margin: 0;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				list-style: none;
+
+				li{
+					margin: 0 13px 0 0;
+
+					a{
+						color: #FFF;
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+
+	.referal-img {
+		min-width: 470px;
+		width: 470px;
+
+		img {
+			width: 100%;
+		}
 	}
 }

@@ -89,72 +89,113 @@
 
               </div>
               <!-- End -->
+            </div>
 
 
-              <div class="wizard clearfix">
-                <div class="content clearfix" style="min-height:auto !important">
-                  <section class="step-box body current position-relative">
-                    <div class="general-information">
+            <div class="wizard clearfix">
+              <div class="content clearfix" style="min-height:auto !important">
+                <section class="step-box body current position-relative">
+                  <div class="general-information">
 
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="mb-40 position-relative">
-                            <label class="form-label">Email</label>
-                            <input type="email" class="form-control form-control-lg" placeholder="Johnsm07@gm|">
-                          </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="mb-40 position-relative">
+                          <label class="form-label">Email</label>
+                          <input type="email" class="form-control form-control-lg" placeholder="Johnsm07@gm|">
                         </div>
-                        <!-- End Col -->
-
-                        <div class="col-md-12">
-                          <div class="mb-20 position-relative">
-                            <label class="form-label">Password</label>
-                            <input type="password" class="form-control form-control-lg" placeholder="Your password">
-                          </div>
-                        </div>
-                        <!-- End Col -->
-
-                        <div class="col-md-12">
-                          <div class="mb-50 position-relative">
-                            <div class="login-remember">
-                              <label class="iasbd-checkbox">
-                                <input type="checkbox" name="" value="">
-                                <span class="checkmark"></span>
-                                <span class="text">Remember me</span>
-                              </label>
-                              <div class="forgot-password">
-                                Forgot Password? <a href="#">Click here</a> to reset.
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- End Col -->
-
-                        <div class="col-md-12">
-                          <div class="mb-30 position-relative">
-                            <div class="btn-container text-center">
-                              <button class="ias-btn" href="#">Log In</button>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- End Col -->
-
-                        <div class="col-md-12">
-                          <div class="dont-account text-center">
-                            <p>Don’t have an account? <a href="#">Click here </a> to Register</p>
-                          </div>
-                        </div>
-                        <!-- End Col -->
-
                       </div>
-                      <!-- End row -->
+                      <!-- End Col -->
+
+                      <div class="col-md-12">
+                        <div class="mb-20 position-relative">
+                          <label class="form-label">Password</label>
+                          <input type="password" class="form-control form-control-lg" placeholder="Your password">
+                        </div>
+                      </div>
+                      <!-- End Col -->
+
+                      <div class="col-md-12">
+                        <div class="mb-50 position-relative">
+                          <div class="login-remember">
+                            <label class="iasbd-checkbox">
+                              <input type="checkbox" name="" value="">
+                              <span class="checkmark"></span>
+                              <span class="text">Remember me</span>
+                            </label>
+                            <div class="forgot-password">
+                              Forgot Password? <a href="#">Click here</a> to reset.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Col -->
+
+                      <div class="col-md-12">
+                        <div class="mb-30 position-relative">
+                          <div class="btn-container text-center">
+                            <button class="ias-btn" href="#">Log In</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Col -->
+
+                      <div class="col-md-12">
+                        <div class="dont-account text-center">
+                          <p>Don’t have an account? <a href="#">Click here </a> to Register</p>
+                        </div>
+                      </div>
+                      <!-- End Col -->
 
                     </div>
                     <!-- End row -->
-                </div>
-                <!-- End General Information -->
+
+                  </div>
+                </section>
+                <!-- End row -->
+              </div>
+            </div>
+            <!-- End General Information -->
+          </div>
+        </div>
+      </div>
+
+      <div class="referal login-referal">
+        <div class="content">
+          <h3 class="title">Start Earning with Our Referal Program</h3>
+          <p class="desc">
+            Share your referral code and start earning today.
+          </p>
+          <div class="copy-code">
+            <h3>Your referral code:</h3>
+            <div class="copy-input">
+              <input type="text" name="" value="Iasbd.co.uk/referral/qck34i80">
+              <button></button>
+            </div>
+          </div>
+          <div class="share">
+            <h3>Or Share on: </h3>
+            <div>
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="referal-img">
+          <img src="assets/image/login/affiliate.gif" />
+        </div>
+      </div>
+    </div>
+
+
   </section>
 
-  <!-- Footer S-->
+  <!-- Footer S sss-->
   <?php include 'footer.php'; ?>
   <!-- Footer E-->
 
