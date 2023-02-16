@@ -30,7 +30,37 @@
                             </li>
                         </ul>
 
-                        <div class="share-info-wrap">
+                        <div class="share-wrap">
+                            <div class="dropdown share-btn-with-drpdown">
+                                <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                </button>
+                                <div class="dropdown-menu share-btn-dropdown-menu">
+                                    <div class="share-btn-dropdown-menu-container">
+                                        <div class="copy">
+                                            <input type="" name="" value="" placeholder="http://www.ias...">
+                                            <button>Copy link</button>
+                                        </div>
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                            </a>
+                                            <a href="#">
+                                                <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                            </a>
+                                            <a href="#">
+                                                <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                            </a>
+                                            <a href="#">
+                                                <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="share-info-wrap d-none">
                             <ul class="list-inline list-unstyled mb-0 d-inline-flex align-items-center">
                                 <li class="my-2"><img src="assets/image/video-gallery/share-icon.svg" alt="share" class="img-fluid"> <span class="share-text">Share on</span></li>
                                 <li class="my-2"><a href="#"><img src="assets/image/video-gallery/fb-icon.svg" alt="fb" class="img-fluid"></a></li>

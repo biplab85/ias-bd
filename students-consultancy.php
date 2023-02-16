@@ -15,7 +15,7 @@
                             });
                         </script>
                     </div>
-                    <div>
+                    <div class="doc">
                         <div class="counter">
                             <span>200+</span>Global
                         </div>

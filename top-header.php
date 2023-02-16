@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="user-info">
-                        <a href="#">
+                        <a href="login.php">
                             <img src="http://design.iasbd.co.uk/assets/image/icon/user.svg" />
                         </a>
                     </div>

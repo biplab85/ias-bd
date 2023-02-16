@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
 </head>
@@ -16,11 +16,11 @@
 
 
     <!-- Top Header container S-->
-    <?php include '../pages/top-header.php'; ?>
+    <?php include 'top-header.php'; ?>
     <!-- Top Header container E-->
 
     <!-- Menu Container S-->
-    <?php include '../pages/menu.php'; ?>
+    <?php include 'menu.php'; ?>
     <!-- Menu Container E-->
 
     <section class="ias-header top-bg h-345 mb-0">
@@ -43,44 +43,44 @@
                 <div class="university-info">
                     <div class="university-profile">
                         <div class="banner">
-                            <img src="../assets/image/univevrsity/banner.svg" alt="" title="" />
-                            <div class="logo"><img src="../assets/image/univevrsity/logo.svg" alt="" title="" /></div>
+                            <img src="assets/image/univevrsity/banner.svg" alt="" title="" />
+                            <div class="logo"><img src="assets/image/univevrsity/logo.svg" alt="" title="" /></div>
                         </div>
 
                         <div class="info">
                             <h3>The University of Sydney</h3>
                             <div class="location">
                                 <div class="name">
-                                    <img src="../assets/image/univevrsity/flag.png" alt="" title="" />
+                                    <img src="assets/image/univevrsity/flag.png" alt="" title="" />
                                     Australia
                                 </div>
                                 <div>
-                                    <img src="../assets/image/univevrsity/location.svg" alt="" title="" />
+                                    <img src="assets/image/univevrsity/location.svg" alt="" title="" />
                                     Camperdown NSW 2006, Australia
                                 </div>
                             </div>
 
                             <div class="offer">
-                                <img src="../assets/image/univevrsity/offer.svg" alt="" title="" />
+                                <img src="assets/image/univevrsity/offer.svg" alt="" title="" />
                                 <span>Courses offered:</span> BBA, MBA, CSE, B.A. in English, M. Phil, Phd
                             </div>
                             <div class="social-share">
                                 <div class="share-title">
-                                    <img class="auth" src="../assets/image/blog/share.svg" alt="" title="">
+                                    <img class="auth" src="assets/image/blog/share.svg" alt="" title="">
                                     <span>Share on</span>
                                 </div>
                                 <div class="social-link">
                                     <a href="#">
-                                        <img class="banner-bg" src="../assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
                                     </a>
                                     <a href="#">
-                                        <img class="banner-bg" src="../assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
                                     </a>
                                     <a href="#">
-                                        <img class="banner-bg" src="../assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
                                     </a>
                                     <a href="#">
-                                        <img class="banner-bg" src="../assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                        <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
                                     </a>
                                 </div>
                             </div>
@@ -98,20 +98,20 @@
                         <div class="gallery">
                             <div class="gallery-wrapepr">
                                 <div>
-                                    <img src="../assets/image/univevrsity/5.png" alt="" title="" />
+                                    <img src="assets/image/univevrsity/5.png" alt="" title="" />
                                 </div>
                                 <div class="small">
                                     <div>
-                                        <img src="../assets/image/univevrsity/1.png" alt="" title="" />
+                                        <img src="assets/image/univevrsity/1.png" alt="" title="" />
                                     </div>
                                     <div>
-                                        <img src="../assets/image/univevrsity/2.png" alt="" title="" />
+                                        <img src="assets/image/univevrsity/2.png" alt="" title="" />
                                     </div>
                                     <div>
-                                        <img src="../assets/image/univevrsity/3.png" alt="" title="" />
+                                        <img src="assets/image/univevrsity/3.png" alt="" title="" />
                                     </div>
                                     <div>
-                                        <img src="../assets/image/univevrsity/4.png" alt="" title="" />
+                                        <img src="assets/image/univevrsity/4.png" alt="" title="" />
                                     </div>
                                 </div>
                             </div>
@@ -132,7 +132,7 @@
                     <div class="cost-list">
                         <div class="cost-btn">
                             <div class="icon fee">
-                                <img src="../assets/image/univevrsity/icon/icon.svg" />
+                                <img src="assets/image/univevrsity/icon/icon.svg" />
                             </div>
                             <div class="info">
                                 <h3>$50.00-$100.00 </h3>
@@ -141,7 +141,7 @@
                         </div>
                         <div class="cost-btn">
                             <div class="icon graduate">
-                                <img src="../assets/image/univevrsity/icon/clock.svg" />
+                                <img src="assets/image/univevrsity/icon/clock.svg" />
                             </div>
                             <div class="info">
                                 <h3>2 to 2.5 years</h3>
@@ -150,7 +150,7 @@
                         </div>
                         <div class="cost-btn">
                             <div class="icon undergraduate">
-                                <img src="../assets/image/univevrsity/icon/clock.svg" />
+                                <img src="assets/image/univevrsity/icon/clock.svg" />
                             </div>
                             <div class="info">
                                 <h3>3 to 4 years</h3>
@@ -159,7 +159,7 @@
                         </div>
                         <div class="cost-btn">
                             <div class="icon cost-living">
-                                <img src="../assets/image/univevrsity/icon/home.svg" />
+                                <img src="assets/image/univevrsity/icon/home.svg" />
                             </div>
                             <div class="info">
                                 <h3>$5000.00/Year</h3>
@@ -168,7 +168,7 @@
                         </div>
                         <div class="cost-btn">
                             <div class="icon tution-fee">
-                                <img src="../assets/image/univevrsity/icon/tution-fee.svg" />
+                                <img src="assets/image/univevrsity/icon/tution-fee.svg" />
                             </div>
                             <div class="info">
                                 <h3>$15000.00/Year</h3>
@@ -188,31 +188,31 @@
 
                     <div class="btn-list">
                         <a class="arts" href="#">
-                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Arts (Hons.)
                         </a>
                         <a class="science" href="#">
-                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Science (Hons.)
                         </a>
                         <a class="analysis" href="#">
-                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Master of Economics Analysis
                         </a>
                         <a class="commerce" href="#">
-                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Commerce (Honours)
                         </a>
                         <a class="nursing" href="#">
-                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Science and Master of Nursing
                         </a>
                         <a class="curating" href="#">
-                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Master of Art Curating
                         </a>
                         <a class="bachelor-science" href="#">
-                            <i><img src="../assets/image/univevrsity/icon/graduate.svg" /></i>
+                            <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Science
                         </a>
                     </div>
@@ -225,7 +225,7 @@
                     <div class="content">
                         <a href="#">
                             <div class="icon">
-                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
+                                <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
                             <span> University of Sydney</span>
                         </a>
@@ -233,7 +233,7 @@
                     <div class="content">
                         <a href="#">
                             <div class="icon">
-                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
+                                <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
                             <span> University of Sydney</span>
                         </a>
@@ -241,7 +241,7 @@
                     <div class="content">
                         <a href="#">
                             <div class="icon">
-                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
+                                <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
                             <span> University of Sydney</span>
                         </a>
@@ -249,7 +249,7 @@
                     <div class="content">
                         <a href="#">
                             <div class="icon">
-                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
+                                <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
                             <span> University of Sydney</span>
                         </a>
@@ -257,7 +257,7 @@
                     <div class="content">
                         <a href="#">
                             <div class="icon">
-                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
+                                <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
                             <span> University of Sydney</span>
                         </a>
@@ -265,7 +265,7 @@
                     <div class="content">
                         <a href="#">
                             <div class="icon">
-                                <img src="../assets/image/univevrsity/logo2.svg" alt="" title="" />
+                                <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
                             <span> University of Sydney</span>
                         </a>
@@ -277,7 +277,7 @@
 
 
     <!-- Footer S-->
-    <?php include '../pages/footer.php'; ?>
+    <?php include 'footer.php'; ?>
     <!-- Footer E-->
 
 

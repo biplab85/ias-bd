@@ -151,7 +151,7 @@
 <!-- Destination Body Content Area E -->
 
 <!-- Footer S-->
-<?php include '.footer.php'; ?>
+<?php include 'footer.php'; ?>
 <!-- Footer E-->
 
 <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/bundle.js"></script>

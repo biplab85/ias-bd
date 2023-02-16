@@ -35,6 +35,7 @@
 <section class="video-gallery-area py-80">
     <div class="container">
         <div class="row">
+
             <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                 <div class="video-card">
                     <div class="feature-video-box">
@@ -53,7 +54,33 @@
                             </div>
 
                             <div class="share-wrap">
-                                <img class="img-fluid" src="assets/image/blog/share.svg" alt="share">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="auth" src="assets/image/success-story/share.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="banner-bg" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -73,7 +100,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                 <div class="video-card">
                     <div class="feature-video-box">
@@ -995,7 +1021,7 @@
 </section>
 <!-- video-gallery E -->
 
-<section class="contact-reg-container">
+<div class="container mb-50">
     <div class="video-bottom-info-box" style="background-image: url(assets/image/video-gallery/video-details-vector.svg);">
         <div class="video-bottom-info-wrap">
             <h3 class="video-info-title mb-10">Talk to an Expert in your City. You Could Be the Next.</h3>
@@ -1018,7 +1044,7 @@
             <a href="team-detail.php" class="appointment-btn m-0">Book Appointment Now</a>
         </div>
     </div>
-</section>
+            </div>
 
 <!-- Footer S-->
 <?php include 'footer.php'; ?>

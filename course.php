@@ -324,27 +324,30 @@
                             Read more <i></i>
                         </a>
                     </div>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
+                    <section class="contact-reg-container w-100">
+                        <div class="video-bottom-info-box ps-5" style="background-image: url(assets/image/video-gallery/video-details-vector.svg);">
+                            <div class="video-bottom-info-wrap">
+                                <h3 class="video-info-title mb-10">Talk to an Expert in your City. You Could Be the Next.</h3>
 
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
-                    </div>
+                                <ul class="entry-meta-list list-inline d-block mb-10">
+                                    <li class="entry-meta-item mb-15">
+                                        <span class="entry-meta-icon"><img src="assets/image/video-gallery/call-icon.svg" alt="call"></span>
+                                        <span class="entry-meta-title text-white">+8801711875240</span>
+                                    </li>
+                                    <li class="entry-meta-item mb-15">
+                                        <span class="entry-meta-icon"><img src="assets/image/video-gallery/mail-icon.svg" alt="mail-icon"></span>
+                                        <span class="entry-meta-title text-white">+8801711875240</span>
+                                    </li>
+                                    <li class="entry-meta-item mb-15 align-items-start">
+                                        <span class="entry-meta-icon"><img src="assets/image/video-gallery/location-icon.svg" alt="date"></span>
+                                        <span class="entry-meta-title text-white">House No: 313, Road No: 21<br>Mohakhali DOHS, Dhaka: 1212</span>
+                                    </li>
+                                </ul>
+
+                                <a href="team-detail.php" class="appointment-btn m-0">Book Appointment Now</a>
+                            </div>
+                        </div>
+                    </section>
 
                 </div>
             </div>
