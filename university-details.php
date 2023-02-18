@@ -219,11 +219,13 @@
                 </div>
             </div>
 
+
+
             <div class="more-university">
                 <h3>More Universities in Australia</h3>
                 <div class="list">
                     <div class="content">
-                        <a href="#">
+                        <a href="university-details.php">
                             <div class="icon">
                                 <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
@@ -231,7 +233,7 @@
                         </a>
                     </div>
                     <div class="content">
-                        <a href="#">
+                        <a href="university-details.php">
                             <div class="icon">
                                 <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
@@ -239,7 +241,7 @@
                         </a>
                     </div>
                     <div class="content">
-                        <a href="#">
+                        <a href="university-details.php">
                             <div class="icon">
                                 <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
@@ -247,7 +249,7 @@
                         </a>
                     </div>
                     <div class="content">
-                        <a href="#">
+                        <a href="university-details.php">
                             <div class="icon">
                                 <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
@@ -255,7 +257,7 @@
                         </a>
                     </div>
                     <div class="content">
-                        <a href="#">
+                        <a href="university-details.php">
                             <div class="icon">
                                 <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>
@@ -263,7 +265,7 @@
                         </a>
                     </div>
                     <div class="content">
-                        <a href="#">
+                        <a href="university-details.php">
                             <div class="icon">
                                 <img src="assets/image/univevrsity/logo2.svg" alt="" title="" />
                             </div>

@@ -361,6 +361,39 @@
                     height: 280px;
                     padding: 40px;
                     margin: 20px;
+                    position: relative;
+
+                    &::before, &::after{
+                        content: "";
+                        width: 0;
+                        height: 0;
+                        position: absolute;
+                        border-style: solid;
+                        border-color: #476cd2;
+                        opacity: 0;
+                        transition: .5s;
+                    }
+                
+                    &::before{
+                        left: 0;
+                        top: 0;
+                        border-width: 1px 0 0 1px;
+                    }
+                
+                    &::after{
+                        right: 0;
+                        bottom: 0;
+                        border-width: 0 1px 1px 0;
+                    }
+                
+                    &:hover{
+                        &::before, &::after{
+                            opacity: 1;
+                            width: 50%;
+                            height: 50%;
+                        }
+                
+                    }
 
                     a {
                         width: 100%;
