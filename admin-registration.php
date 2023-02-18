@@ -598,6 +598,38 @@
 
         </div>
       </div>
+
+      <div class="referal login-referal">
+        <div class="content">
+          <h3 class="title">Start Earning with Our Referal Program</h3>
+          <p class="desc">
+            Share your referral code and start earning today.
+          </p>
+          <div class="copy-code">
+            <h3>Your referral code:</h3>
+            <div class="copy-input">
+              <input type="text" name="" value="Iasbd.co.uk/referral/qck34i80">
+              <button></button>
+            </div>
+          </div>
+          <div class="share">
+            <h3>Or Share on: </h3>
+            <div>
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="referal-img">
+          <img src="assets/image/login/affiliate.gif">
+        </div>
+      </div>
       <!-- End Admin Registration Box -->
     </div>
 

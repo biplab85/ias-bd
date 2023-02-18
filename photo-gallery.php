@@ -574,28 +574,30 @@
 </section>
 <!-- photo-gallery E -->
 
-<section class="consultations-from">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="consultations-from-container">
-                    <div class="img-container">
-                        <img class="banner-bg" src="assets/image/consultation-from/get-gest-consultations.gif" alt="" title="">
-                    </div>
-                    <div class="content">
-                        <h2>Get the Best Consultations from Our Experienced Advisors </h2>
-                        <p>
-                            Just book an appointment and get the advise from our experts to transform your dream into reality.
-                        </p>
-                        <div class="btn-container">
-                            <a class="ias-btn outline shadow-none" href="#">Book Appointment Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="container mb-50">
+    <div class="video-bottom-info-box photo-bottom-info-box" style="background-image: url(assets/image/video-gallery/photo-illstration.svg);">
+        <div class="video-bottom-info-wrap">
+            <h3 class="video-info-title mb-10">Talk to an Expert in your City. You Could Be the Next.</h3>
+
+            <ul class="entry-meta-list list-inline d-block mb-10">
+                <li class="entry-meta-item mb-15">
+                    <span class="entry-meta-icon"><img src="assets/image/video-gallery/call-icon.svg" alt="call"></span>
+                    <span class="entry-meta-title text-white">+8801711875240</span>
+                </li>
+                <li class="entry-meta-item mb-15">
+                    <span class="entry-meta-icon"><img src="assets/image/video-gallery/mail-icon.svg" alt="mail-icon"></span>
+                    <span class="entry-meta-title text-white">+8801711875240</span>
+                </li>
+                <li class="entry-meta-item mb-15 align-items-start">
+                    <span class="entry-meta-icon"><img src="assets/image/video-gallery/location-icon.svg" alt="date"></span>
+                    <span class="entry-meta-title text-white">House No: 313, Road No: 21<br>Mohakhali DOHS, Dhaka: 1212</span>
+                </li>
+            </ul>
+
+            <a href="team-detail.php" class="appointment-btn m-0">Book Appointment Now</a>
         </div>
     </div>
-</section>
+</div>
 
 <!-- Footer S-->
 <?php include 'footer.php'; ?>

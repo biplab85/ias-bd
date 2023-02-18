@@ -666,3 +666,49 @@
 	letter-spacing: 0em;
 	text-align: left;
 }
+
+.destination-university-list-content{
+	position: relative;
+
+	&::before, &::after{
+		content: "";
+		width: 0;
+		height: 0;
+		position: absolute;
+		border-style: solid;
+		border-color: #476cd2;
+		opacity: 0;
+		transition: .5s;
+	}
+
+	&::before{
+		left: 0;
+		top: 0;
+		border-width: 1px 0 0 1px;
+	}
+
+	&::after{
+		right: 0;
+		bottom: 0;
+		border-width: 0 1px 1px 0;
+	}
+
+	&:hover{
+		&::before, &::after{
+			opacity: 1;
+			width: 50%;
+			height: 50%;
+		}
+
+	}
+
+	a{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 99;
+		display: block;
+		height: 100%;
+	}
+}

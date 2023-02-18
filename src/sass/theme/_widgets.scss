@@ -1122,6 +1122,16 @@ html {
 .consultations-from {
 	margin: 0 0 80px 0;
 
+	&.blog-details-consultations-from{
+
+		.consultations-from-container{
+
+			.img-container{
+				width: 100%;
+			}
+		}
+	}
+
 	.consultations-from-container {
 		background-color: #15234a;
 		border-radius: 20px;
@@ -1354,6 +1364,28 @@ html {
 	background-color: #3967d9;
 	border-radius: 20.0333px;
 	padding: 0 60px 0 110px;
+
+	&.dark{
+		background-color: #15234A;
+
+		.content{
+
+			.copy-code{
+
+				.copy-input{
+
+					input{
+						color: #15234A;
+					}
+
+					button{
+						background-color: #15234A;
+					}
+				}
+
+			}
+		}
+	}
 
 	&.login-referal{
 		margin-top: 80px;

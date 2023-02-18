@@ -530,7 +530,7 @@
                 <img src="assets/image/partner/mail.svg" alt="" title=""> info@iasbd.co.uk
               </span>
             </div>
-            <div class="partner-img">
+            <div class="partner-img" style="top: 105px;">
               <img src="assets/image/partner/2.gif" alt="" title="" />
             </div>
           </div>

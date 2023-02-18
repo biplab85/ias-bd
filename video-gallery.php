@@ -1044,7 +1044,7 @@
             <a href="team-detail.php" class="appointment-btn m-0">Book Appointment Now</a>
         </div>
     </div>
-            </div>
+</div>
 
 <!-- Footer S-->
 <?php include 'footer.php'; ?>

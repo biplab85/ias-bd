@@ -118,7 +118,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
+                               <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>
@@ -139,7 +139,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
+                                <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>
@@ -160,7 +160,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
+                                <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>
@@ -181,7 +181,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
+                                <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>
@@ -202,7 +202,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
+                                <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>
@@ -223,7 +223,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
+                                <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>
@@ -244,7 +244,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
+                                <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>
@@ -265,7 +265,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
+                                <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>
@@ -286,7 +286,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
+                                <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>
@@ -307,7 +307,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                University of Sydney
+                                <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>

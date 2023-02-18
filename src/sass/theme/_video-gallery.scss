@@ -136,6 +136,18 @@
 	background-repeat: no-repeat;
 	background-position: bottom right;
 
+	&.photo-bottom-info-box{
+		background-color: #8B2FB8;
+
+		.appointment-btn{
+			color: #8B2FB8;
+
+			&::before{
+				background-image: url(../image/video-gallery/calander-pink.svg);
+			}
+		}
+	}
+
 	@media screen and (max-width: 1024px) {
 		padding: 30px;
 	}
