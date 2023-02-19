@@ -141,7 +141,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
-    <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/custom.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
 </body>
 
 </html>

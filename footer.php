@@ -99,7 +99,31 @@
             </div>
         </div>
     </div>
+    <button class="scroll-to-top" onclick='window.scrollTo({top: 0, behavior: "smooth"});'></button>
 </section>
+
+
+<div id="cookies_bar" class="cookie-overlay d-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-7 col-xs-12">
+                <div class="cookies_content_wrap">
+                    <img class="banner-bg" src="assets/image/cookies/cookies.gif" alt="" title="">
+                    <div class="cookies_content">
+                        <h4>Have some Cookies!</h4>
+                        <p>This website uses cookies to ensure you get the best experience on our website. By continuing to use the website, you accept our use of cookies.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-5 col-xs-12">
+                <div class="cookie_btn">
+                    <a class="ias-btn accept-cookies">Accept</a>
+                    <a class="ias-btn outline shadow-none ms-5" href="#" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- <script src="../assets/js/bundle.js"></script>
  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

@@ -670,6 +670,15 @@ html {
 	.card-container {
 		margin: 80px 0;
 
+		@keyframes drift {
+			from {
+				transform: translateX(0px);
+			}
+			to {
+				transform: translateX(120px);
+			}
+		}
+
 		.card {
 			background: #ffffff;
 			//box-shadow: 30px 60px 130px rgba(0, 2, 9, 0.25);
@@ -685,8 +694,25 @@ html {
 				transform: scale(1.23);
 				z-index: 5;
 
+				.banner-bg{
+					display: none;
+
+					&.banner-bg-gif{
+						display: block;
+					}
+				}
+
+				.auth-wrapper, .auth-container{
+					background-color: transparent !important;
+					z-index: 999 !important;
+				}
+
 				.glob {
 					animation: rotation 8s infinite linear;
+				}
+
+				.plane{
+					animation: drift 3s linear 0.5s infinite both;
 				}
 
 				.flag {
@@ -716,6 +742,7 @@ html {
 
 				.banner {
 					.banner-bg {
+						background-image: url(../../assets/image/success-story/Success-Stories-Picture-Background.gif);
 						//animation: rotation 80s infinite linear;
 					}
 				}
@@ -733,7 +760,7 @@ html {
 					height: 250px;
 					border-radius: 10px 10px 0 0;
 					position: relative;
-					z-index: 1;
+					z-index: 99;
 					width: 100%;
 					//animation: rotation 85s infinite linear;
 				}
@@ -753,6 +780,8 @@ html {
 					align-items: center;
 					justify-content: center;
 					z-index: 9;
+					background-color: #263C77;
+    				border-radius: 100%;
 
 					.auth-container {
 						width: 200px;
@@ -760,7 +789,8 @@ html {
 						display: flex;
 						align-items: center;
 						justify-content: center;
-						border-radius: 100%;
+						background-color: #45588A;
+    					border-radius: 100%;
 
 						img {
 							width: 170px;
@@ -843,6 +873,7 @@ html {
 						justify-content: space-between;
 						min-width: 150px;
 						max-width: 143px;
+						overflow: hidden;
 
 						span {
 							background-color: #001a57;
@@ -1511,3 +1542,87 @@ html {
 		}
 	}
 }
+
+
+.header-visible{
+
+	.menu-wrapper.fixed-header{
+		position: fixed;
+		top: -11px;
+		width: 100%;
+		background: #fff;
+		z-index: 999999;
+		transition: .5s;
+		padding: 15px 0;
+
+		.site-logo{
+
+			img{
+				width: 85%;
+				position: relative;
+				top: 5px;
+			}
+		}
+	}
+}
+
+.scroll-to-top {
+	background-image: url(../../assets/image/icon/arrow-up-solid.svg);
+	position: absolute;
+    bottom: 60px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 17px;
+}
+
+#cookies_bar {
+	max-width: 1074px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 2px 20px;
+
+	.cookies_content_wrap{
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+
+		img{
+			width:100px;
+		}
+	}
+
+	.cookies_content{
+		font-size: 1.5rem;
+	}
+
+	p{
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 20px;
+		color: #222;
+		margin-bottom: 0;
+	}
+
+	.cookie_btn{
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		height: 100%;
+	}
+}
+
+

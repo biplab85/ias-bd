@@ -195,3 +195,34 @@ $(window).on('load', function () { // makes sure the whole site is loaded
     $('body').delay(350).css({ 'overflow': 'visible' });
 })
 
+
+/* ========================================== 
+scrollTop() >= 200
+Should be equal the the height of the header
+========================================== */
+
+$(window).scroll(function () {
+    if ($(window).scrollTop() >= 200) {
+        $('.menu-wrapper').addClass('fixed-header');
+        $('body').addClass('header-visible');
+    }
+    else {
+        $('.menu-wrapper').removeClass('fixed-header');
+        $('body').removeClass('header-visible');
+    }
+});
+
+
+// Scroll To Top
+
+function scrollToTop() {
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+}
+
+
+
+
+
+

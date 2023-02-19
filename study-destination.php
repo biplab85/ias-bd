@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <!-- Content Header S-->
-<section class="ias-header study-destination-header mb-0" style="background-image: url(assets/image/study-destinations/destination.gif);">
+<section class="ias-header study-destination-header mb-0">
     <div class="studyDestinations" id="studyDestinations"></div>
     <script>
         var animation = bodymovin.loadAnimation({

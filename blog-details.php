@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">    
+    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">
     <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
@@ -114,22 +114,7 @@
                     </div>
                 </div>
             </div>
-            <section class="consultations-from blog-details-consultations-from">
-                <div class="consultations-from-container">
-                    <div class="img-container">
-                        <img class="banner-bg" src="assets/image/blog/blog-details-bott0m.svg" alt="" title="">
-                    </div>
-                    <div class="content">
-                        <h2>Want to get the right direction? Make an appointment</h2>
-                        <p>
-                            Just book an appointment and get the advise from our experts to transform your dream into reality.
-                        </p>
-                        <div class="btn-container">
-                            <a class="ias-btn outline shadow-none" href="#">Book Appointment Now</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
         </div>
         <div class="blog-right-aside">
             <div class="related-blog-list">
@@ -402,6 +387,24 @@
         </div>
     </section>
 
+    <div class="blog-details-container pt-0">
+        <section class="consultations-from blog-details-consultations-from">
+            <div class="consultations-from-container">
+                <div class="img-container" style="width: 65%;">
+                    <img class="banner-bg" src="assets/image/blog/blog-details-bott0m.svg" alt="" title="">
+                </div>
+                <div class="content">
+                    <h2>Want to get the right direction? Make an appointment</h2>
+                    <p>
+                        Just book an appointment and get the advise from our experts to transform your dream into reality.
+                    </p>
+                    <div class="btn-container">
+                        <a class="ias-btn outline shadow-none" href="#">Book Appointment Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!-- Footer S-->
     <?php include 'footer.php'; ?>

@@ -187,31 +187,31 @@
                     </p>
 
                     <div class="btn-list">
-                        <a class="arts" href="#">
+                        <a class="arts" href="course-details.php">
                             <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Arts (Hons.)
                         </a>
-                        <a class="science" href="#">
+                        <a class="science" href="course-details.php">
                             <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Science (Hons.)
                         </a>
-                        <a class="analysis" href="#">
+                        <a class="analysis" href="course-details.php">
                             <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Master of Economics Analysis
                         </a>
-                        <a class="commerce" href="#">
+                        <a class="commerce" href="course-details.php">
                             <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Commerce (Honours)
                         </a>
-                        <a class="nursing" href="#">
+                        <a class="nursing" href="course-details.php">
                             <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Science and Master of Nursing
                         </a>
-                        <a class="curating" href="#">
+                        <a class="curating" href="course-details.php">
                             <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Master of Art Curating
                         </a>
-                        <a class="bachelor-science" href="#">
+                        <a class="bachelor-science" href="course-details.php">
                             <i><img src="assets/image/univevrsity/icon/graduate.svg" /></i>
                             Bachelor of Science
                         </a>
