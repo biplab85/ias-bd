@@ -7,27 +7,27 @@
         <div class="trusted-partners">
             <div>
                 <div class="list">
-                    <img src="assets/image/trusted-partners/01.svg" />
+                    <img src="assets/image/trusted-partners/9.png" />
                 </div>
             </div>
             <div>
                 <div class="list">
-                    <img src="assets/image/trusted-partners/02.svg" />
+                    <img src="assets/image/trusted-partners/3.png" />
                 </div>
             </div>
             <div>
                 <div class="list">
-                    <img src="assets/image/trusted-partners/03.svg" />
+                    <img src="assets/image/trusted-partners/7.png" />
                 </div>
             </div>
             <div>
                 <div class="list">
-                    <img src="assets/image/trusted-partners/04.svg" />
+                    <img src="assets/image/trusted-partners/6.png" />
                 </div>
             </div>
             <div>
                 <div class="list">
-                    <img src="assets/image/trusted-partners/01.svg" />
+                    <img src="assets/image/trusted-partners/2.png" />
                 </div>
             </div>
             <div>

@@ -20,6 +20,12 @@
 
 			i {
 				margin: 0 10px 0 0;
+
+				&.mob-number{
+					position: relative;
+					top: 8px;					
+				}
+				
 			}
 
 			span {

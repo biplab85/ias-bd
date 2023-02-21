@@ -5,7 +5,7 @@
             <div class="col-md-6">
                 <div class="contact">
                     <div class="contact-info">
-                        <i><img src="http://design.iasbd.co.uk/assets/image/icon/call.svg" /></i>
+                        <i class="mob-number shake"><img src="http://design.iasbd.co.uk/assets/image/icon/call.svg" /></i>
                         <span>+8801711875240</span>
                     </div>
                     <div class="contact-info">

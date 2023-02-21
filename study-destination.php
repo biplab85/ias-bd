@@ -6,7 +6,7 @@
     <script>
         var animation = bodymovin.loadAnimation({
             container: document.getElementById('studyDestinations'),
-            path: 'assets/json/study-destinations.json',
+            path: 'assets/json/study-destinations-new.json',
             render: 'svg',
             loop: true,
             autoplay: true,

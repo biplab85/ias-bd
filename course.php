@@ -33,7 +33,7 @@
         <script>
             var animation = bodymovin.loadAnimation({
                 container: document.getElementById('coursePageBanner'),
-                path: 'assets/json/course-page-banner.json',
+                path: 'assets/json/course-page-banner-new.json',
                 render: 'svg',
                 loop: true,
                 autoplay: true,

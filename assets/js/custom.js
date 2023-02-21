@@ -17,41 +17,93 @@ $(document).ready(function () {
     });
 
 
-    $('.about-we-get').slick({
-        dots: false,
-        draggable: true,
-        autoplay: false, /* this is the new line */
-        autoplaySpeed: 2000,
-        infinite: true,
-        slidesToShow: 3.8,
-        slidesToScroll: 1,
-        touchThreshold: 1000,
+    // $('.about-we-get').slick({
+    //     dots: false,
+    //     draggable: true,
+    //     autoplay: false, /* this is the new line */
+    //     autoplaySpeed: 2000,
+    //     infinite: true,
+    //     slidesToShow: 3.8,
+    //     slidesToScroll: 1,
+    //     touchThreshold: 1000,
 
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            }
+    //     responsive: [
+    //         {
+    //             breakpoint: 1024,
+    //             settings: {
+    //                 slidesToShow: 3,
+    //                 slidesToScroll: 1,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 600,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 2
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 480,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 1
+    //             }
+    //         }
 
-        ]
-    });
+    //     ]
+
+    // });
+
+
+
+    const aboutWeGet = $(".about-we-get");
+    aboutWeGet
+        .slick({
+            dots: false,
+            draggable: true,
+            autoplay: true, /* this is the new line */
+            autoplaySpeed: 2000,
+            infinite: true,
+            slidesToShow: 3.8,
+            slidesToScroll: 1,
+            touchThreshold: 1000,
+
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+
+            ]
+        });
+
+    //Implementing navigation of slides using mouse scroll
+    aboutWeGet.on('wheel', (function (e) {
+        e.preventDefault();
+        if (e.originalEvent.deltaY < 0) {
+            $(this).slick('slickNext');
+        } else {
+            $(this).slick('slickPrev');
+        }
+    }));
+
 
 
     //Trusted Partners
@@ -220,6 +272,8 @@ function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
 }
+
+
 
 
 

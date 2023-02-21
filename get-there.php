@@ -35,7 +35,7 @@
             </div>
         </div>
         <div>
-            <div class="content even">
+            <div class="content even dark">
                 <p class="descriptioin">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
                 <div class="border-container">
                     <span class="dot"></span>
@@ -80,7 +80,7 @@
             </div>
         </div>
         <div>
-            <div class="content odd">
+            <div class="content odd up-comming">
                 <p class="descriptioin">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
                 <div class="border-container">
                     <span class="dot"></span>
