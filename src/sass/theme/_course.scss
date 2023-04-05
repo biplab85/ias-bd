@@ -84,7 +84,7 @@
 
     .filter-left-asside {
         margin: 0 100px 0 0;
-        min-width: 360px;
+        min-width: 400px;
 
         .course-filter-card {
             padding: 25px;
@@ -135,6 +135,108 @@
                     font-size: 18px;
                     line-height: 22px;
                     color: #535968;
+                }
+            }
+        }
+
+        .filter-wrapper {
+            width: 100%;
+
+            .accordion {
+                .accordion-item {
+                    margin: 0 0 30px 0;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+                    border-radius: 10px;
+
+                    .accordion-button {
+                        background-color: #1d4c8c;
+                        height: 70px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        color: #ffffff !important;
+                        border-radius: 10px;
+                        box-shadow: none !important;
+                        outline: none !important;
+
+                        &::after {
+                            background-image: url(../../assets/image/courses/arrow.svg) !important;
+                            background-repeat: no-repeat;
+                            color: #fff !important;
+                        }
+                    }
+
+                    .accordion-body {
+                        padding: 30px;
+
+                        .form-container {
+                            .form-group {
+                                margin: 0 0 25px 0;
+
+                                &.language-rate {
+                                    div {
+                                        width: 22%;
+
+                                        label {
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 12px;
+                                            line-height: 15px;
+                                            color: #535968;
+                                            margin: 0 0 8px 0;
+                                        }
+
+                                        input {
+                                            width: 100%;
+                                            height: 26px;
+                                            left: 420px;
+                                            top: 1873px;
+                                            border: 1px solid #535968;
+                                            border-radius: 5px;
+                                            padding: 0 8px;
+                                        }
+                                    }
+                                }
+
+                                label {
+                                    display: block;
+                                    margin: 0 0 12px 0;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 12px;
+                                    line-height: 15px;
+                                    color: #000c2e;
+                                }
+
+                                select {
+                                    background-image: url(../../assets/image/courses/arrow-black.svg) !important;
+                                    background-repeat: no-repeat;
+                                    background-position: right 18px center;
+                                    border: 1px solid #535968;
+                                    border-radius: 10px;
+                                    height: 40px;
+                                    outline: none !important;
+                                    width: 100%;
+                                    padding: 0 20px;
+                                    -webkit-appearance: none;
+                                    -moz-appearance: none;
+                                    appearance: none;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.advance-filter {
+                    .accordion-item {
+                        .accordion-button {
+                            background-color: #8019b0;
+                        }
+                    }
                 }
             }
         }
