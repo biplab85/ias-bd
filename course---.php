@@ -43,7 +43,7 @@
             <div class="col-md-6">
                 <div class="content-wrapper">
                     <div class="content-header-section">
-                        <h3 class="title">Quick Search</h3>
+                        <h3 class="title">Find the Courses That Match Your Dream</h3>
                     </div>
                     <div class="course-seach-form">
                         <form>
@@ -62,158 +62,51 @@
         <div class="container">
             <div class="col-md-12 course-filter-container">
                 <div class="filter-left-asside">
-                    <div class="filter-wrapper">
-                        <div class="accordion">
-                            <div class="accordion-item">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Filterss
-                                </button>
-                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <div class="form-container">
-                                            <div class="form-group">
-                                                <label>Country of Interest</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Program Level of Interest</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Preferred Location</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>University</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Interested in Learning by</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Country of Interest</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Learning Interests</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group mb-0 mt-5">
-                                                <button class="ias-btn">Apply Filters</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <h3 class="title">Filters</h3>
+
+                    <div>
+                        <div class="course-filter-card">
+                            <h3 class="title">Program Level</h3>
+                            <div>
+                                <label class="iasbd-radio right w-100">
+                                    <input type="radio" name="" value="">
+                                    <span class="checkmark"></span>
+                                    <span class="text form-check-label ">Remember me</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="course-filter-card">
+                            <h3 class="title">Country</h3>
+                            <div>
+                                <div class="form-check p-0">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        <img class="" src="assets/image/courses/map.svg" alt="" title=""> Australia
+                                    </label>
+                                    <input class="form-check-input float-end" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                </div>
+                                <div class="form-check p-0">
+                                    <input class="form-check-input float-end" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        <img class="" src="assets/image/courses/map.svg" alt="" title=""> Canada
+                                    </label>
                                 </div>
                             </div>
                         </div>
-                        <div class="advance-filter accordion">
-                            <div class="accordion-item">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Advance Filters
-                                </button>
-                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <div class="form-container">
-                                            <div class="form-group">
-                                                <label>Country of Interest</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Program Level of Interest</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group language-rate d-flex justify-content-between align-items-center">
-                                                <div>
-                                                    <label>Listening</label>
-                                                    <input type="text" name="" value="" />
-                                                </div>
-                                                <div>
-                                                    <label>Listening</label>
-                                                    <input type="text" name="" value="" />
-                                                </div>
-                                                <div>
-                                                    <label>Listening</label>
-                                                    <input type="text" name="" value="" />
-                                                </div>
-                                                <div>
-                                                    <label>Listening</label>
-                                                    <input type="text" name="" value="" />
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Duration of Course</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Available Intakes</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Country of Interest</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Learning Interests</label>
-                                                <select>
-                                                    <option>Canada</option>
-                                                    <option>Australia</option>
-                                                    <option>USA</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group mb-0 mt-5">
-                                                <button class="ias-btn">Apply Filters</button>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                        <div class="course-filter-card">
+                            <h3 class="title">Faculty</h3>
+                            <div>
+                                <div class="form-check p-0">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Lorem Ipsum Dolor Sit Amet
+                                    </label>
+                                    <input class="form-check-input float-end" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                </div>
+                                <div class="form-check p-0">
+                                    <input class="form-check-input float-end" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        Lorem Ipsum
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -225,7 +118,7 @@
                         <div class="title-container">
                             <h3>
                                 <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                <a href="university-details.php"> University of Sydney </a>
+                               <a href="university-details.php"> University of Sydney </a>
                             </h3>
                             <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
                         </div>

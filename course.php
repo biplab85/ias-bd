@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IASBD</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="http://design.iasbd.co.uk/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="http://design.iasbd.co.uk/assets/css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/asRange.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
@@ -43,7 +44,7 @@
             <div class="col-md-6">
                 <div class="content-wrapper">
                     <div class="content-header-section">
-                        <h3 class="title">Find the Courses That Match Your Dream</h3>
+                        <h3 class="title">Quick Search</h3>
                     </div>
                     <div class="course-seach-form">
                         <form>
@@ -59,297 +60,1382 @@
 
     <!-- Course Filter container S -->
     <section class="course-filter">
-        <div class="container">
-            <div class="col-md-12 course-filter-container">
-                <div class="filter-left-asside">
-                    <h3 class="title">Filters</h3>
+        <div class="course-filter-wrapper">
+            <div class="filter-left-asside">
+                <div class="filter-wrapper">
 
-                    <div>
-                        <div class="course-filter-card">
-                            <h3 class="title">Program Level</h3>
-                            <div>
-                                <label class="iasbd-radio right w-100">
-                                    <input type="radio" name="" value="">
-                                    <span class="checkmark"></span>
-                                    <span class="text form-check-label ">Remember me</span>
-                                </label>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Filterss
+                            </button>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="form-container">
+                                        <div class="form-group">
+                                            <label>Country of Interest</label>
+                                            <select>
+                                                <option>Canada</option>
+                                                <option>Australia</option>
+                                                <option>USA</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Program Level of Interest</label>
+                                            <select>
+                                                <option>Canada</option>
+                                                <option>Australia</option>
+                                                <option>USA</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Preferred Location</label>
+                                            <select>
+                                                <option>Canada</option>
+                                                <option>Australia</option>
+                                                <option>USA</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>University</label>
+                                            <select>
+                                                <option>Canada</option>
+                                                <option>Australia</option>
+                                                <option>USA</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Interested in Learning by</label>
+                                            <select>
+                                                <option>Canada</option>
+                                                <option>Australia</option>
+                                                <option>USA</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Country of Interest</label>
+                                            <select>
+                                                <option>Canada</option>
+                                                <option>Australia</option>
+                                                <option>USA</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Learning Interests</label>
+                                            <select>
+                                                <option>Canada</option>
+                                                <option>Australia</option>
+                                                <option>USA</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group mb-0 mt-5">
+                                            <button class="ias-btn">Apply Filters</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="course-filter-card">
-                            <h3 class="title">Country</h3>
-                            <div>
-                                <div class="form-check p-0">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        <img class="" src="assets/image/courses/map.svg" alt="" title=""> Australia
-                                    </label>
-                                    <input class="form-check-input float-end" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                </div>
-                                <div class="form-check p-0">
-                                    <input class="form-check-input float-end" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">
-                                        <img class="" src="assets/image/courses/map.svg" alt="" title=""> Canada
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="accordion-item advance-filter">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Advance Filters
+                            </button>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="form-container">
+                                        <div class="form-group">
+                                            <label>Country of Interest</label>
+                                            <select>
+                                                <option>Canada</option>
+                                                <option>Australia</option>
+                                                <option>USA</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Program Level of Interest</label>
+                                            <select>
+                                                <option>Canada</option>
+                                                <option>Australia</option>
+                                                <option>USA</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group language-rate d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <label>Listening</label>
+                                                <input type="text" name="" value="" />
+                                            </div>
+                                            <div>
+                                                <label>Listening</label>
+                                                <input type="text" name="" value="" />
+                                            </div>
+                                            <div>
+                                                <label>Listening</label>
+                                                <input type="text" name="" value="" />
+                                            </div>
+                                            <div>
+                                                <label>Listening</label>
+                                                <input type="text" name="" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Duration of Course</label>
+                                            <select>
+                                                <option>1 Year</option>
+                                                <option>2 Year</option>
+                                                <option>3 Year</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Available Intakes</label>
+                                            <select>
+                                                <option>Januaery</option>
+                                                <option>Februaey</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Tuition Fees Range</label>
+                                            <input class="range-example-input" id="fee-range" type="text" min="0" max="25000" value="5" name="points" step="1000" />
+                                            <div class="fees-range-tk">
+                                                <span>10k to 15k</span>
+                                                <span>15k to 20k</span>
+                                                <span>20k to 25k</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Application Fees Range</label>
+                                            <input class="range-example-input" id="fee-range" type="text" min="0" max="25000" value="5" name="points" step="1000" />
+                                            <div class="fees-range-tk">
+                                                <span>50 to 100</span>
+                                                <span>110 to 150</span>
+                                                <span>160 to 500</span>
+                                            </div>
+                                        </div>
 
-                        <div class="course-filter-card">
-                            <h3 class="title">Faculty</h3>
-                            <div>
-                                <div class="form-check p-0">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Lorem Ipsum Dolor Sit Amet
-                                    </label>
-                                    <input class="form-check-input float-end" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                </div>
-                                <div class="form-check p-0">
-                                    <input class="form-check-input float-end" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">
-                                        Lorem Ipsum
-                                    </label>
+                                        <div class="form-group mb-0 mt-5">
+                                            <button class="ias-btn">Apply Filters</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="filter-right-asside">
-                    <h3 class="title">Popular Courses</h3>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                               <a href="university-details.php"> University of Sydney </a>
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
-
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
+            </div>
+            <div class="filter-right-asside">
+                <div class="filter-header">
+                    <h3 class="title">Best Courses Matches <span>Total 31 Course Found</span></h3>
+                    <div class="short">
+                        <span>Sort By</span>
+                        <select class="iasbd-select">
+                            <option>Tuition ( High to Low )</option>
+                            <option>Tuition ( High to Low )</option>
+                            <option>Tuition ( High to Low )</option>
+                            <option>Tuition ( High to Low )</option>
+                        </select>
                     </div>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                <a href="university-details.php"> University of Sydney </a>
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
+                </div>
 
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
                     </div>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                <a href="university-details.php"> University of Sydney </a>
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
 
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
                     </div>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                <a href="university-details.php"> University of Sydney </a>
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
 
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
                     </div>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                <a href="university-details.php"> University of Sydney </a>
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
 
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
-                    </div>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                <a href="university-details.php"> University of Sydney </a>
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
 
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
-                    </div>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                <a href="university-details.php"> University of Sydney </a>
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
-
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
-                    </div>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                <a href="university-details.php"> University of Sydney </a>
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
-
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
-                    </div>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                <a href="university-details.php"> University of Sydney </a>
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
-
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
-                    </div>
-                    <div class="course-filter-card">
-                        <div class="title-container">
-                            <h3>
-                                <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                <a href="university-details.php"> University of Sydney </a>
-                            </h3>
-                            <img class="banner-bg" src="assets/image/courses/flag.svg" alt="" title="">
-                        </div>
-                        <div class="tag">
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                            <span>BSC in Computer Science</span>
-                        </div>
-                        <p class="short-desc">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-                        </p>
-
-                        <a class="read-mmore" href="course-details.php">
-                            Read more <i></i>
-                        </a>
-                    </div>
-                    <section class="contact-reg-container w-100">
-                        <div class="video-bottom-info-box ps-5" style="background-image: url(assets/image/video-gallery/video-details-vector.svg);">
-                            <div class="video-bottom-info-wrap">
-                                <h3 class="video-info-title mb-10">Talk to an Expert in your City. You Could Be the Next.</h3>
-
-                                <ul class="entry-meta-list list-inline d-block mb-10">
-                                    <li class="entry-meta-item mb-15">
-                                        <span class="entry-meta-icon"><img src="assets/image/video-gallery/call-icon.svg" alt="call"></span>
-                                        <span class="entry-meta-title text-white">+8801711875240</span>
-                                    </li>
-                                    <li class="entry-meta-item mb-15">
-                                        <span class="entry-meta-icon"><img src="assets/image/video-gallery/mail-icon.svg" alt="mail-icon"></span>
-                                        <span class="entry-meta-title text-white">+8801711875240</span>
-                                    </li>
-                                    <li class="entry-meta-item mb-15 align-items-start">
-                                        <span class="entry-meta-icon"><img src="assets/image/video-gallery/location-icon.svg" alt="date"></span>
-                                        <span class="entry-meta-title text-white">House No: 313, Road No: 21<br>Mohakhali DOHS, Dhaka: 1212</span>
-                                    </li>
-                                </ul>
-
-                                <a href="team-detail.php" class="appointment-btn m-0">Book Appointment Now</a>
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
                             </div>
                         </div>
-                    </section>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
 
                 </div>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
+                            </div>
+                        </div>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
+                            </div>
+                        </div>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
+                            </div>
+                        </div>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
+                            </div>
+                        </div>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
+                            </div>
+                        </div>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
+                            </div>
+                        </div>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
+                            </div>
+                        </div>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
+                            </div>
+                        </div>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
+                            </div>
+                        </div>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="course-filter-card">
+                    <div class="title-container">
+                        <div class="title">
+                            <h3>Masters Degree</h3>
+                            <span>
+                                Masters of Business, Entrepreneurship and Technology (MBET)
+                            </span>
+                        </div>
+                        <div class="share-wrapper">
+                            <a class="favorite" href="#"></a>
+                            <div class="share-container">
+                                <div class="dropdown share-btn-with-drpdown">
+                                    <button class="share-btn-icon p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img class="auth" src="assets/image/courses/share-orrange.svg" alt="" title="">
+                                    </button>
+                                    <div class="dropdown-menu share-btn-dropdown-menu" data-popper-placement="bottom-start">
+                                        <div class="share-btn-dropdown-menu-container">
+                                            <div class="copy">
+                                                <input type="" name="" value="" placeholder="http://www.ias...">
+                                                <button>Copy link</button>
+                                            </div>
+                                            <div class="social-link">
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/facebook.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/twiter.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/linkdin.svg" alt="" title="">
+                                                </a>
+                                                <a href="#">
+                                                    <img class="" src="assets/image/icon/social-icon/color/pinteret.svg" alt="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="compare" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="university-name-location">
+                        <h3>
+                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <a href="university-details.php"> University of Sydney </a>
+                        </h3>
+                        <div class="location">
+                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <h3>Camperdown NSW 2006, Australia</h3>
+                        </div>
+                    </div>
+
+                    <div class="course-details-title">
+                        <div class="tuition-fees">
+                            <span class="university">
+                                <img src="assets/image/courses/tution-fee.svg" alt="" title="">
+                            </span>
+                            <h3>Tuition Fees <span>$210,189</span></h3>
+                        </div>
+                        <div class="minimum-deposit">
+                            <span class="country">
+                                <img src="assets/image/courses/minimum-deposit.svg" alt="" title="">
+                            </span>
+                            <h3>Minimum Deposit <span>$50,000</span></h3>
+                        </div>
+                        <div class="scholarship">
+                            <span class="faculty">
+                                <img src="assets/image/courses/Scholarship.svg" alt="" title="">
+                            </span>
+                            <h3>Scholarship<span>$25,000</span></h3>
+                        </div>
+                        <div class="application-fees">
+                            <span>
+                                <img src="assets/image/courses/application-fees.svg" alt="" title="">
+                            </span>
+                            <h3> Application Fees<span>$1,000</span></h3>
+                        </div>
+                        <div class="duration">
+                            <span>
+                                <img src="assets/image/courses/time-black.svg" alt="" title="">
+                            </span>
+                            <h3>Durations<span>4 Years</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="details-strip">
+                        <div class="intakes">
+                            <div class="title">
+                                <img class="banner-bg" src="assets/image/courses/intakes.svg" alt="" title="">
+                                <span>Intakes:</span>
+                            </div>
+                            <div class="month">
+                                <span>Jan</span>
+                                <span>May</span>
+                                <span>Sep</span>
+                            </div>
+                        </div>
+                        <a class="read-mmore" href="course-details.php">
+                            Program Details<i></i>
+                        </a>
+                    </div>
+
+
+                </div>
+                <section class="contact-reg-container w-100">
+                    <div class="video-bottom-info-box ps-5" style="background-image: url(assets/image/video-gallery/video-details-vector.svg);">
+                        <div class="video-bottom-info-wrap">
+                            <h3 class="video-info-title mb-10">Talk to an Expert in your City. You Could Be the Next.</h3>
+
+                            <ul class="entry-meta-list list-inline d-block mb-10">
+                                <li class="entry-meta-item mb-15">
+                                    <span class="entry-meta-icon"><img src="assets/image/video-gallery/call-icon.svg" alt="call"></span>
+                                    <span class="entry-meta-title text-white">+8801711875240</span>
+                                </li>
+                                <li class="entry-meta-item mb-15">
+                                    <span class="entry-meta-icon"><img src="assets/image/video-gallery/mail-icon.svg" alt="mail-icon"></span>
+                                    <span class="entry-meta-title text-white">+8801711875240</span>
+                                </li>
+                                <li class="entry-meta-item mb-15 align-items-start">
+                                    <span class="entry-meta-icon"><img src="assets/image/video-gallery/location-icon.svg" alt="date"></span>
+                                    <span class="entry-meta-title text-white">House No: 313, Road No: 21<br>Mohakhali DOHS, Dhaka: 1212</span>
+                                </li>
+                            </ul>
+
+                            <a href="team-detail.php" class="appointment-btn m-0">Book Appointment Now</a>
+                        </div>
+                    </div>
+                </section>
+
             </div>
         </div>
     </section>
@@ -366,6 +1452,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/slick.js"></script>
     <script type="text/javascript" src="http://design.iasbd.co.uk/assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-asRange.js"></script>
     <script type="text/javascript" src="assets/js/custom.js"></script>
 </body>
 

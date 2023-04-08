@@ -83,8 +83,8 @@
     }
 
     .filter-left-asside {
-        margin: 0 100px 0 0;
-        min-width: 400px;
+        margin: 0 50px 0 0;
+        width: 400px;
 
         .course-filter-card {
             padding: 25px;
@@ -147,6 +147,13 @@
                     margin: 0 0 30px 0;
                     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
                     border-radius: 10px;
+
+                    &.advance-filter  {
+
+                        .accordion-button{
+                            background-color: #8019b0;
+                        }                       
+                    }
 
                     .accordion-button {
                         background-color: #1d4c8c;
@@ -226,18 +233,28 @@
                                     -moz-appearance: none;
                                     appearance: none;
                                 }
+
+                                .fees-range-tk {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    margin: 15px auto 0 auto;
+                                    width: 90%;
+
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 12px;
+                                        line-height: 15px;
+                                        text-align: center;
+                                        color: #535968;
+                                    }
+                                }
                             }
                         }
                     }
                 }
 
-                &.advance-filter {
-                    .accordion-item {
-                        .accordion-button {
-                            background-color: #8019b0;
-                        }
-                    }
-                }
             }
         }
     }
@@ -248,7 +265,7 @@
         .course-filter-card {
             padding: 25px;
             border-radius: 10px;
-            margin: 0 0 60px 0;
+            margin: 0 0 35px 0;
             box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
 
             .form-check-label {
@@ -333,7 +350,7 @@
             a {
                 font-style: normal;
                 font-weight: 700;
-                font-size: 18px;
+                font-size: 15px;
                 line-height: 21px;
                 letter-spacing: 0.05em;
                 color: #6b5eff;
@@ -808,6 +825,236 @@
                     img {
                         width: 25px;
                         margin: 0 5px 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.course-filter-wrapper {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .filter-right-asside {
+        width: 750px;
+
+        .filter-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: column;
+
+                span {
+                    display: block;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: left;
+                    color: #535968;
+                    margin: 10px 0 0 0;
+                    width: 100%;
+                }
+            }
+        }
+
+        .short {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background: #dce4fa;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #abb8db;
+            border-radius: 5px;
+
+            span {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                color: #000c2e;
+                min-width: 80px;
+                text-align: center;
+            }
+
+            select {
+                border-radius: 5px;
+                border: 0px;
+                min-width: 245px;
+            }
+        }
+
+        .title-container {
+            .title {
+                margin: 0;
+                span {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: #535968;
+                }
+            }
+        }
+
+        .share-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .share-container {
+                margin: 0 13px;
+            }
+
+            .favorite,
+            .compare {
+                width: 37px;
+                height: 37px;
+                border-radius: 100%;
+                border: 1px solid #535968;
+                background-color: #9b9898;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .favorite {
+                background-image: url(../../assets/image/courses/heart-black.svg);
+
+                &.active {
+                    background-color: #1d4c8c;
+                }
+            }
+
+            .compare {
+                background-image: url(../../assets/image/courses/compare-black.svg);
+                background-color: #8019b0;
+            }
+        }
+
+        .course-details-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 0 30px 0;
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                img {
+                    width: auto;
+                    height: auto;
+                    margin: 0 8px 0 0;
+                }
+
+                h3 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 12px;
+                    color: #000c2e;
+                    margin: 0;
+
+                    span {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 12px;
+                        color: #535968;
+                        display: block;
+                        margin: 5px 0 0 0;
+                    }
+                }
+            }
+        }
+
+        .university-name-location {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 0 0 40px 0;
+
+            h3 {
+                margin: 0 30px 0 0;
+
+                img {
+                    margin: 0 10px 0 0;
+                }
+
+                a {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 17px;
+                    color: #000c2e;
+                }
+            }
+
+            .location {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                img {
+                    margin: 0 10px 0 0;
+                }
+
+                h3 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 17px;
+                    color: #000c2e;
+                    margin: 0;
+                }
+            }
+        }
+
+        .details-strip {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .intakes {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                .title {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #000c2e;
+                    margin: 0;
+                }
+
+                .month {
+                    margin: 0 0 0 10px;
+                    span {
+                        background-color: #c2c8d9;
+                        border-radius: 4px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 4px 12px;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 15px;
+                        text-align: center;
+                        color: #000c2e;
+                        margin: 0 10px 0 0;
                     }
                 }
             }

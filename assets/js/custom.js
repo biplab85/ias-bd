@@ -275,6 +275,13 @@ function scrollToTop() {
 
 
 
+$(document).ready(function () {
+    $(".range-example-input").asRange({
+        range: false,
+        limit: false
+    });
+});
+
 
 
 

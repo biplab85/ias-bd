@@ -611,3 +611,19 @@ body {
 	// 	transform: translate3d(4px, 0, 0);
 	// }
 }
+
+
+.iasbd-select {
+	background-image: url(../../assets/image/courses/arrow-black.svg) !important;
+	background-repeat: no-repeat;
+	background-position: right 18px center;
+	border: 1px solid #535968;
+	border-radius: 10px;
+	height: 40px;
+	outline: none !important;
+	width: 100%;
+	padding: 0 20px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
