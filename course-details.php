@@ -251,31 +251,46 @@
         </div>
 
         <div class="admission-requirements">
-            <h3>Admission Requirements:</h3>
-            <div class="list">
-                <div class="btn year">
-                    <span>3 Years of</span>
-                    <span>Bachelor Degree</span>
+            <h3> <img src="assets/image/courses/admisson-requirement.svg" alt="" title="" /> Admission Requirements</h3>
+            <h4>Academic Requirements</h4>
+            <div class="academic-requirements">
+                <div class="left-asside">
+                    <h3>Minimum Level of Education Completed</h3>
+                    <p>Lorem Ipsum Dolor Sie Amet </p>
                 </div>
-                <div class="btn marks">
-                    <span>70% Marks</span>
-                    <span>on All Academic Exams</span>
+                <div class="right-asside">
+                    <h3>Minimum GPA</h3>
+                    <p>95.0%</p>
                 </div>
-                <div class="btn ielts">
-                    <span>IELTS-6.5</span>
-                    <span>No Bands Less than 6.0</span>
-                </div>
-                <div class="btn tofel">
-                    <span>TOEFL Score</span>
-                    <span>80</span>
-                </div>
-                <div class="btn pte">
-                    <span>PTE Score</span>
-                    <span>59</span>
-                </div>
-                <div class="btn douling">
-                    <span>DOULINGO Score</span>
-                    <span>59</span>
+            </div>
+        </div>
+
+        <div class="test-requirements">
+            <h3>English Proficiency Test Requirements</h3>
+            <div>
+                <div class="ielts">
+                    <h3>IELTS</h3>
+                    <div class="ielts-content">
+                        <h4>6.5 <span> Minimum</span></h4>
+                        <div class="subject">
+                            <div>
+                                <h4>Reading</h4>
+                                <span>6.0</span>
+                            </div>
+                            <div>
+                                <h4>Writing</h4>
+                                <span>6.5</span>
+                            </div>
+                            <div>
+                                <h4>Listening</h4>
+                                <span>6.0</span>
+                            </div>
+                            <div>
+                                <h4>Speaking</h4>
+                                <span>6.0</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
