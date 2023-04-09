@@ -30,16 +30,16 @@
             <div class="col-md-12">
                 <div class="content-wrapper text-center">
                     <div class="content-header-section white text-center">
-                        <h3 class="title with-bg d-inline-block mx-auto">Course Name</h3>
+                        <h3 class="title with-bg d-inline-block mx-auto">Masters Degree</h3>
                     </div>
 
-                    <div class="university-name-location">
+                    <div class="header university-name-location">
                         <h3>
-                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
+                            <img class="banner-bg" src="assets/image/courses/university-white.png" alt="" title="">
                             <a href="university-details.php"> University of Sydney </a>
                         </h3>
                         <div class="location">
-                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
+                            <img class="banner-bg" src="assets/image/courses/Location-white.png" alt="" title="">
                             <h3>Camperdown NSW 2006, Australia</h3>
                         </div>
                     </div>
@@ -48,266 +48,299 @@
         </div>
     </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <section class="course-details-container">
-                    <div>
-                        <div>
-                            <div class="course-details-title">
-                                <div>
-                                    <span class="university">
-                                        <img src="assets/image/courses/university.svg" alt="" title="" />
-                                        Tuition Fees
-                                    </span>
-                                    <h3>$210,189</h3>
-                                </div>
-                                <div>
-                                    <span class="country">
-                                        <img src="assets/image/courses/globe.svg" alt="" title="" />
-                                        Minimum Deposit
-                                    </span>
-                                    <h3>$50,000</h3>
-                                </div>
-                                <div>
-                                    <span class="faculty">
-                                        <img src="assets/image/courses/group.svg" alt="" title="" />
-                                        Scholarship
-                                    </span>
-                                    <h3>$25,000</h3>
-                                </div>
-                                <div>
-                                    <span class="tution-fees">
-                                        <img src="assets/image/courses/tution-fee.svg" alt="" title="" />
-                                        Application Fees
-                                    </span>
-                                    <h3>$1,000</h3>
-                                </div>
-                                <div>
-                                    <span class="duration">
-                                        <img src="assets/image/courses/time.svg" alt="" title="" />
-                                        Durations
-                                    </span>
-                                    <h3>4 Years</h3>
-                                </div>
-                            </div>
 
-                            <div class="course-overview">
-                                <h3> <img src="assets/image/courses/time.svg" alt="" title="" />Course Overview: </h3>
-                                <div>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    </p>
-                                    <p>
-                                        It to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="">
-                                <img src="assets/image/courses/gallery/5.png" alt="" />
-                                <div>
-                                    <img src="assets/image/courses/gallery/1.png" alt="" />
-                                    <img src="assets/image/courses/gallery/2.png" alt="" />
-                                    <img src="assets/image/courses/gallery/3.png" alt="" />
-                                    <img src="assets/image/courses/gallery/4.png" alt="" />
-                                </div>
-                            </div>
-
-                            <div class="course-overview">
-                                <h3> <img src="assets/image/courses/time.svg" alt="" title="" />Course Overview: </h3>
-                                <div>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    </p>
-                                    <p>
-                                        It to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h3> <img src="assets/image/courses/time.svg" alt="" title="" />Course Overview: </h3>
-                            </div>
-                            <div>
-                                <ul>
-                                    <li>
-                                        <h3>
-                                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                            <a href="university-details.php"> University of Sydney </a>
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                            <a href="university-details.php"> University of Sydney </a>
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                            <a href="university-details.php"> University of Sydney </a>
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                            <a href="university-details.php"> University of Sydney </a>
-                                        </h3>
-                                    </li>
-
-                                </ul>
-                                <ul>
-                                    <li>
-                                        <h3>
-                                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                            <a href="university-details.php"> University of Sydney </a>
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                            <a href="university-details.php"> University of Sydney </a>
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                            <a href="university-details.php"> University of Sydney </a>
-                                        </h3>
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                            <a href="university-details.php"> University of Sydney </a>
-                                        </h3>
-                                    </li>
-
-                                </ul>
-                                <button class="ias-btn">Apply Filters</button>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <h3> <img src="assets/image/courses/time.svg" alt="" title="" />University</h3>
-                            </div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <img src="assets/image/courses/gallery/university.png" alt="" title="" />
-                                        <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                    </div>
-                                    <h3>The University of Sydney</h3>
-                                    <div class="university-name-location">
-                                        <h3>
-                                            <img class="banner-bg" src="assets/image/courses/university-logo.svg" alt="" title="">
-                                            <a href="university-details.php"> University of Sydney </a>
-                                        </h3>
-                                        <div class="location">
-                                            <img class="banner-bg" src="assets/image/courses/location.svg" alt="" title="">
-                                            <h3>Camperdown NSW 2006, Australia</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="admission-requirements">
-                        <h3>Admission Requirements:</h3>
-                        <div class="list">
-                            <div class="btn year">
-                                <span>3 Years of</span>
-                                <span>Bachelor Degree</span>
-                            </div>
-                            <div class="btn marks">
-                                <span>70% Marks</span>
-                                <span>on All Academic Exams</span>
-                            </div>
-                            <div class="btn ielts">
-                                <span>IELTS-6.5</span>
-                                <span>No Bands Less than 6.0</span>
-                            </div>
-                            <div class="btn tofel">
-                                <span>TOEFL Score</span>
-                                <span>80</span>
-                            </div>
-                            <div class="btn pte">
-                                <span>PTE Score</span>
-                                <span>59</span>
-                            </div>
-                            <div class="btn douling">
-                                <span>DOULINGO Score</span>
-                                <span>59</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="more-course">
-                        <h3>More Courses from University of Sydney</h3>
-                        <div>
-                            <a href="#">BSC in Computer Science</a>
-                            <a href="#">BSC in Computer Science</a>
-                            <a href="#">BSC in Computer Science</a>
-                            <a href="#">BSC in Computer Science</a>
-                        </div>
-                    </div>
-
-                    <div class="suggested-courses m-0">
-                        <h3>Suggested Courses</h3>
-
-                        <div class="list">
-                            <div>
-                                <h3>Post Baccalaureate Diploma - Health Care...</h3>
-                                <h4>
-                                    <img src="assets/image/courses/flag.svg" alt="" title="" />
-                                    University of Notre Dame
-                                </h4>
-                                <h4>
-                                    <img src="assets/image/courses/tution-fee.svg" alt="" title="" />
-                                    $17,000 / Year
-                                </h4>
-                            </div>
-                            <div>
-                                <h3>Post Baccalaureate Diploma - Health Care...</h3>
-                                <h4>
-                                    <img src="assets/image/courses/flag.svg" alt="" title="" />
-                                    University of Notre Dame
-                                </h4>
-                                <h4>
-                                    <img src="assets/image/courses/tution-fee.svg" alt="" title="" />
-                                    $17,000 / Year
-                                </h4>
-                            </div>
-                            <div>
-                                <h3>Post Baccalaureate Diploma - Health Care...</h3>
-                                <h4>
-                                    <img src="assets/image/courses/flag.svg" alt="" title="" />
-                                    University of Notre Dame
-                                </h4>
-                                <h4>
-                                    <img src="assets/image/courses/tution-fee.svg" alt="" title="" />
-                                    $17,000 / Year
-                                </h4>
-                            </div>
-                            <div>
-                                <h3>Post Baccalaureate Diploma - Health Care...</h3>
-                                <h4>
-                                    <img src="assets/image/courses/flag.svg" alt="" title="" />
-                                    University of Notre Dame
-                                </h4>
-                                <h4>
-                                    <img src="assets/image/courses/tution-fee.svg" alt="" title="" />
-                                    $17,000 / Year
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+    <section class="course-details-container">
+        <div class="course-details-title">
+            <div class="university">
+                <span>
+                    <img src="assets/image/courses/tution-fee-active.svg" alt="" title="" />
+                    Tuition Fees
+                </span>
+                <h3>$210,189</h3>
+            </div>
+            <div class="country">
+                <span>
+                    <img src="assets/image/courses/deposit-active.svg" alt="" title="" />
+                    Minimum Deposit
+                </span>
+                <h3>$50,000</h3>
+            </div>
+            <div class="faculty">
+                <span>
+                    <img src="assets/image/courses/Scholarship-active.svg" alt="" title="" />
+                    Scholarship
+                </span>
+                <h3>$25,000</h3>
+            </div>
+            <div class="tution-fees">
+                <span>
+                    <img src="assets/image/courses/application-fees-active.svg" alt="" title="" />
+                    Application Fees
+                </span>
+                <h3>$1,000</h3>
+            </div>
+            <div class="duration">
+                <span>
+                    <img src="assets/image/courses/time-active.svg" alt="" title="" />
+                    Durations
+                </span>
+                <h3>4 Years</h3>
             </div>
         </div>
-    </div>
+        <div class="details-wrapper-section">
+            <div class="left-asside">
+                <div class="course-overview">
+                    <h3> <img src="assets/image/courses/course-overview.svg" alt="" title="" />Course Overview: </h3>
+                    <div class="details">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <p>
+                            It to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-container">
+                    <div class="gallery-feature">
+                        <img src="assets/image/courses/gallery/5.png" alt="" />
+                    </div>
+                    <div class="list">
+                        <div>
+                            <img src="assets/image/courses/gallery/1.png" alt="" />
+                            <img src="assets/image/courses/gallery/2.png" alt="" />
+                        </div>
+                        <div>
+                            <img src="assets/image/courses/gallery/3.png" alt="" />
+                            <img src="assets/image/courses/gallery/4.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-overview">
+                    <h3> <img src="assets/image/courses/Career-Opportunities_.svg" alt="" title="" />Career Opportunities</h3>
+                    <div class="details">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                        <p>
+                            It to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-asside">
+                <div class="course-summary-container">
+                    <div class="course-summary-title">
+                        <h3> <img src="assets/image/courses/course-summary.svg" alt="" title="" />Course Summary</h3>
+                    </div>
+                    <div class="course-summary-list">
+                        <ul>
+                            <li>
+                                <div class="icon-holder">
+                                    <img class="" src="assets/image/courses/university-logo.svg" alt="" title="">
+                                </div>
+                                <div class="details">
+                                    <a href="university-details.php"> University of Sydney </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <img class="" src="assets/image/courses/flag.svg" alt="" title="">
+                                </div>
+                                <div class="details">
+                                    <h3> Camperdown NSW 2006, Australia </h3>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <img class="" src="assets/image/courses/calender.svg" alt="" title="">
+                                </div>
+                                <div class="details">
+                                    <h3>1 Year Master’s Degree</h3>
+                                    <span>Program Length</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <img class="" src="assets/image/courses/intakes-black.svg" alt="" title="">
+                                </div>
+                                <div class="details">
+                                    <h3>Available Intakes</h3>
+                                    <span>January, May, September</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="basic-info">
+                            <li>
+                                <div class="icon-holder">
+                                    <img class="banner-bg" src="assets/image/courses/tution-fee.svg" alt="" title="">
+                                </div>
+                                <div class="details">
+                                    <h3>$50,000.00 AUD/Year</h3>
+                                    <span>Tuition Fees</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <img class="banner-bg" src="assets/image/courses/deposit-black.svg" alt="" title="">
+                                </div>
+                                <div class="details">
+                                    <h3>Minimum Deposit</h3>
+                                    <span>$50,000</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <img class="banner-bg" src="assets/image/courses/scholarship-black.svg" alt="" title="">
+                                </div>
+                                <div class="details">
+                                    <h3>Scholarship</h3>
+                                    <span>$25,000</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <img class="banner-bg" src="assets/image/courses/application-fee-black.svg" alt="" title="">
+                                </div>
+                                <div class="details">
+                                    <h3>$1,000.00 AUD/Year</h3>
+                                    <span>Application Fees</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <img class="banner-bg" src="assets/image/courses/add-year.svg" alt="" title="">
+                                </div>
+                                <div class="details">
+                                    <h3>$12,000.00 AUD/Year</h3>
+                                    <span>Living Cost</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="form-group mb-0 mt-5">
+                            <button class="ias-btn">Find More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="university-info">
+                    <div class="course-summary-title">
+                        <h3> <img src="assets/image/courses/university-info.svg" alt="" title="" />University</h3>
+                    </div>
+                    <div class="university-profile">
+                        <div class="university-profile-img">
+                            <img class="university-profile-banner" src="assets/image/courses/gallery/university.png" alt="" title="" />
+                            <div class="logo">
+                                <img src="assets/image/courses/university-logo.svg" alt="" title="">
+                            </div>
+                        </div>
+                        <h3>The University of Sydney</h3>
+                        <div class="university-name-location">
+                            <h3>
+                                <img class="" src="assets/image/courses/flag.svg" alt="" title="">
+                                <a href="university-details.php"> University of Sydney </a>
+                            </h3>
+                            <div class="location">
+                                <img class="" src="assets/image/courses/location.svg" alt="" title="">
+                                <h3>Camperdown NSW 2006, Australia</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="admission-requirements">
+            <h3>Admission Requirements:</h3>
+            <div class="list">
+                <div class="btn year">
+                    <span>3 Years of</span>
+                    <span>Bachelor Degree</span>
+                </div>
+                <div class="btn marks">
+                    <span>70% Marks</span>
+                    <span>on All Academic Exams</span>
+                </div>
+                <div class="btn ielts">
+                    <span>IELTS-6.5</span>
+                    <span>No Bands Less than 6.0</span>
+                </div>
+                <div class="btn tofel">
+                    <span>TOEFL Score</span>
+                    <span>80</span>
+                </div>
+                <div class="btn pte">
+                    <span>PTE Score</span>
+                    <span>59</span>
+                </div>
+                <div class="btn douling">
+                    <span>DOULINGO Score</span>
+                    <span>59</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="more-course">
+            <h3>More Courses from University of Sydney</h3>
+            <div>
+                <a href="#">BSC in Computer Science</a>
+                <a href="#">BSC in Computer Science</a>
+                <a href="#">BSC in Computer Science</a>
+                <a href="#">BSC in Computer Science</a>
+            </div>
+        </div>
+
+        <div class="suggested-courses m-0">
+            <h3>Suggested Courses</h3>
+
+            <div class="list">
+                <div>
+                    <h3>Post Baccalaureate Diploma - Health Care...</h3>
+                    <h4>
+                        <img src="assets/image/courses/flag.svg" alt="" title="" />
+                        University of Notre Dame
+                    </h4>
+                    <h4>
+                        <img src="assets/image/courses/tution-fee.svg" alt="" title="" />
+                        $17,000 / Year
+                    </h4>
+                </div>
+                <div>
+                    <h3>Post Baccalaureate Diploma - Health Care...</h3>
+                    <h4>
+                        <img src="assets/image/courses/flag.svg" alt="" title="" />
+                        University of Notre Dame
+                    </h4>
+                    <h4>
+                        <img src="assets/image/courses/tution-fee.svg" alt="" title="" />
+                        $17,000 / Year
+                    </h4>
+                </div>
+                <div>
+                    <h3>Post Baccalaureate Diploma - Health Care...</h3>
+                    <h4>
+                        <img src="assets/image/courses/flag.svg" alt="" title="" />
+                        University of Notre Dame
+                    </h4>
+                    <h4>
+                        <img src="assets/image/courses/tution-fee.svg" alt="" title="" />
+                        $17,000 / Year
+                    </h4>
+                </div>
+                <div>
+                    <h3>Post Baccalaureate Diploma - Health Care...</h3>
+                    <h4>
+                        <img src="assets/image/courses/flag.svg" alt="" title="" />
+                        University of Notre Dame
+                    </h4>
+                    <h4>
+                        <img src="assets/image/courses/tution-fee.svg" alt="" title="" />
+                        $17,000 / Year
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 

@@ -148,11 +148,10 @@
                     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
                     border-radius: 10px;
 
-                    &.advance-filter  {
-
-                        .accordion-button{
+                    &.advance-filter {
+                        .accordion-button {
                             background-color: #8019b0;
-                        }                       
+                        }
                     }
 
                     .accordion-button {
@@ -254,7 +253,6 @@
                         }
                     }
                 }
-
             }
         }
     }
@@ -559,10 +557,11 @@
 }
 
 .course-details-container {
-    width: 100%;
+    width: 1200px;
     margin: 0px auto;
     position: relative;
     top: -85px;
+    border: 1px solid red;
 
     .course-details-title {
         background-color: #ffffff;
@@ -591,10 +590,50 @@
                 border-width: 0;
             }
 
+            &.university {
+                color: #8019b0;
+
+                h3 {
+                    color: #8019b0;
+                }
+            }
+
+            &.country {
+                color: #17a2b8;
+
+                h3 {
+                    color: #17a2b8;
+                }
+            }
+
+            &.faculty {
+                color: #1d4c8c;
+
+                h3 {
+                    color: #1d4c8c;
+                }
+            }
+
+            &.tution-fees {
+                color: #15234a;
+
+                h3 {
+                    color: #15234a;
+                }
+            }
+
+            &.duration {
+                color: #ff8000;
+
+                h3 {
+                    color: #ff8000;
+                }
+            }
+
             span {
                 font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
+                font-weight: 700;
+                font-size: 18px;
                 line-height: 17px;
                 display: block;
                 margin: 0 0 15px 0;
@@ -603,26 +642,6 @@
                 justify-content: center;
                 flex-direction: row;
 
-                &.university {
-                    color: #8019b0;
-                }
-
-                &.country {
-                    color: #17a2b8;
-                }
-
-                &.faculty {
-                    color: #1d4c8c;
-                }
-
-                &.tution-fees {
-                    color: #15234a;
-                }
-
-                &.duration {
-                    color: #ff8000;
-                }
-
                 img {
                     margin: 0 5px 0 0;
                 }
@@ -630,10 +649,11 @@
 
             h3 {
                 font-style: normal;
-                font-weight: 700;
-                font-size: 18px;
+                font-weight: 400;
+                font-size: 30px;
                 line-height: 22px;
                 color: #000c2e;
+                margin: 0;
             }
         }
     }
@@ -1055,6 +1075,275 @@
                         text-align: center;
                         color: #000c2e;
                         margin: 0 10px 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.university-name-location {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 0 40px 0;
+
+    &.header {
+        justify-content: center;
+    }
+
+    h3 {
+        margin: 0 30px 0 0;
+
+        img {
+            margin: 0 10px 0 0;
+        }
+
+        a {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 17px;
+            color: #fff;
+        }
+    }
+
+    .location {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        img {
+            margin: 0 10px 0 0;
+        }
+
+        h3 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 17px;
+            color: #fff;
+            margin: 0;
+        }
+    }
+}
+
+.details-wrapper-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px solid gold;
+
+    .left-asside {
+        min-width: 750px;
+        margin: 0 50px 0 0;
+
+        .course-overview {
+            h3 {
+                img {
+                    margin: 0 15px 0 0;
+                }
+            }
+
+            .details {
+                padding: 38px 40px;
+                background-color: #ffffff;
+                box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+
+                p {
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .gallery-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .gallery-feature {
+                width: 315.57px;
+                height: 421.3px;
+            }
+
+            img {
+                width: 315.57px;
+                height: 421.3px;
+            }
+
+            .list {
+                margin: 0 0 0 25px;
+
+                div {
+                    margin: 0 0 25px 0;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+
+                    img {
+                        margin: 0 25px 0 0;
+                        width: 191.04px;
+                        height: 197.93px;
+
+                        &:last-child {
+                            margin: 0 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .right-asside {
+        min-width: 400px;
+        margin: 0 0 0 0;
+
+        .course-summary-container {
+            .course-summary-title {
+                margin: 0 0 16px 0;
+            }
+
+            .course-summary-list {
+                background-color: #ffffff;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                padding: 30px 40px;
+                margin: 0 0 50px 0;
+
+                ul {
+                    padding: 0 0 30px 0;
+                    list-style: none;
+                    border-bottom: 2px solid #e3e3e3;
+                    margin: 0 0 30px 0;
+
+                    li {
+                        margin: 0 0 15px 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+
+                        .icon-holder {
+                            margin: 0 15px 0 0;
+
+                            img {
+                                width: 35px;
+                                height: 35px;
+                            }
+                        }
+
+                        .details {
+                            a {
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #000c2e;
+                            }
+
+                            h3 {
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #000c2e;
+                                margin: 0;
+                            }
+                            span {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 26px;
+                                color: #535968;
+                                display: block;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+
+                .basic-info {
+                    margin: 0;
+                    padding: 0;
+                    border-bottom: 0px solid #e3e3e3;
+                }
+            }
+        }
+
+        .university-profile {
+            margin: 15px 0 0 0;
+            padding: 10px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+
+            .university-profile-img {
+                position: relative;
+                margin: 0 0 30px 0;
+
+                .university-profile-banner {
+                    position: relative;
+                    border-radius: 4px;
+                }
+
+                .logo {
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 100%;
+                    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    bottom: -15px;
+                    background-color: #fff;
+                }
+            }
+
+            h3 {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #000c2e;
+                margin: 0 0 15px 0;
+            }
+
+            .university-name-location {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                img{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 100%;
+                    margin: 0 10px 0 0;
+                }
+
+                h3 {
+                    margin: 0;
+
+                    a {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #535968;
+                    }
+                }
+
+                .location {
+                    h3 {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #535968;
                     }
                 }
             }
